@@ -1,0 +1,6 @@
+project=Closure
+bug_id=1
+src_test_dir=test
+classes_dir=/Users/m.rudenko/mpr/project/data/raw/Closure/1f/build/classes
+test_classes_dir=/Users/m.rudenko/mpr/project/data/raw/Closure/1f/build/test
+cp_test=/Users/m.rudenko/mpr/project/data/raw/Closure/1f/build/classes:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/args4j.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/guava.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/json.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/jsr305.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/protobuf-java.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/build/lib/rhino.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/ant.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/ant-launcher.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/caja-r4314.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/jarjar.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/junit.jar:/Users/m.rudenko/mpr/project/data/raw/Closure/1f/build/test

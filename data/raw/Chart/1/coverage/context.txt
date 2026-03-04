@@ -1,0 +1,6 @@
+project=Chart
+bug_id=1
+src_test_dir=tests
+classes_dir=/Users/m.rudenko/mpr/project/data/raw/Chart/1f/build
+test_classes_dir=/Users/m.rudenko/mpr/project/data/raw/Chart/1f/build-tests
+cp_test=/Users/m.rudenko/mpr/project/data/raw/Chart/1f/lib/servlet.jar:/Users/m.rudenko/mpr/project/defects4j/framework/projects/lib/junit-4.12-hamcrest-1.3.jar:/Users/m.rudenko/mpr/project/data/raw/Chart/1f/build:/Users/m.rudenko/mpr/project/data/raw/Chart/1f/build-tests

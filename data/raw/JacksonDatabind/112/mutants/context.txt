@@ -1,0 +1,6 @@
+project=JacksonDatabind
+bug_id=112
+workdir=/Users/m.rudenko/mpr/project/data/raw/JacksonDatabind/112f
+exclude_file=
+filter_file=
+mml_override=/Users/m.rudenko/mpr/project/config/mml/JacksonDatabind-112.mml

@@ -1,0 +1,6 @@
+project=Chart
+bug_id=1
+workdir=/Users/m.rudenko/mpr/project/data/raw/Chart/1f
+exclude_file=
+filter_file=
+mml_override=

@@ -1,0 +1,4 @@
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.csv.CSVFormat@printAndQuote(java.lang.Object,java.lang.CharSequence,int,int,java.lang.Appendable,boolean)|1248|40073|ANY
+48|SUPPRESSION|SIZE_LENGTH|Size/length check|org.apache.commons.csv.CSVParser@initializeHeader()|472|17018|<=(int,int)
+59|SUPPRESSION|LOOP_BOUNDS|Loop bounds check|org.apache.commons.csv.CSVParser@initializeHeader()|487|17592|!=(int,int)
+107|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.csv.CSVParser@nextRecord()|615|21967|ANY

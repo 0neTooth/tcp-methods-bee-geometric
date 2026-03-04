@@ -1,0 +1,107 @@
+
+test-offline:
+
+get-deps:
+
+commons-csv-from-maven.compile:
+    [javac] /Users/m.rudenko/mpr/project/data/raw/Csv/16f/maven-build.xml:88: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-csv-from-maven.compile-tests:
+    [javac] /Users/m.rudenko/mpr/project/data/raw/Csv/16f/maven-build.xml:121: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 14 ordered test(s)to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 3,24 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Serialize preprocessing results to preprocessing.ser
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 112
+    [junit] MAJOR: Mutants covered:   108 (96,43%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export coverage map to covMap.csv
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 108 mutant(s) and 14 test(s).
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 1/14 - org.apache.commons.csv.issues.JiraCsv167Test (1ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 108) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 108
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 2/14 - org.apache.commons.csv.AssertionsTest (2ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 108) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 108
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 3/14 - org.apache.commons.csv.issues.JiraCsv164Test (4ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 108) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 108
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 4/14 - org.apache.commons.csv.ExtendedBufferedReaderTest (5ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 108) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 108
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 5/14 - org.apache.commons.csv.TokenMatchersTest (5ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 108) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 108
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 6/14 - org.apache.commons.csv.CSVFormatPredefinedTest (9ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 108) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 108
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 7/14 - org.apache.commons.csv.issues.JiraCsv203Test (9ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 108) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 108
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 8/14 - org.apache.commons.csv.CSVFileParserTest (22ms / 66):
+    [junit] MAJOR: 463 (24 / 66 / 108) -> AVG-RTPM: 7ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 24 (13-11-0) / 84
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 9/14 - org.apache.commons.csv.LexerTest (30ms / 0):
+    [junit] MAJOR: 463 (0 / 0 / 108) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 24 (13-11-0) / 84
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 10/14 - org.apache.commons.csv.CSVRecordTest (32ms / 81):
+    [junit] MAJOR: 827 (12 / 63 / 108) -> AVG-RTPM: 5ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 36 (13-23-0) / 72
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 11/14 - org.apache.commons.csv.CSVFormatTest (72ms / 0):
+    [junit] MAJOR: 828 (0 / 0 / 108) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 36 (13-23-0) / 72
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 12/14 - org.apache.commons.csv.CSVParserTest (83ms / 108):
+    [junit] MAJOR: 1745 (61 / 72 / 108) -> AVG-RTPM: 12ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 97 (42-52-3) / 11
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 13/14 - org.apache.commons.csv.issues.JiraCsv198Test (112ms / 81):
+    [junit] MAJOR: 2361 (1 / 7 / 108) -> AVG-RTPM: 88ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 98 (42-52-4) / 10
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 14/14 - org.apache.commons.csv.CSVPrinterTest (1534ms / 62):
+    [junit] MAJOR: 6704 (1 / 4 / 108) -> AVG-RTPM: 1085ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 99 (43-52-4) / 9
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time                 : 6,71 seconds
+    [junit] MAJOR: Mutation score                : 88,39% (91,67%)
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME): 99 (43-52-4)
+    [junit] MAJOR: Mutants live                  : 9
+    [junit] MAJOR: Mutant executions             : 212
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant details to /Users/m.rudenko/mpr/project/data/raw/Csv/16f/kill.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Done!
+    [junit] MAJOR: ------------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 10 seconds

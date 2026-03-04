@@ -1,0 +1,210 @@
+[01/26 05:28:40] [INFO   ] org.mutationtesting.major.plugin.MajorPluginTaskListener.<init>:
+    Created MajorPluginTaskListener with options: [mml:/opt/project/data/raw/Jsoup/93f/.mml/default.mml.bin, enable.decl.refactor, enable.method.refactor]
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.initOperatorSymbols:
+    Initializing operator symbols for opcode mapping
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.mutateTree:
+    Mutating tree: Env[AttrContext[Scope[this]],outer=Env[AttrContext[Scope[org.jsoup.Connection]]]]
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.jsoup.Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.jsoup.Connection$Method
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([boolean hasBody])null
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: hasBody([])boolean
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: url([URL url])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: url([String url])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: proxy([Proxy proxy])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: proxy([String host, int port])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: userAgent([String userAgent])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: timeout([int millis])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: maxBodySize([int bytes])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: referrer([String referrer])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: followRedirects([boolean followRedirects])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: method([Method method])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: ignoreHttpErrors([boolean ignoreHttpErrors])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: ignoreContentType([boolean ignoreContentType])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: sslSocketFactory([SSLSocketFactory sslSocketFactory])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: data([String key, String value])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: data([String key, String filename, InputStream inputStream])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: data([String key, String filename, InputStream inputStream, String contentType])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: data([Collection<KeyVal> data])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: data([Map<String, String> data])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: data([String... keyvals])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: data([String key])KeyVal
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: requestBody([String body])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: header([String name, String value])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: headers([Map<String, String> headers])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: cookie([String name, String value])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: cookies([Map<String, String> cookies])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: parser([Parser parser])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: postDataCharset([String charset])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: get([])Document
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: post([])Document
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: execute([])Response
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: request([])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: request([Request request])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: response([])Response
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: response([Response response])Connection
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.jsoup.Connection$Base
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: url([])URL
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: url([URL url])T
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: method([])Method
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: method([Method method])T
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: header([String name])String
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: headers([String name])List<String>
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: header([String name, String value])T
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: addHeader([String name, String value])T
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: hasHeader([String name])boolean
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: hasHeaderWithValue([String name, String value])boolean
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeHeader([String name])T
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: headers([])Map<String, String>
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: multiHeaders([])Map<String, List<String>>
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: cookie([String name])String
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: cookie([String name, String value])T
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: hasCookie([String name])boolean
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeCookie([String name])T
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: cookies([])Map<String, String>
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.jsoup.Connection$Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: proxy([])Proxy
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: proxy([Proxy proxy])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: proxy([String host, int port])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: timeout([])int
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: timeout([int millis])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: maxBodySize([])int
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: maxBodySize([int bytes])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: followRedirects([])boolean
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: followRedirects([boolean followRedirects])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: ignoreHttpErrors([])boolean
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: ignoreHttpErrors([boolean ignoreHttpErrors])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: ignoreContentType([])boolean
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: ignoreContentType([boolean ignoreContentType])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: sslSocketFactory([])SSLSocketFactory
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: sslSocketFactory([SSLSocketFactory sslSocketFactory])void
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: data([KeyVal keyval])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: data([])Collection<KeyVal>
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: requestBody([String body])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: requestBody([])String
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: parser([Parser parser])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: parser([])Parser
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: postDataCharset([String charset])Request
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: postDataCharset([])String
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.jsoup.Connection$Response
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: statusCode([])int
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: statusMessage([])String
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: charset([])String
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: charset([String charset])Response
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contentType([])String
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: parse([])Document
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: body([])String
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: bodyAsBytes([])byte[]
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: bufferUp([])Response
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: bodyStream([])BufferedInputStream
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.jsoup.Connection$KeyVal
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: key([String key])KeyVal
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: key([])String
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: value([String value])KeyVal
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: value([])String
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: inputStream([InputStream inputStream])KeyVal
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: inputStream([])InputStream
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: hasInputStream([])boolean
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contentType([String contentType])KeyVal
+[01/26 05:28:41] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contentType([])String

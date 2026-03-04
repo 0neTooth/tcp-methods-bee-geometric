@@ -1,0 +1,6 @@
+project=Jsoup
+bug_id=93
+workdir=/opt/project/data/raw/Jsoup/93f
+exclude_file=
+filter_file=
+mml_override=

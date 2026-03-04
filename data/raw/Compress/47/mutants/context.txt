@@ -1,0 +1,6 @@
+project=Compress
+bug_id=47
+workdir=/Users/m.rudenko/mpr/project/data/raw/Compress/47f
+exclude_file=
+filter_file=
+mml_override=/Users/m.rudenko/mpr/project/config/mml/Compress-47.mml

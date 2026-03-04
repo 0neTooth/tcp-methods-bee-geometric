@@ -1,0 +1,108 @@
+[10/25 02:21:58] [INFO   ] org.mutationtesting.major.plugin.MajorPluginTaskListener.<init>:
+    Created MajorPluginTaskListener with options: [mml:/Users/m.rudenko/mpr/project/data/raw/Time/27f/.mml/default.mml.bin, enable.decl.refactor, enable.method.refactor]
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.initOperatorSymbols:
+    Initializing operator symbols for opcode mapping
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.mutateTree:
+    Mutating tree: Env[AttrContext[Scope[super, this]],outer=Env[AttrContext[Scope[org.joda.time.Chronology]]]]
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.joda.time.Chronology
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([])null
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getZone([])DateTimeZone
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: withUTC([])Chronology
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: withZone([DateTimeZone zone])Chronology
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getDateTimeMillis([int year, int monthOfYear, int dayOfMonth, int millisOfDay])long
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getDateTimeMillis([int year, int monthOfYear, int dayOfMonth, int hourOfDay, int minuteOfHour, int secondOfMinute, int millisOfSecond])long
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getDateTimeMillis([long instant, int hourOfDay, int minuteOfHour, int secondOfMinute, int millisOfSecond])long
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: validate([ReadablePartial partial, int[] values])void
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: get([ReadablePartial partial, long instant])int[]
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: set([ReadablePartial partial, long instant])long
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: get([ReadablePeriod period, long startInstant, long endInstant])int[]
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: get([ReadablePeriod period, long duration])int[]
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([ReadablePeriod period, long instant, int scalar])long
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([long instant, long duration, int scalar])long
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: millis([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: millisOfSecond([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: millisOfDay([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: seconds([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: secondOfMinute([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: secondOfDay([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: minutes([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: minuteOfHour([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: minuteOfDay([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: hours([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: hourOfDay([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clockhourOfDay([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: halfdays([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: hourOfHalfday([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clockhourOfHalfday([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: halfdayOfDay([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: days([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: dayOfWeek([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: dayOfMonth([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: dayOfYear([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: weeks([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: weekOfWeekyear([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: weekyears([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: weekyear([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: weekyearOfCentury([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: months([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: monthOfYear([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: years([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: year([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: yearOfEra([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: yearOfCentury([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: centuries([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: centuryOfEra([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: eras([])DurationField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: era([])DateTimeField
+[10/25 02:21:59] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toString([])String

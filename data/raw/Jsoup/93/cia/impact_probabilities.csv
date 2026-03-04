@@ -1,0 +1,7 @@
+owner_internal,method,descriptor,roc,forward_probability,impact_probability
+org/jsoup/nodes/FormElement,<init>,(Lorg/jsoup/parser/Tag;Ljava/lang/String;Lorg/jsoup/nodes/Attributes;)V,0.000000,0.888889,0.000000
+org/jsoup/nodes/FormElement,addElement,(Lorg/jsoup/nodes/Element;)Lorg/jsoup/nodes/FormElement;,0.000000,0.800000,0.000000
+org/jsoup/nodes/FormElement,elements,()Lorg/jsoup/select/Elements;,0.000000,0.000000,0.000000
+org/jsoup/nodes/FormElement,formData,()Ljava/util/List;,0.710938,0.000000,1.000000
+org/jsoup/nodes/FormElement,removeChild,(Lorg/jsoup/nodes/Node;)V,0.000000,0.833333,0.000000
+org/jsoup/nodes/FormElement,submit,()Lorg/jsoup/Connection;,0.000000,0.000000,0.000000

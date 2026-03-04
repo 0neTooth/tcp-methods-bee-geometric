@@ -1,0 +1,10 @@
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.codec.StringEncoderComparator@compare(java.lang.Object,java.lang.Object)|77|2746|ANY
+31|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.codec.digest.UnixCrypt@body(int[],int,int)|284|18762|ANY
+31|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.codec.language.MatchRatingApproachEncoder@getMinRating(int)|184|6825|ANY
+31|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.codec.language.MatchRatingApproachEncoder@isEncodeEquals(java.lang.String,java.lang.String)|250|9206|ANY
+31|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.codec.language.MatchRatingApproachEncoder@leftToRightThenRightToLeftProcessing(java.lang.String,java.lang.String)|300|10983|ANY
+31|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.codec.language.MatchRatingApproachEncoder@leftToRightThenRightToLeftProcessing(java.lang.String,java.lang.String)|301|11021|ANY
+31|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.codec.language.MatchRatingApproachEncoder@leftToRightThenRightToLeftProcessing(java.lang.String,java.lang.String)|303|11058|ANY
+31|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.codec.language.MatchRatingApproachEncoder@leftToRightThenRightToLeftProcessing(java.lang.String,java.lang.String)|304|11096|ANY
+31|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.codec.language.Metaphone@metaphone(java.lang.String)|93|3522|ANY
+31|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.codec.language.bm.PhoneticEngine@encode(java.lang.String,org.apache.commons.codec.language.bm.Languages.LanguageSet)|446|18116|ANY

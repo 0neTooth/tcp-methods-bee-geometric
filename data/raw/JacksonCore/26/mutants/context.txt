@@ -1,0 +1,6 @@
+project=JacksonCore
+bug_id=26
+workdir=/Users/m.rudenko/mpr/project/data/raw/JacksonCore/26f
+exclude_file=
+filter_file=
+mml_override=/Users/m.rudenko/mpr/project/config/mml/JacksonCore-26.mml

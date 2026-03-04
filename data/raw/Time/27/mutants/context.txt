@@ -1,0 +1,6 @@
+project=Time
+bug_id=27
+workdir=/Users/m.rudenko/mpr/project/data/raw/Time/27f
+exclude_file=
+filter_file=
+mml_override=/Users/m.rudenko/mpr/project/config/mml/Time-27.mml

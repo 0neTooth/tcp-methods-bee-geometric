@@ -1,0 +1,6 @@
+15|SUPPRESSION|SIZE_LENGTH|Size/length check|org.jsoup.nodes.FormElement@formData()|86|3076|<=(int,int)
+37|SUPPRESSION|SIZE_LENGTH|Size/length check|org.jsoup.nodes.FormElement@formData()|106|4069|!=(int,int)
+41|SUPPRESSION|DUMMY_INIT|Dummy init|org.jsoup.parser.HtmlTreeBuilderState$4@process(org.jsoup.parser.Token,org.jsoup.parser.HtmlTreeBuilder)|123|4919|ANY
+41|SUPPRESSION|IDENTICAL_BRANCHES_EMPTY|Identical branches: empty then/else branches|org.jsoup.parser.HtmlTreeBuilderState$7@process(org.jsoup.parser.Token,org.jsoup.parser.HtmlTreeBuilder)|622|30726|ANY
+41|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.jsoup.parser.HtmlTreeBuilderState$16@process(org.jsoup.parser.Token,org.jsoup.parser.HtmlTreeBuilder)|1299|61518|ANY
+41|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.jsoup.parser.XmlTreeBuilder@process(org.jsoup.parser.Token)|65|2125|ANY

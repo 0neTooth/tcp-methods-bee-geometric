@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Package: org.apache.commons.lang
+Extension-Name: commons-lang
+Specification-Version: 2.2-dev
+Specification-Vendor: Apache Software Foundation
+Specification-Title: Commons Lang
+Implementation-Version: 2.2-dev
+Implementation-Vendor: Apache Software Foundation
+Implementation-Title: Commons Lang
+Implementation-Vendor-Id: org.apache

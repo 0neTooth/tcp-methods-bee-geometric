@@ -1,0 +1,13 @@
+1|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|com.fasterxml.jackson.databind.SerializerProvider@findValueSerializer(java.lang.Class<?>,com.fasterxml.jackson.databind.BeanProperty)|515|17769|ANY
+1|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|com.fasterxml.jackson.databind.SerializerProvider@findValueSerializer(com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.BeanProperty)|554|19548|ANY
+1|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|com.fasterxml.jackson.databind.SerializerProvider@findValueSerializer(java.lang.Class<?>)|583|20830|ANY
+1|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|com.fasterxml.jackson.databind.SerializerProvider@findValueSerializer(com.fasterxml.jackson.databind.JavaType)|611|21915|ANY
+1|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|com.fasterxml.jackson.databind.SerializerProvider@findPrimaryPropertySerializer(com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.BeanProperty)|644|23373|ANY
+1|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|com.fasterxml.jackson.databind.SerializerProvider@findPrimaryPropertySerializer(java.lang.Class<?>,com.fasterxml.jackson.databind.BeanProperty)|671|24470|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.fasterxml.jackson.databind.jsontype.TypeSerializer@typeId(java.lang.Object,com.fasterxml.jackson.core.JsonToken)|100|3655|ANY
+1|SUPPRESSION|IDENTICAL_BRANCHES_EMPTY|Identical branches: empty then/else branches|com.fasterxml.jackson.databind.deser.impl.PropertyValueBuffer@assignParameter(com.fasterxml.jackson.databind.deser.SettableBeanProperty,java.lang.Object)|278|10314|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.fasterxml.jackson.databind.deser.std.FromStringDeserializer@findDeserializer(java.lang.Class<?>)|90|3176|ANY
+72|SUPPRESSION|DUMMY_INIT|Dummy init|com.fasterxml.jackson.databind.ext.Java7SupportImpl@<init>()|24|797|ANY
+72|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder@removeNonVisible(boolean)|818|29118|ANY
+72|SUPPRESSION|DEADCODE_LOOP_CONDITION|Dead code: do loop condition|com.fasterxml.jackson.databind.jsontype.impl.SubTypeValidator@validateSubType(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.BeanDescription)|106|4726|ANY
+72|SUPPRESSION|DUMMY_INIT|Dummy init|com.fasterxml.jackson.databind.util.StdDateFormat@_parseAsISO8601(java.lang.String,java.text.ParsePosition)|694|23880|ANY

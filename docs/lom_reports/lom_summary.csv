@@ -1,0 +1,11 @@
+project,bug,coverage_methods,impact_entries,lom_nonzero_tests,top_score
+Jsoup,93,1339,6,26,0.333333
+Gson,18,753,41,699,0.160373
+Csv,16,173,25,74,0.080000
+JacksonDatabind,112,12,13,36,0.053974
+JacksonXml,6,443,74,204,0.169082
+Compress,47,2244,62,106,0.043171
+Time,27,3602,100,348,0.016733
+Codec,18,693,21,175,0.333333
+JacksonCore,26,108,110,108,0.019168
+Lang,65,1958,31,20,0.300248

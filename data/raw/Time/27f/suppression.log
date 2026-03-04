@@ -1,0 +1,22 @@
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.joda.time.DateTimeZone@forOffsetHoursMinutes(int,int)|257|10526|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.joda.time.convert.StringConverter@getDurationMillis(java.lang.Object)|126|4960|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.joda.time.convert.StringConverter@setInto(org.joda.time.ReadWritableInterval,java.lang.Object,org.joda.time.Chronology)|197|7858|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.joda.time.format.DateTimeFormatterBuilder$TextField@parseInto(org.joda.time.format.DateTimeParserBucket,java.lang.String,int)|1764|66083|ANY
+88|SUPPRESSION|SIZE_LENGTH|Size/length check|org.joda.time.format.PeriodFormatterBuilder@appendSuffix(org.joda.time.format.PeriodFormatterBuilder.PeriodFieldAffix)|591|20422|!=(int,int)
+152|SUPPRESSION|SIZE_LENGTH|Size/length check|org.joda.time.format.PeriodFormatterBuilder@appendSeparator(java.lang.String,java.lang.String,java.lang.String[],boolean,boolean)|738|26656|<=(int,int)
+180|SUPPRESSION|SIZE_LENGTH|Size/length check|org.joda.time.format.PeriodFormatterBuilder@appendSeparator(java.lang.String,java.lang.String,java.lang.String[],boolean,boolean)|761|27476|<=(int,int)
+374|SUPPRESSION|BOUNDS_MAX_MIN|Bounds check MAX or MIN value|org.joda.time.format.PeriodFormatterBuilder$FieldFormatter@calculatePrintedLength(org.joda.time.ReadablePeriod,java.util.Locale)|1090|39519|>=(long,long)
+413|SUPPRESSION|BOUNDS_MAX_MIN|Bounds check MAX or MIN value|org.joda.time.format.PeriodFormatterBuilder$FieldFormatter@printTo(java.lang.StringBuffer,org.joda.time.ReadablePeriod,java.util.Locale)|1122|40874|>=(long,long)
+457|SUPPRESSION|BOUNDS_MAX_MIN|Bounds check MAX or MIN value|org.joda.time.format.PeriodFormatterBuilder$FieldFormatter@printTo(java.io.Writer,org.joda.time.ReadablePeriod,java.util.Locale)|1153|42081|>=(long,long)
+582|SUPPRESSION|MUTUALLY_EXCLUSIVE|Mutually exclusive|org.joda.time.format.PeriodFormatterBuilder$FieldFormatter@parseInto(org.joda.time.ReadWritablePeriod,java.lang.String,int,java.util.Locale)|1250|45856|!=(boolean,boolean)
+650|SUPPRESSION|MUTUALLY_EXCLUSIVE|Mutually exclusive|org.joda.time.format.PeriodFormatterBuilder$FieldFormatter@parseInto(org.joda.time.ReadWritablePeriod,java.lang.String,int,java.util.Locale)|1271|46686|==(boolean,boolean)
+661|SUPPRESSION|MUTUALLY_EXCLUSIVE|Mutually exclusive|org.joda.time.format.PeriodFormatterBuilder$FieldFormatter@parseInto(org.joda.time.ReadWritablePeriod,java.lang.String,int,java.util.Locale)|1274|46798|!=(boolean,boolean)
+670|SUPPRESSION|MUTUALLY_EXCLUSIVE|Mutually exclusive|org.joda.time.format.PeriodFormatterBuilder$FieldFormatter@parseInto(org.joda.time.ReadWritablePeriod,java.lang.String,int,java.util.Locale)|1275|46849|!=(boolean,boolean)
+731|SUPPRESSION|MUTUALLY_EXCLUSIVE|Mutually exclusive|org.joda.time.format.PeriodFormatterBuilder$FieldFormatter@parseInto(org.joda.time.ReadWritablePeriod,java.lang.String,int,java.util.Locale)|1302|47935|==(boolean,boolean)
+930|SUPPRESSION|MUTUALLY_EXCLUSIVE|Mutually exclusive|org.joda.time.format.PeriodFormatterBuilder$FieldFormatter@getFieldValue(org.joda.time.ReadablePeriod)|1448|53627|==(boolean,boolean)
+986|SUPPRESSION|SIZE_LENGTH|Size/length check|org.joda.time.format.PeriodFormatterBuilder$Separator@<init>(java.lang.String,java.lang.String,java.lang.String[],org.joda.time.format.PeriodPrinter,org.joda.time.format.PeriodParser,boolean,boolean)|1600|58725|<=(int,int)
+1147|SUPPRESSION|SIZE_LENGTH|Size/length check|org.joda.time.format.PeriodFormatterBuilder$Separator@parseInto(org.joda.time.ReadWritablePeriod,java.lang.String,int,java.util.Locale)|1718|63583|<=(int,int)
+1198|SUPPRESSION|SIZE_LENGTH|Size/length check|org.joda.time.format.PeriodFormatterBuilder$Composite@<init>(java.util.List<java.lang.Object>)|1772|65310|==(int,int)
+1202|SUPPRESSION|SIZE_LENGTH|Size/length check|org.joda.time.format.PeriodFormatterBuilder$Composite@<init>(java.util.List<java.lang.Object>)|1779|65536|==(int,int)
+1275|SUPPRESSION|LOOP_BOUNDS|Loop bounds check|org.joda.time.format.PeriodFormatterBuilder$Composite@addArrayToList(java.util.List<java.lang.Object>,java.lang.Object[])|1861|68673|!=(int,int)
+1278|SUPPRESSION|DUMMY_INIT|Dummy init|org.joda.time.tz.DateTimeZoneBuilder@toDateTimeZone(java.lang.String,boolean)|346|14115|ANY

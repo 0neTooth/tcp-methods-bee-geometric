@@ -1,0 +1,16 @@
+[01/26 01:01:02] [INFO   ] org.mutationtesting.major.plugin.MajorPluginTaskListener.<init>:
+    Created MajorPluginTaskListener with options: [mml:/Users/m.rudenko/mpr/project/data/raw/Chart/1f/.mml/default.mml.bin, enable.decl.refactor, enable.method.refactor]
+[01/26 01:01:03] [INFO   ] org.mutationtesting.major.mutation.Mutator.initOperatorSymbols:
+    Initializing operator symbols for opcode mapping
+[01/26 01:01:03] [INFO   ] org.mutationtesting.major.mutation.Mutator.mutateTree:
+    Mutating tree: Env[AttrContext[Scope[super, this]],outer=Env[AttrContext[Scope[org.jfree.chart.BufferedImageRenderingSource]]]]
+[01/26 01:01:03] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.jfree.chart.BufferedImageRenderingSource
+[01/26 01:01:03] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([BufferedImage image])null
+[01/26 01:01:03] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: createGraphics2D([])Graphics2D
+[01/26 01:01:03] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getSelectionState([Dataset dataset])DatasetSelectionState
+[01/26 01:01:03] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: putSelectionState([Dataset dataset, DatasetSelectionState state])void

@@ -1,0 +1,10 @@
+[10/25 02:24:55] [INFO   ] org.mutationtesting.major.plugin.MajorPluginTaskListener.<init>:
+    Created MajorPluginTaskListener with options: [mml:/Users/m.rudenko/mpr/project/data/raw/Codec/18f/.mml/default.mml.bin, enable.decl.refactor, enable.method.refactor]
+[10/25 02:24:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.initOperatorSymbols:
+    Initializing operator symbols for opcode mapping
+[10/25 02:24:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.mutateTree:
+    Mutating tree: Env[AttrContext[Scope[this]],outer=Env[AttrContext[Scope[org.apache.commons.codec.BinaryDecoder]]]]
+[10/25 02:24:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.apache.commons.codec.BinaryDecoder
+[10/25 02:24:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: decode([byte[] source])byte[]

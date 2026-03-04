@@ -1,0 +1,6 @@
+project=Math
+bug_id=1
+workdir=/Users/m.rudenko/mpr/project/data/raw/Math/1f
+exclude_file=
+filter_file=
+mml_override=

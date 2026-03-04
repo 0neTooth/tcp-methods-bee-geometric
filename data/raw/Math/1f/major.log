@@ -1,0 +1,14 @@
+[01/26 02:20:38] [INFO   ] org.mutationtesting.major.plugin.MajorPluginTaskListener.<init>:
+    Created MajorPluginTaskListener with options: [mml:/Users/m.rudenko/mpr/project/data/raw/Math/1f/.mml/default.mml.bin, enable.decl.refactor, enable.method.refactor]
+[01/26 02:20:39] [INFO   ] org.mutationtesting.major.mutation.Mutator.initOperatorSymbols:
+    Initializing operator symbols for opcode mapping
+[01/26 02:20:39] [INFO   ] org.mutationtesting.major.mutation.Mutator.mutateTree:
+    Mutating tree: Env[AttrContext[Scope[this, T]],outer=Env[AttrContext[Scope[org.apache.commons.math3.Field]]]]
+[01/26 02:20:39] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.apache.commons.math3.Field
+[01/26 02:20:39] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getZero([])T
+[01/26 02:20:39] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getOne([])T
+[01/26 02:20:39] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getRuntimeClass([])Class<? extends FieldElement<T>>

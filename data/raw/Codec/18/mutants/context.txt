@@ -1,0 +1,6 @@
+project=Codec
+bug_id=18
+workdir=/Users/m.rudenko/mpr/project/data/raw/Codec/18f
+exclude_file=
+filter_file=
+mml_override=/Users/m.rudenko/mpr/project/config/mml/Codec-18.mml

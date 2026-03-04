@@ -1,0 +1,96 @@
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.debugging.sourcemap.SourceMapConsumerV1@parseCharacterMap(com.google.debugging.sourcemap.SourceMapConsumerV1.ParseState,int,com.google.common.collect.ImmutableList.Builder<com.google.common.collect.ImmutableList<com.google.debugging.sourcemap.SourceMapConsumerV1.LineFragment>>)|159|4902|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.debugging.sourcemap.SourceMapGeneratorV3@prepMappings()|385|11518|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.debugging.sourcemap.SourceMapGeneratorV3@prepMappings()|386|11540|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.debugging.sourcemap.SourceMapGeneratorV3@appendIndexMapTo(java.lang.Appendable,java.lang.String,java.util.List<com.google.debugging.sourcemap.SourceMapSection>)|623|18867|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.debugging.sourcemap.SourceMapGeneratorV3@appendIndexMapTo(java.lang.Appendable,java.lang.String,java.util.List<com.google.debugging.sourcemap.SourceMapSection>)|623|18867|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.debugging.sourcemap.SourceMapGeneratorV3$LineMapper@visit(com.google.debugging.sourcemap.SourceMapGeneratorV3.Mapping,int,int,int,int)|708|21370|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.debugging.sourcemap.SourceMapLineDecoder@decodeLineEntry(com.google.debugging.sourcemap.SourceMapLineDecoder.StringParser,int)|54|1616|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.debugging.sourcemap.SourceMapLineDecoder@decodeLineEntry(com.google.debugging.sourcemap.SourceMapLineDecoder.StringParser,int)|55|1638|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.CompilerOptions@setInlineFunctions(com.google.javascript.jscomp.CompilerOptions.Reach)|1230|36061|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.CompilerOptions@setInlineVariables(com.google.javascript.jscomp.CompilerOptions.Reach)|1252|36620|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.CompilerOptions@setRemoveUnusedVariables(com.google.javascript.jscomp.CompilerOptions.Reach)|1289|37522|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.AbstractCommandLineRunner@createJsModules(java.util.List<java.lang.String>,java.util.List<java.lang.String>)|549|18041|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.AbstractCommandLineRunner@getMapPath(java.lang.String)|1192|38126|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.Compiler@endPass()|936|29395|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.Compiler@getParserConfig()|2036|62636|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.rhino.jstype.JSTypeRegistry@initializeBuiltInTypes()|323|12174|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.rhino.jstype.JSTypeRegistry@initializeBuiltInTypes()|334|12678|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.rhino.jstype.JSTypeRegistry@initializeBuiltInTypes()|351|13384|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.rhino.jstype.JSTypeRegistry@initializeBuiltInTypes()|431|16787|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.rhino.jstype.JSTypeRegistry@initializeBuiltInTypes()|447|17455|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.rhino.jstype.JSTypeRegistry@initializeBuiltInTypes()|458|17963|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.rhino.jstype.JSTypeRegistry@createFromTypeNodesInternal(com.google.javascript.rhino.Node,java.lang.String,com.google.javascript.rhino.jstype.StaticScope<com.google.javascript.rhino.jstype.JSType>)|1632|59789|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.rhino.jstype.ObjectType@defineInferredProperty(java.lang.String,com.google.javascript.rhino.jstype.JSType,com.google.javascript.rhino.Node)|323|10087|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.rhino.jstype.JSType@checkEquivalenceHelper(com.google.javascript.rhino.jstype.JSType,com.google.javascript.rhino.jstype.EquivalenceMethod)|698|20151|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.SourceFile@getLine(int)|226|6520|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.SourceFile@getRegion(int)|260|7766|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.SymbolTable@pruneOrphanedNames()|814|27139|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.GlobalNamespace$Name@addRef(com.google.javascript.jscomp.GlobalNamespace.Ref)|959|30109|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.GlobalNamespace$Name@removeRef(com.google.javascript.jscomp.GlobalNamespace.Ref)|1000|31138|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.GlobalNamespace$Name@isSimpleStubDeclaration()|1035|31860|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.TypeCheck@visitAssign(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node)|973|32900|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.FunctionTypeBuilder@inferParameterTypes(com.google.javascript.rhino.Node,com.google.javascript.rhino.JSDocInfo)|448|15841|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder@processObjectLitProperties(com.google.javascript.rhino.Node,com.google.javascript.rhino.jstype.ObjectType,boolean)|696|25948|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder@getDeclaredTypeInAnnotation(java.lang.String,com.google.javascript.rhino.Node,com.google.javascript.rhino.JSDocInfo)|711|26459|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder@createFunctionTypeFromNodes(com.google.javascript.rhino.Node,java.lang.String,com.google.javascript.rhino.JSDocInfo,com.google.javascript.rhino.Node)|885|32811|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder@defineSlot(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node,java.lang.String,com.google.javascript.rhino.jstype.JSType,boolean)|1133|42207|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.TypedScopeCreator$LocalScopeBuilder@declareArguments(com.google.javascript.rhino.Node)|1953|72813|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.rhino.jstype.UnionTypeBuilder@addAlternate(com.google.javascript.rhino.jstype.JSType)|228|9305|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.AmbiguateProperties$JSTypeBitSet@toString()|632|20953|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.AstChangeProxy@replaceWith(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node,java.util.List<com.google.javascript.rhino.Node>)|115|2973|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.AstChangeProxy@replaceWith(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node,java.util.List<com.google.javascript.rhino.Node>)|124|3210|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.AstValidator@validateChildCount(com.google.javascript.rhino.Node,int)|775|20521|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.AstValidator@validateMinimumChildCount(com.google.javascript.rhino.Node,int)|791|20906|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.AstValidator@validateMaximumChildCount(com.google.javascript.rhino.Node,int)|808|21306|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.CheckGlobalThis@shouldTraverse(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|125|4050|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.LiveVariablesAnalysis@computeGenKill(com.google.javascript.rhino.Node,java.util.BitSet,java.util.BitSet,boolean)|207|6715|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.CollapseProperties@updateSimpleDeclaration(java.lang.String,com.google.javascript.jscomp.GlobalNamespace.Name,com.google.javascript.jscomp.GlobalNamespace.Ref)|540|19983|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.CommandLineRunner$FormattingOption@applyToOptions(com.google.javascript.jscomp.CompilerOptions)|565|22866|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.CompilationLevel@setOptionsForCompilationLevel(com.google.javascript.jscomp.CompilerOptions)|64|2066|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.WarningLevel@setOptionsForWarningLevel(com.google.javascript.jscomp.CompilerOptions)|44|1186|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.SpecializeModule@replaceOriginalModuleInputsWithSpecialized()|271|9716|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.SpecializeModule@addDummyVarDeclarationsToInitialModule(com.google.javascript.jscomp.JSModule)|305|11185|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.DisambiguateProperties@process(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|318|11068|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.DisambiguateProperties@renameProperties()|579|20076|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.PeepholeOptimizationsPass@visit(com.google.javascript.rhino.Node)|184|4802|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.ExpressionDecomposer@exposeExpression(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|233|9132|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.ExpressionDecomposer@isSubexpressionMovable(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|763|26750|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.ExternExportsPass$Export@checkForFunctionsWithUnknownTypes(com.google.javascript.rhino.Node)|273|9158|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.MustBeReachingVariableDef$MustDefJoin@apply(com.google.javascript.jscomp.MustBeReachingVariableDef.MustDef,com.google.javascript.jscomp.MustBeReachingVariableDef.MustDef)|166|5664|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.FlowSensitiveInlineVariables$GatherCandiates@visit(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|205|7626|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.NodeUtil@arrayToString(com.google.javascript.rhino.Node)|251|7642|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.FunctionArgumentInjector@getFunctionCallParameterMap(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node,com.google.common.base.Supplier<java.lang.String>)|141|5294|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.InlineFunctions$FindCandidatesReferences@maybeAddReference(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.jscomp.InlineFunctions.FunctionState,com.google.javascript.rhino.Node,com.google.javascript.jscomp.JSModule)|496|16688|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.InlineFunctions$Inline@inlineFunction(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.jscomp.InlineFunctions.FunctionState,com.google.javascript.jscomp.FunctionInjector.InliningMode)|642|21953|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.InlineFunctions@decomposeExpressions(java.util.Set<java.lang.String>)|804|27146|ANY
+1|SUPPRESSION|IDENTICAL_BRANCHES_EMPTY|Identical branches: empty then/else branches|com.google.javascript.jscomp.NameReferenceGraphConstruction$Traversal@recordStaticNameDefinition(com.google.javascript.jscomp.NodeTraversal,java.lang.String,com.google.javascript.rhino.jstype.JSType,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|377|12448|ANY
+1|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|com.google.javascript.jscomp.NameReferenceGraphConstruction@getType(com.google.javascript.rhino.Node)|578|19804|ANY
+1|SUPPRESSION|DEADCODE_AFTER_IF_TRUE_FALSE|Dead code: code after if true/false|com.google.javascript.jscomp.NameReferenceGraphConstruction@getType(com.google.javascript.rhino.Node)|578|19804|ANY
+1|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|com.google.javascript.jscomp.Normalize@process(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|125|4514|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.Normalize$VerifyConstants@visit(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|305|10869|ANY
+1|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|com.google.javascript.jscomp.Normalize$NormalizeStatements@visit(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|384|13447|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.OptimizeParameters@tryEliminateConstantArgs(com.google.javascript.jscomp.DefinitionSite,com.google.javascript.jscomp.SimpleDefinitionFinder)|193|6304|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.OptimizeParameters@eliminateParamsAfter(com.google.javascript.rhino.Node,int)|477|14729|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.PeepholeFoldConstants@tryFoldAssign(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|490|13818|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.PeepholeFoldConstants@tryFoldGetProp(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|1347|39021|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.PeepholeFoldConstants@tryFoldArrayAccess(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|1389|40231|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.PeepholeReplaceKnownMethods@tryFoldParseNumber(com.google.javascript.rhino.Node,java.lang.String,com.google.javascript.rhino.Node)|320|10007|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.PeepholeReplaceKnownMethods@tryFoldParseNumber(com.google.javascript.rhino.Node,java.lang.String,com.google.javascript.rhino.Node)|329|10211|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.PureFunctionIdentifier$SideEffectPropagationCallback@traverseEdge(com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation,com.google.javascript.rhino.Node,com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation)|812|28202|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.RemoveTryCatch$RemoveTryCatchCode@visit(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|101|3368|ANY
+193|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.RemoveUnusedVars$CallSiteOptimizer@tryRemoveArgFromCallSites(com.google.javascript.rhino.Node,int,boolean)|549|19558|ANY
+274|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.RemoveUnusedVars@interpretAssigns()|725|25502|ANY
+278|SUPPRESSION|LOOP_BOUNDS|Loop bounds check|com.google.javascript.jscomp.RemoveUnusedVars@interpretAssigns()|732|25737|!=(int,int)
+284|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.RemoveUnusedVars@interpretAssigns()|738|25991|ANY
+334|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.RemoveUnusedVars@removeUnreferencedVars()|805|28005|ANY
+443|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.ReplaceCssNames$Traversal@processStringNode(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node)|242|8408|ANY
+443|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.ScopedAliases$Traversal@findAliases(com.google.javascript.jscomp.NodeTraversal)|305|10186|ANY
+443|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.SideEffectsAnalysis@process(com.google.javascript.rhino.Node,com.google.javascript.rhino.Node)|110|3814|ANY
+443|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.SideEffectsAnalysis$VisibilityLocationAbstraction@effectMaskForVariableReference(com.google.javascript.rhino.Node)|801|26313|ANY
+443|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.SideEffectsAnalysis$VisibilityLocationAbstraction@effectMaskForVariableReference(com.google.javascript.rhino.Node)|825|27184|ANY
+443|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.StripCode$Strip@eliminateKeysWithStripNamesFromObjLit(com.google.javascript.jscomp.NodeTraversal,com.google.javascript.rhino.Node)|369|12375|ANY
+443|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.TypeInference@traverseCatch(com.google.javascript.rhino.Node,com.google.javascript.jscomp.type.FlowScope)|500|16822|ANY
+443|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.TypeInference@traverseObjectLiteral(com.google.javascript.rhino.Node,com.google.javascript.jscomp.type.FlowScope)|761|26553|ANY
+443|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.graph.LinkedUndirectedGraph@getNeighborNodes(N)|112|3707|ANY
+443|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|com.google.javascript.jscomp.parsing.IRFactory@<init>(java.lang.String,com.google.javascript.rhino.jstype.StaticSourceFile,com.google.javascript.jscomp.parsing.Config,com.google.javascript.rhino.head.ErrorReporter)|164|7088|ANY
+443|SUPPRESSION|DUMMY_INIT|Dummy init|com.google.javascript.jscomp.parsing.JsDocTokenStream@getJsDocToken()|160|4002|ANY

@@ -1,0 +1,1788 @@
+
+test-offline:
+
+get-deps:
+
+jackson-databind-from-maven.compile:
+    [javac] /Users/m.rudenko/mpr/project/data/raw/JacksonDatabind/112f/maven-build.xml:90: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+jackson-databind-from-maven.compile-tests:
+    [javac] /Users/m.rudenko/mpr/project/data/raw/JacksonDatabind/112f/maven-build.xml:118: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 434 ordered test(s)to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 110,65 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Serialize preprocessing results to preprocessing.ser
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 71
+    [junit] MAJOR: Mutants covered:   64 (90,14%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export coverage map to covMap.csv
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 64 mutant(s) and 434 test(s).
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 1/434 - com.fasterxml.jackson.databind.node.JsonNodeFactoryTest (1ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 2/434 - com.fasterxml.jackson.databind.cfg.DatabindContextTest (2ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 3/434 - com.fasterxml.jackson.databind.util.NameTransformerTest (2ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 4/434 - com.fasterxml.jackson.databind.introspect.BeanDescriptionTest (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 5/434 - com.fasterxml.jackson.databind.introspect.PropertyMetadataTest (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 6/434 - com.fasterxml.jackson.databind.node.TextNodeTest (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 7/434 - com.fasterxml.jackson.databind.util.ByteBufferUtilsTest (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 8/434 - com.fasterxml.jackson.databind.util.CompactStringObjectMapTest (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 9/434 - com.fasterxml.jackson.databind.util.EnumValuesTest (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 10/434 - com.fasterxml.jackson.databind.util.JsonParserSequenceTest (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 11/434 - com.fasterxml.jackson.databind.util.RawValueTest (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 12/434 - com.fasterxml.jackson.databind.cfg.SerConfigTest (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 13/434 - com.fasterxml.jackson.databind.deser.creators.FailOnNullCreatorTest (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 14/434 - com.fasterxml.jackson.databind.node.TestDeepCopy (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 15/434 - com.fasterxml.jackson.databind.deser.creators.RequiredCreatorTest (5ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 16/434 - com.fasterxml.jackson.databind.introspect.TestBuilderMethods (5ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 17/434 - com.fasterxml.jackson.databind.convert.ScalarConversionTest (6ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 18/434 - com.fasterxml.jackson.databind.ser.jdk.KeySerializers1679Test (6ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 19/434 - com.fasterxml.jackson.databind.type.DeprecatedConstructType1456Test (6ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 20/434 - com.fasterxml.jackson.databind.type.TestTypeBindings (6ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 21/434 - com.fasterxml.jackson.databind.util.ISO8601DateFormatTest (6ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 22/434 - com.fasterxml.jackson.databind.misc.BeanPropertyMapTest (7ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 23/434 - com.fasterxml.jackson.databind.util.ArrayBuildersTest (7ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 24/434 - com.fasterxml.jackson.databind.util.TestStdDateFormat (7ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 25/434 - com.fasterxml.jackson.databind.cfg.DeserializationConfigTest (8ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 26/434 - com.fasterxml.jackson.databind.jsontype.TypeDeserializerTest (8ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 27/434 - com.fasterxml.jackson.databind.type.TestAnnotatedClass (8ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 28/434 - com.fasterxml.jackson.databind.util.JSONPObjectTest (8ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 29/434 - com.fasterxml.jackson.databind.deser.jdk.Base64DecodingTest (9ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 30/434 - com.fasterxml.jackson.databind.type.TestTypeResolution (9ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 31/434 - com.fasterxml.jackson.databind.deser.inject.InvalidInjectionTest (10ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 32/434 - com.fasterxml.jackson.databind.node.POJONodeTest (10ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 33/434 - com.fasterxml.jackson.databind.type.ContainerTypesTest (10ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 34/434 - com.fasterxml.jackson.databind.util.BeanUtilTest (10ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 35/434 - com.fasterxml.jackson.databind.module.SimpleModuleArgCheckTest (11ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 36/434 - com.fasterxml.jackson.databind.type.TestTypeFactory1604 (12ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 37/434 - com.fasterxml.jackson.databind.util.ClassUtilTest (12ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 38/434 - com.fasterxml.jackson.databind.deser.dos.HugeIntegerCoerceTest (13ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 39/434 - com.fasterxml.jackson.databind.util.ISO8601UtilsTest (13ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 40/434 - com.fasterxml.jackson.databind.node.TestJsonNode (14ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 41/434 - com.fasterxml.jackson.databind.struct.ScalarCoercionTest (14ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 42/434 - com.fasterxml.jackson.databind.contextual.TestContextAttributeWithSer (15ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 43/434 - com.fasterxml.jackson.databind.format.BooleanFormatTest (15ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 44/434 - com.fasterxml.jackson.databind.jsontype.deftyping.TestDefaultForTreeNodes (15ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 45/434 - com.fasterxml.jackson.databind.convert.NumericConversionTest (16ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 46/434 - com.fasterxml.jackson.databind.deser.builder.BuilderFailTest (16ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 47/434 - com.fasterxml.jackson.databind.deser.creators.TestCreatorWithNamingStrategy556 (16ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 48/434 - com.fasterxml.jackson.databind.introspect.SetterConflictTest (16ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 49/434 - com.fasterxml.jackson.databind.introspect.TransientTest (16ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 50/434 - com.fasterxml.jackson.databind.struct.FormatFeatureOrderedMapTest (16ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 51/434 - com.fasterxml.jackson.databind.type.TestJavaType (16ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 52/434 - com.fasterxml.jackson.databind.convert.TestPolymorphicUpdateValue (17ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 53/434 - com.fasterxml.jackson.databind.deser.builder.BuilderViaUpdateTest (17ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 54/434 - com.fasterxml.jackson.databind.struct.BackReference1878Test (17ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 55/434 - com.fasterxml.jackson.databind.deser.IgnoreWithDeserTest (18ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 56/434 - com.fasterxml.jackson.databind.deser.creators.CreatorWithNamingStrategyTest (18ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 57/434 - com.fasterxml.jackson.databind.deser.creators.TestCreatorsWithIdentity (18ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 58/434 - com.fasterxml.jackson.databind.exc.BasicExceptionTest (18ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 59/434 - com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test (18ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 60/434 - com.fasterxml.jackson.databind.jsontype.SubTypeResolution1964Test (18ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 61/434 - com.fasterxml.jackson.databind.misc.TestJSONP (18ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 62/434 - com.fasterxml.jackson.databind.struct.TestUnwrappedWithSameName647 (18ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 63/434 - com.fasterxml.jackson.databind.convert.ConvertingAbstractSerializer795Test (19ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 64/434 - com.fasterxml.jackson.databind.deser.creators.BigCreatorTest (19ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 65/434 - com.fasterxml.jackson.databind.deser.creators.DelegatingCreatorAnnotations2021Test (19ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 66/434 - com.fasterxml.jackson.databind.deser.merge.UpdateValueTest (19ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 67/434 - com.fasterxml.jackson.databind.interop.TestJDKProxy (19ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 68/434 - com.fasterxml.jackson.databind.introspect.TypeCoercion1592Test (19ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 69/434 - com.fasterxml.jackson.databind.node.NotANumberConversionTest (19ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 70/434 - com.fasterxml.jackson.databind.ser.filter.NullSerializationTest (19ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 71/434 - com.fasterxml.jackson.databind.views.ViewsWithSchemaTest (19ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 72/434 - com.fasterxml.jackson.databind.contextual.TestContextAttributeWithDeser (20ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 73/434 - com.fasterxml.jackson.databind.convert.TestArrayConversions (20ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 74/434 - com.fasterxml.jackson.databind.deser.builder.BuilderWithViewTest (20ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 75/434 - com.fasterxml.jackson.databind.deser.jdk.EnumDefaultReadTest (20ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 76/434 - com.fasterxml.jackson.databind.ser.filter.MapInclusionTest (20ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 77/434 - com.fasterxml.jackson.databind.type.NestedTypes1604Test (20ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 78/434 - com.fasterxml.jackson.databind.deser.builder.BuilderWithCreatorTest (21ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 79/434 - com.fasterxml.jackson.databind.deser.creators.CreatorPropertiesTest (21ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 80/434 - com.fasterxml.jackson.databind.seq.ReadRecoveryTest (21ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 81/434 - com.fasterxml.jackson.databind.ser.TestEmptyClass (21ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 82/434 - com.fasterxml.jackson.databind.type.RecursiveTypeTest (21ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 83/434 - com.fasterxml.jackson.databind.deser.TestCyclicTypes (22ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 84/434 - com.fasterxml.jackson.databind.deser.filter.RecursiveIgnorePropertiesTest (22ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 85/434 - com.fasterxml.jackson.databind.exc.DeserExceptionTypeTest (22ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 86/434 - com.fasterxml.jackson.databind.exc.ExceptionPathTest (22ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 87/434 - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeId999Test (22ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 88/434 - com.fasterxml.jackson.databind.jsontype.ext.MultipleExternalIds291Test (22ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 89/434 - com.fasterxml.jackson.databind.objectid.ObjectId825Test (22ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 90/434 - com.fasterxml.jackson.databind.ser.filter.JsonIncludeCollectionTest (22ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 91/434 - com.fasterxml.jackson.databind.deser.PropertyAliasTest (23ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 92/434 - com.fasterxml.jackson.databind.deser.creators.DelegatingCreatorAnnotations2016Test (23ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 93/434 - com.fasterxml.jackson.databind.deser.creators.ImplicitNameMatch792Test (23ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 94/434 - com.fasterxml.jackson.databind.deser.merge.MergeWithNullTest (23ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 95/434 - com.fasterxml.jackson.databind.deser.merge.NodeMergeTest (23ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 96/434 - com.fasterxml.jackson.databind.jsontype.TestOverlappingTypeIdNames (23ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 97/434 - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl1565 (23ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 98/434 - com.fasterxml.jackson.databind.struct.TestForwardReference (23ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 99/434 - com.fasterxml.jackson.databind.FullStreamReadTest (24ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 100/434 - com.fasterxml.jackson.databind.deser.filter.IgnorePropertyOnDeserTest (24ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 101/434 - com.fasterxml.jackson.databind.format.EnumFormatShapeTest (24ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 102/434 - com.fasterxml.jackson.databind.interop.TestFormatDetection (24ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 103/434 - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeId198Test (24ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 104/434 - com.fasterxml.jackson.databind.ser.jdk.MapKeySerializationTest (24ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 105/434 - com.fasterxml.jackson.databind.convert.UpdateValueTest (25ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 106/434 - com.fasterxml.jackson.databind.deser.creators.SingleArgCreatorTest (25ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 107/434 - com.fasterxml.jackson.databind.deser.filter.NullConversionsPojoTest (25ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 108/434 - com.fasterxml.jackson.databind.deser.filter.ReadOnlyDeser1890Test (25ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 109/434 - com.fasterxml.jackson.databind.deser.jdk.EnumAltIdTest (25ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 110/434 - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test (25ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 111/434 - com.fasterxml.jackson.databind.introspect.IntrospectorPairTest (25ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 112/434 - com.fasterxml.jackson.databind.seq.SequenceWriterTest (25ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 113/434 - com.fasterxml.jackson.databind.ser.RawValueTest (25ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 114/434 - com.fasterxml.jackson.databind.struct.TestUnwrappedRecursive383 (25ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 64
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 115/434 - com.fasterxml.jackson.databind.type.PolymorphicList036Test (25ms / 38):
+    [junit] MAJOR: 5123 (7 / 38 / 64) -> AVG-RTPM: 134ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 116/434 - com.fasterxml.jackson.databind.deser.creators.TestCreatorsDelegating (26ms / 0):
+    [junit] MAJOR: 5123 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 117/434 - com.fasterxml.jackson.databind.introspect.TestNameConflicts (26ms / 0):
+    [junit] MAJOR: 5123 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 118/434 - com.fasterxml.jackson.databind.jsontype.TestBaseTypeAsDefault (26ms / 0):
+    [junit] MAJOR: 5123 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 119/434 - com.fasterxml.jackson.databind.node.NumberNodesTest (26ms / 0):
+    [junit] MAJOR: 5123 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 120/434 - com.fasterxml.jackson.databind.node.TestTreeWithType (26ms / 0):
+    [junit] MAJOR: 5123 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 121/434 - com.fasterxml.jackson.databind.ser.TestIterable (26ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 122/434 - com.fasterxml.jackson.databind.ser.filter.JsonIncludeArrayTest (26ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 123/434 - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest (27ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 124/434 - com.fasterxml.jackson.databind.format.MapEntryFormatTest (27ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 125/434 - com.fasterxml.jackson.databind.jsontype.PolymorphicViaRefTypeTest (27ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 126/434 - com.fasterxml.jackson.databind.misc.CaseInsensitiveDeserTest (27ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 127/434 - com.fasterxml.jackson.databind.objectid.TestObjectIdWithInjectables538 (27ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 128/434 - com.fasterxml.jackson.databind.ser.TestJsonSerializeAs (27ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 129/434 - com.fasterxml.jackson.databind.ser.TestVirtualProperties (27ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 130/434 - com.fasterxml.jackson.databind.struct.TestPOJOAsArrayWithBuilder (27ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 131/434 - com.fasterxml.jackson.databind.deser.creators.TestPolymorphicCreators (28ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 132/434 - com.fasterxml.jackson.databind.deser.inject.TestInjectables (28ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 133/434 - com.fasterxml.jackson.databind.deser.jdk.JDKCollectionsDeserTest (28ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 134/434 - com.fasterxml.jackson.databind.deser.merge.MapMergeTest (28ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 135/434 - com.fasterxml.jackson.databind.ser.filter.JsonIncludeCustomTest (28ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 136/434 - com.fasterxml.jackson.databind.convert.TestStringConversions (29ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 137/434 - com.fasterxml.jackson.databind.deser.jdk.MapKeyDeserializationTest (29ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 138/434 - com.fasterxml.jackson.databind.deser.jdk.MapRelatedTypesDeserTest (29ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 139/434 - com.fasterxml.jackson.databind.introspect.TestAnnotationBundles (29ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 140/434 - com.fasterxml.jackson.databind.ser.AnyGetterTest (29ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 141/434 - com.fasterxml.jackson.databind.deser.ReadOnlyDeser1805Test (30ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 142/434 - com.fasterxml.jackson.databind.deser.TestBasicAnnotations (30ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 143/434 - com.fasterxml.jackson.databind.format.MapFormatShapeTest (30ms / 0):
+    [junit] MAJOR: 5124 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 144/434 - com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest (30ms / 0):
+    [junit] MAJOR: 5125 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 145/434 - com.fasterxml.jackson.databind.type.TestGenericsBounded (30ms / 0):
+    [junit] MAJOR: 5125 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 146/434 - com.fasterxml.jackson.databind.ser.filter.TestAnyGetterFiltering (31ms / 0):
+    [junit] MAJOR: 5125 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 147/434 - com.fasterxml.jackson.databind.struct.EmptyArrayAsNullTest (31ms / 0):
+    [junit] MAJOR: 5125 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 148/434 - com.fasterxml.jackson.databind.struct.PojoAsArray646Test (31ms / 0):
+    [junit] MAJOR: 5125 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 149/434 - com.fasterxml.jackson.databind.views.TestViewSerialization (31ms / 0):
+    [junit] MAJOR: 5125 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 150/434 - com.fasterxml.jackson.databind.convert.TestMapConversions (32ms / 0):
+    [junit] MAJOR: 5125 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 7 (0-6-1) / 57
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 151/434 - com.fasterxml.jackson.databind.deser.creators.DelegatingArrayCreator2324Test (32ms / 38):
+    [junit] MAJOR: 8107 (3 / 31 / 64) -> AVG-RTPM: 96ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 152/434 - com.fasterxml.jackson.databind.format.CollectionFormatShapeTest (32ms / 37):
+    [junit] MAJOR: 12444 (0 / 28 / 64) -> AVG-RTPM: 154ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 153/434 - com.fasterxml.jackson.databind.introspect.TestAutoDetect (32ms / 0):
+    [junit] MAJOR: 12445 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 154/434 - com.fasterxml.jackson.databind.struct.FormatFeatureUnwrapSingleTest (32ms / 0):
+    [junit] MAJOR: 12445 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 155/434 - com.fasterxml.jackson.databind.views.DefaultViewTest (32ms / 0):
+    [junit] MAJOR: 12445 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 156/434 - com.fasterxml.jackson.databind.views.TestViewDeserialization (32ms / 0):
+    [junit] MAJOR: 12445 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 157/434 - com.fasterxml.jackson.databind.access.TestAnyGetterAccess (33ms / 0):
+    [junit] MAJOR: 12445 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 158/434 - com.fasterxml.jackson.databind.deser.builder.BuilderSimpleTest (33ms / 0):
+    [junit] MAJOR: 12445 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 159/434 - com.fasterxml.jackson.databind.deser.merge.CollectionMergeTest (33ms / 36):
+    [junit] MAJOR: 15328 (0 / 28 / 64) -> AVG-RTPM: 102ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 160/434 - com.fasterxml.jackson.databind.convert.TestBeanConversions (34ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 161/434 - com.fasterxml.jackson.databind.deser.filter.NullConversionsSkipTest (34ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 162/434 - com.fasterxml.jackson.databind.jsonschema.TestGenerateJsonSchema (34ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 163/434 - com.fasterxml.jackson.databind.jsontype.TestTypedContainerSerialization (34ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 164/434 - com.fasterxml.jackson.databind.struct.TestPOJOAsArrayAdvanced (34ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 165/434 - com.fasterxml.jackson.databind.deser.merge.PropertyMergeTest (35ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 166/434 - com.fasterxml.jackson.databind.ser.TestAnnotations (35ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 167/434 - com.fasterxml.jackson.databind.ser.TestConfig (35ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 168/434 - com.fasterxml.jackson.databind.ser.TestGenericTypes (35ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 169/434 - com.fasterxml.jackson.databind.struct.UnwrapSingleArrayScalarsTest (35ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 170/434 - com.fasterxml.jackson.databind.deser.TestCustomDeserializers (36ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 171/434 - com.fasterxml.jackson.databind.objectid.ObjectId687Test (36ms / 0):
+    [junit] MAJOR: 15328 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 172/434 - com.fasterxml.jackson.databind.deser.TestOverloaded (37ms / 37):
+    [junit] MAJOR: 18042 (0 / 28 / 64) -> AVG-RTPM: 96ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 173/434 - com.fasterxml.jackson.databind.deser.jdk.UntypedDeserializationTest (37ms / 0):
+    [junit] MAJOR: 18042 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 174/434 - com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver (37ms / 0):
+    [junit] MAJOR: 18042 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 175/434 - com.fasterxml.jackson.databind.ser.TestSerializationOrder (37ms / 0):
+    [junit] MAJOR: 18042 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 10 (1-8-1) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 176/434 - com.fasterxml.jackson.databind.deser.NullHandlingTest (38ms / 39):
+    [junit] MAJOR: 27176 (10 / 33 / 64) -> AVG-RTPM: 276ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 177/434 - com.fasterxml.jackson.databind.jsontype.TestTypedSerialization (38ms / 0):
+    [junit] MAJOR: 27176 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 178/434 - com.fasterxml.jackson.databind.ser.jdk.SqlDateSerializationTest (38ms / 0):
+    [junit] MAJOR: 27176 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 179/434 - com.fasterxml.jackson.databind.struct.TestUnwrappedWithPrefix (38ms / 0):
+    [junit] MAJOR: 27176 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 180/434 - com.fasterxml.jackson.databind.util.TestObjectBuffer (38ms / 0):
+    [junit] MAJOR: 27176 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 181/434 - com.fasterxml.jackson.databind.deser.filter.TestUnknownPropertyDeserialization (39ms / 0):
+    [junit] MAJOR: 27176 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 182/434 - com.fasterxml.jackson.databind.objectid.TestObjectIdSerialization (39ms / 0):
+    [junit] MAJOR: 27176 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 183/434 - com.fasterxml.jackson.databind.objectid.TestObjectIdWithPolymorphic (39ms / 0):
+    [junit] MAJOR: 27176 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 184/434 - com.fasterxml.jackson.databind.ser.FieldSerializationTest (39ms / 0):
+    [junit] MAJOR: 27176 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 185/434 - com.fasterxml.jackson.databind.ser.filter.TestJsonFilter (39ms / 0):
+    [junit] MAJOR: 27176 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 186/434 - com.fasterxml.jackson.databind.ser.filter.TestSimpleSerializationIgnore (39ms / 0):
+    [junit] MAJOR: 27176 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 187/434 - com.fasterxml.jackson.databind.struct.TestBackRefsWithPolymorphic (39ms / 0):
+    [junit] MAJOR: 27177 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 188/434 - com.fasterxml.jackson.databind.deser.TestBeanDeserializer (40ms / 0):
+    [junit] MAJOR: 27177 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 189/434 - com.fasterxml.jackson.databind.deser.TestTimestampDeserialization (40ms / 0):
+    [junit] MAJOR: 27177 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 190/434 - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest (40ms / 0):
+    [junit] MAJOR: 27177 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 191/434 - com.fasterxml.jackson.databind.jsontype.TestTypedArraySerialization (40ms / 0):
+    [junit] MAJOR: 27177 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 192/434 - com.fasterxml.jackson.databind.ser.jdk.AtomicTypeSerializationTest (40ms / 0):
+    [junit] MAJOR: 27177 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 193/434 - com.fasterxml.jackson.databind.convert.TestUpdateViaObjectReader (41ms / 0):
+    [junit] MAJOR: 27177 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 194/434 - com.fasterxml.jackson.databind.introspect.POJOPropertiesCollectorTest (41ms / 0):
+    [junit] MAJOR: 27177 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 195/434 - com.fasterxml.jackson.databind.jsontype.TestTypeNames (41ms / 0):
+    [junit] MAJOR: 27177 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 196/434 - com.fasterxml.jackson.databind.module.TestDuplicateRegistration (41ms / 0):
+    [junit] MAJOR: 27177 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 20 (4-13-3) / 44
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 197/434 - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest (41ms / 48):
+    [junit] MAJOR: 31802 (7 / 38 / 64) -> AVG-RTPM: 121ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 198/434 - com.fasterxml.jackson.databind.ObjectWriterTest (42ms / 0):
+    [junit] MAJOR: 31802 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 199/434 - com.fasterxml.jackson.databind.cfg.ConfigObjectsTest (42ms / 0):
+    [junit] MAJOR: 31802 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 200/434 - com.fasterxml.jackson.databind.deser.AnySetterTest (42ms / 0):
+    [junit] MAJOR: 31802 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 201/434 - com.fasterxml.jackson.databind.node.ObjectNodeTest (42ms / 0):
+    [junit] MAJOR: 31802 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 202/434 - com.fasterxml.jackson.databind.ser.TestCustomSerializers (42ms / 0):
+    [junit] MAJOR: 31802 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 203/434 - com.fasterxml.jackson.databind.struct.TestUnwrapped (42ms / 0):
+    [junit] MAJOR: 31802 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 204/434 - com.fasterxml.jackson.databind.RoundtripTest (43ms / 37):
+    [junit] MAJOR: 36191 (0 / 22 / 64) -> AVG-RTPM: 199ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 205/434 - com.fasterxml.jackson.databind.deser.creators.TestCreators2 (44ms / 0):
+    [junit] MAJOR: 36191 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 206/434 - com.fasterxml.jackson.databind.deser.filter.IgnoreCreatorProp1317Test (44ms / 0):
+    [junit] MAJOR: 36191 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 207/434 - com.fasterxml.jackson.databind.jsontype.ext.JsonValueExtTypeIdTest (44ms / 0):
+    [junit] MAJOR: 36191 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 208/434 - com.fasterxml.jackson.databind.deser.TestCustomFactory (45ms / 0):
+    [junit] MAJOR: 36192 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 209/434 - com.fasterxml.jackson.databind.deser.creators.InnerClassCreatorTest (45ms / 0):
+    [junit] MAJOR: 36192 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 210/434 - com.fasterxml.jackson.databind.deser.creators.TestCreators3 (45ms / 37):
+    [junit] MAJOR: 39723 (0 / 22 / 64) -> AVG-RTPM: 160ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 211/434 - com.fasterxml.jackson.databind.deser.jdk.UtilCollectionsTypesTest (45ms / 0):
+    [junit] MAJOR: 39723 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 212/434 - com.fasterxml.jackson.databind.deser.merge.ArrayMergeTest (45ms / 0):
+    [junit] MAJOR: 39723 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 213/434 - com.fasterxml.jackson.databind.objectid.ReferentialWithObjectIdTest (45ms / 0):
+    [junit] MAJOR: 39723 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 214/434 - com.fasterxml.jackson.databind.util.TestTokenBuffer (45ms / 0):
+    [junit] MAJOR: 39723 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 215/434 - com.fasterxml.jackson.databind.deser.builder.BuilderAdvancedTest (46ms / 0):
+    [junit] MAJOR: 39723 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 216/434 - com.fasterxml.jackson.databind.jsontype.ExistingPropertyTest (46ms / 0):
+    [junit] MAJOR: 39723 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 217/434 - com.fasterxml.jackson.databind.jsontype.TestVisibleTypeId (46ms / 0):
+    [junit] MAJOR: 39724 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 218/434 - com.fasterxml.jackson.databind.node.TestJsonPointer (46ms / 0):
+    [junit] MAJOR: 39724 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 219/434 - com.fasterxml.jackson.databind.objectid.JSOGDeserialize622Test (46ms / 0):
+    [junit] MAJOR: 39724 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 220/434 - com.fasterxml.jackson.databind.contextual.TestContextualWithAnnDeserializer (47ms / 0):
+    [junit] MAJOR: 39724 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 27 (5-19-3) / 37
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 221/434 - com.fasterxml.jackson.databind.deser.filter.NullConversionsForContentTest (47ms / 42):
+    [junit] MAJOR: 43549 (7 / 27 / 64) -> AVG-RTPM: 141ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 222/434 - com.fasterxml.jackson.databind.exc.TestExceptionHandlingWithDefaultDeserialization (47ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 223/434 - com.fasterxml.jackson.databind.jsontype.TestWithGenerics (47ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 224/434 - com.fasterxml.jackson.databind.ObjectMapperTest (48ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 225/434 - com.fasterxml.jackson.databind.introspect.BeanNamingTest (48ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 226/434 - com.fasterxml.jackson.databind.jsontype.TestScalars (48ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 227/434 - com.fasterxml.jackson.databind.node.TestEndOfInputHandling (48ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 228/434 - com.fasterxml.jackson.databind.node.TestFindMethods (48ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 229/434 - com.fasterxml.jackson.databind.node.TestMissingNode (48ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 230/434 - com.fasterxml.jackson.databind.seq.ReadValuesTest (48ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 231/434 - com.fasterxml.jackson.databind.ser.BeanSerializerModifier1612Test (48ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 232/434 - com.fasterxml.jackson.databind.ser.TestArraySerialization (48ms / 0):
+    [junit] MAJOR: 43550 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 34 (9-22-3) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 233/434 - com.fasterxml.jackson.databind.struct.FormatFeatureAcceptSingleTest (48ms / 42):
+    [junit] MAJOR: 46544 (3 / 25 / 64) -> AVG-RTPM: 119ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 234/434 - com.fasterxml.jackson.databind.struct.TestPOJOAsArray (48ms / 0):
+    [junit] MAJOR: 46545 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 235/434 - com.fasterxml.jackson.databind.ObjectReaderTest (49ms / 37):
+    [junit] MAJOR: 49835 (0 / 19 / 64) -> AVG-RTPM: 173ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 236/434 - com.fasterxml.jackson.databind.filter.ProblemHandler1767Test (49ms / 0):
+    [junit] MAJOR: 49835 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 237/434 - com.fasterxml.jackson.databind.introspect.AutoDetect1947Test (49ms / 0):
+    [junit] MAJOR: 49835 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 238/434 - com.fasterxml.jackson.databind.misc.TestBlocking (49ms / 0):
+    [junit] MAJOR: 49835 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 239/434 - com.fasterxml.jackson.databind.node.TestTreeDeserialization (49ms / 0):
+    [junit] MAJOR: 49835 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 240/434 - com.fasterxml.jackson.databind.deser.builder.BuilderInfiniteLoop1978Test (50ms / 0):
+    [junit] MAJOR: 49835 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 241/434 - com.fasterxml.jackson.databind.deser.jdk.JDKNumberDeserTest (50ms / 0):
+    [junit] MAJOR: 49835 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 242/434 - com.fasterxml.jackson.databind.jsonschema.NewSchemaTest (50ms / 0):
+    [junit] MAJOR: 49835 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 243/434 - com.fasterxml.jackson.databind.jsontype.TestAbstractContainers (50ms / 37):
+    [junit] MAJOR: 56301 (0 / 19 / 64) -> AVG-RTPM: 340ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 244/434 - com.fasterxml.jackson.databind.TestFormatSchema (51ms / 0):
+    [junit] MAJOR: 56302 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 245/434 - com.fasterxml.jackson.databind.TestVersions (51ms / 0):
+    [junit] MAJOR: 56302 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 246/434 - com.fasterxml.jackson.databind.deser.TestStatics (51ms / 0):
+    [junit] MAJOR: 56302 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 247/434 - com.fasterxml.jackson.databind.exc.TestExceptionsDuringWriting (51ms / 0):
+    [junit] MAJOR: 56302 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 248/434 - com.fasterxml.jackson.databind.jsontype.TestSubtypes (51ms / 0):
+    [junit] MAJOR: 56303 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 249/434 - com.fasterxml.jackson.databind.module.TestKeyDeserializers (51ms / 0):
+    [junit] MAJOR: 56303 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 250/434 - com.fasterxml.jackson.databind.deser.creators.ImplicitParamsForCreatorTest (52ms / 0):
+    [junit] MAJOR: 56303 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 251/434 - com.fasterxml.jackson.databind.exc.TestExceptionHandlingWithJsonCreatorDeserialization (52ms / 0):
+    [junit] MAJOR: 56303 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 252/434 - com.fasterxml.jackson.databind.deser.TestInnerClass (53ms / 0):
+    [junit] MAJOR: 56303 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 253/434 - com.fasterxml.jackson.databind.deser.creators.MultiArgConstructorTest (53ms / 0):
+    [junit] MAJOR: 56303 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 254/434 - com.fasterxml.jackson.databind.struct.TestParentChildReferences (53ms / 0):
+    [junit] MAJOR: 56303 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 255/434 - com.fasterxml.jackson.databind.deser.filter.ProblemHandlerTest (54ms / 0):
+    [junit] MAJOR: 56304 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 256/434 - com.fasterxml.jackson.databind.introspect.IgnoredFieldPresentInCreatorProperty2001Test (54ms / 0):
+    [junit] MAJOR: 56304 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 257/434 - com.fasterxml.jackson.databind.introspect.TestInferredMutators (54ms / 0):
+    [junit] MAJOR: 56304 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 258/434 - com.fasterxml.jackson.databind.node.TestTreeMapperSerializer (54ms / 0):
+    [junit] MAJOR: 56304 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 259/434 - com.fasterxml.jackson.databind.deser.TestObjectOrArrayDeserialization (55ms / 0):
+    [junit] MAJOR: 56304 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 260/434 - com.fasterxml.jackson.databind.introspect.NoClassDefFoundWorkaroundTest (55ms / 0):
+    [junit] MAJOR: 56304 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 261/434 - com.fasterxml.jackson.databind.node.TestConversions (55ms / 0):
+    [junit] MAJOR: 56304 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 262/434 - com.fasterxml.jackson.databind.deser.AnySetter349Test (56ms / 0):
+    [junit] MAJOR: 56305 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 263/434 - com.fasterxml.jackson.databind.deser.creators.TestCreatorNullValue (56ms / 0):
+    [junit] MAJOR: 56305 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 264/434 - com.fasterxml.jackson.databind.deser.filter.NullConversionsGenericTest (56ms / 30):
+    [junit] MAJOR: 61043 (0 / 19 / 64) -> AVG-RTPM: 249ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 265/434 - com.fasterxml.jackson.databind.deser.jdk.MapDeserializerCachingTest (56ms / 0):
+    [junit] MAJOR: 61044 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 266/434 - com.fasterxml.jackson.databind.deser.merge.MapMerge1844Test (56ms / 0):
+    [junit] MAJOR: 61044 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 267/434 - com.fasterxml.jackson.databind.introspect.IgnoredCreatorProperty1572Test (56ms / 0):
+    [junit] MAJOR: 61044 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 268/434 - com.fasterxml.jackson.databind.module.TestTypeModifiers (56ms / 0):
+    [junit] MAJOR: 61044 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 269/434 - com.fasterxml.jackson.databind.seq.TestInnerClassReaderFor (56ms / 0):
+    [junit] MAJOR: 61044 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 270/434 - com.fasterxml.jackson.databind.contextual.TestContextualSerialization (57ms / 0):
+    [junit] MAJOR: 61044 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 271/434 - com.fasterxml.jackson.databind.deser.TestCachingOfDeser (57ms / 0):
+    [junit] MAJOR: 61044 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 272/434 - com.fasterxml.jackson.databind.deser.creators.ArrayDelegatorCreatorForCollectionTest (57ms / 0):
+    [junit] MAJOR: 61045 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 273/434 - com.fasterxml.jackson.databind.deser.creators.DelegatingArrayCreator1804Test (57ms / 0):
+    [junit] MAJOR: 61045 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 274/434 - com.fasterxml.jackson.databind.format.DateFormatTest (57ms / 0):
+    [junit] MAJOR: 61045 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 275/434 - com.fasterxml.jackson.databind.introspect.CustomAnnotationIntrospector1756Test (57ms / 0):
+    [junit] MAJOR: 61045 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 276/434 - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl (57ms / 37):
+    [junit] MAJOR: 65726 (0 / 19 / 64) -> AVG-RTPM: 246ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 277/434 - com.fasterxml.jackson.databind.mixins.MixinsWithBundlesTest (57ms / 0):
+    [junit] MAJOR: 65727 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 278/434 - com.fasterxml.jackson.databind.objectid.TestObjectId (57ms / 0):
+    [junit] MAJOR: 65727 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 279/434 - com.fasterxml.jackson.databind.deser.TestGenerics (58ms / 0):
+    [junit] MAJOR: 65727 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 280/434 - com.fasterxml.jackson.databind.jsontype.AbstractTypeMapping1186Test (58ms / 0):
+    [junit] MAJOR: 65728 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 281/434 - com.fasterxml.jackson.databind.mixins.TestMixinMerging (58ms / 0):
+    [junit] MAJOR: 65729 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 282/434 - com.fasterxml.jackson.databind.module.TestTypeModifierNameResolution (58ms / 0):
+    [junit] MAJOR: 65729 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 283/434 - com.fasterxml.jackson.databind.convert.TestConvertingSerializer (59ms / 0):
+    [junit] MAJOR: 65730 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 284/434 - com.fasterxml.jackson.databind.deser.TestGenericCollectionDeser (59ms / 0):
+    [junit] MAJOR: 65730 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 285/434 - com.fasterxml.jackson.databind.deser.creators.DisablingCreatorsTest (59ms / 0):
+    [junit] MAJOR: 65731 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 286/434 - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest (59ms / 0):
+    [junit] MAJOR: 65731 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 287/434 - com.fasterxml.jackson.databind.ext.TestJava6Types (59ms / 0):
+    [junit] MAJOR: 65731 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 288/434 - com.fasterxml.jackson.databind.jsontype.NoTypeInfoTest (59ms / 0):
+    [junit] MAJOR: 65731 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 289/434 - com.fasterxml.jackson.databind.jsontype.PolymorphicList1451SerTest (59ms / 0):
+    [junit] MAJOR: 65731 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 290/434 - com.fasterxml.jackson.databind.ser.JsonValueTest (59ms / 0):
+    [junit] MAJOR: 65731 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 291/434 - com.fasterxml.jackson.databind.ser.TestJsonSerialize3 (59ms / 0):
+    [junit] MAJOR: 65731 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 292/434 - com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes (59ms / 0):
+    [junit] MAJOR: 65731 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 293/434 - com.fasterxml.jackson.databind.convert.TestConvertingDeserializer (60ms / 0):
+    [junit] MAJOR: 65732 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 294/434 - com.fasterxml.jackson.databind.deser.creators.TestPolymorphicDelegating (60ms / 0):
+    [junit] MAJOR: 65732 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 295/434 - com.fasterxml.jackson.databind.exc.StackTraceElementTest (60ms / 0):
+    [junit] MAJOR: 65732 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 296/434 - com.fasterxml.jackson.databind.ext.TestJava7Types (60ms / 0):
+    [junit] MAJOR: 65732 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 297/434 - com.fasterxml.jackson.databind.introspect.TestScalaLikeImplicitProperties (60ms / 0):
+    [junit] MAJOR: 65733 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 298/434 - com.fasterxml.jackson.databind.mixins.MapperMixinsCopy1998Test (60ms / 0):
+    [junit] MAJOR: 65733 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 299/434 - com.fasterxml.jackson.databind.node.ArrayNodeTest (60ms / 0):
+    [junit] MAJOR: 65733 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 300/434 - com.fasterxml.jackson.databind.ser.jdk.UntypedSerializationTest (60ms / 0):
+    [junit] MAJOR: 65733 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 301/434 - com.fasterxml.jackson.databind.contextual.TestContextualKeyTypes (61ms / 0):
+    [junit] MAJOR: 65733 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 302/434 - com.fasterxml.jackson.databind.deser.creators.TestValueInstantiator (61ms / 0):
+    [junit] MAJOR: 65734 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 303/434 - com.fasterxml.jackson.databind.deser.jdk.CollectionDeserTest (61ms / 52):
+    [junit] MAJOR: 71773 (0 / 26 / 64) -> AVG-RTPM: 232ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 304/434 - com.fasterxml.jackson.databind.introspect.TestPropertyRename (61ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 305/434 - com.fasterxml.jackson.databind.misc.CaseInsensitive1854Test (61ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 306/434 - com.fasterxml.jackson.databind.deser.TestFieldDeserialization (62ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 307/434 - com.fasterxml.jackson.databind.deser.TestJacksonTypes (62ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 308/434 - com.fasterxml.jackson.databind.deser.filter.ReadOnlyDeser95Test (62ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 309/434 - com.fasterxml.jackson.databind.ser.TestAutoDetect (62ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 310/434 - com.fasterxml.jackson.databind.deser.jdk.DateDeserializationTest (63ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 311/434 - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdWithEnum1328Test (63ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 312/434 - com.fasterxml.jackson.databind.mixins.TestMixinInheritance (63ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 313/434 - com.fasterxml.jackson.databind.ser.TestAnnotationInheritance (63ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 314/434 - com.fasterxml.jackson.databind.deser.creators.DelegatingCreatorImplicitNames1001Test (64ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 315/434 - com.fasterxml.jackson.databind.jsontype.TestPolymorphicDeserialization676 (64ms / 0):
+    [junit] MAJOR: 71774 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 316/434 - com.fasterxml.jackson.databind.type.TestGenericFieldInSubtype (64ms / 0):
+    [junit] MAJOR: 71775 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 317/434 - com.fasterxml.jackson.databind.deser.creators.TestCreatorWithPolymorphic113 (65ms / 0):
+    [junit] MAJOR: 71775 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 318/434 - com.fasterxml.jackson.databind.deser.filter.ProblemHandlerLocation1440Test (65ms / 0):
+    [junit] MAJOR: 71775 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 319/434 - com.fasterxml.jackson.databind.introspect.VisibilityForSerializationTest (65ms / 0):
+    [junit] MAJOR: 71775 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 320/434 - com.fasterxml.jackson.databind.node.TestNullNode (65ms / 0):
+    [junit] MAJOR: 71775 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 321/434 - com.fasterxml.jackson.databind.deser.TestGenericMapDeser (66ms / 0):
+    [junit] MAJOR: 71775 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 322/434 - com.fasterxml.jackson.databind.interop.TestExternalizable (66ms / 0):
+    [junit] MAJOR: 71775 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 323/434 - com.fasterxml.jackson.databind.introspect.TestPropertyConflicts (66ms / 0):
+    [junit] MAJOR: 71775 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 324/434 - com.fasterxml.jackson.databind.ser.jdk.NumberSerTest (66ms / 0):
+    [junit] MAJOR: 71775 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 325/434 - com.fasterxml.jackson.databind.struct.TestUnwrappedWithTypeInfo (66ms / 0):
+    [junit] MAJOR: 71775 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 326/434 - com.fasterxml.jackson.databind.struct.UnwrappedWithView1559Test (66ms / 0):
+    [junit] MAJOR: 71776 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 327/434 - com.fasterxml.jackson.databind.MapperViaParserTest (67ms / 0):
+    [junit] MAJOR: 71776 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 328/434 - com.fasterxml.jackson.databind.contextual.TestContextualDeserialization (67ms / 0):
+    [junit] MAJOR: 71776 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 329/434 - com.fasterxml.jackson.databind.deser.creators.CreatorWithObjectIdTest (67ms / 0):
+    [junit] MAJOR: 71776 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 330/434 - com.fasterxml.jackson.databind.deser.creators.DelegatingExternalProperty1003Test (67ms / 0):
+    [junit] MAJOR: 71776 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 331/434 - com.fasterxml.jackson.databind.introspect.TestAnnotationMerging (67ms / 0):
+    [junit] MAJOR: 71776 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 332/434 - com.fasterxml.jackson.databind.deser.jdk.JDKAtomicTypesDeserTest (68ms / 0):
+    [junit] MAJOR: 71777 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 333/434 - com.fasterxml.jackson.databind.mixins.TestMixinDeserForMethods (68ms / 0):
+    [junit] MAJOR: 71777 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 334/434 - com.fasterxml.jackson.databind.jsonschema.TestReadJsonSchema (69ms / 0):
+    [junit] MAJOR: 71777 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 335/434 - com.fasterxml.jackson.databind.jsontype.deftyping.TestDefaultWithCreators (69ms / 0):
+    [junit] MAJOR: 71777 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 336/434 - com.fasterxml.jackson.databind.mixins.TestMixinDeserForCreators (69ms / 0):
+    [junit] MAJOR: 71777 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 337/434 - com.fasterxml.jackson.databind.mixins.TestMixinSerForFields (69ms / 0):
+    [junit] MAJOR: 71777 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 338/434 - com.fasterxml.jackson.databind.node.TreeReadViaMapperTest (69ms / 0):
+    [junit] MAJOR: 71777 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 339/434 - com.fasterxml.jackson.databind.views.TestViewsSerialization2 (69ms / 0):
+    [junit] MAJOR: 71777 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 340/434 - com.fasterxml.jackson.databind.deser.creators.TestCreators (70ms / 0):
+    [junit] MAJOR: 71777 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 341/434 - com.fasterxml.jackson.databind.introspect.TestJacksonAnnotationIntrospector (70ms / 37):
+    [junit] MAJOR: 76188 (0 / 19 / 64) -> AVG-RTPM: 232ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 342/434 - com.fasterxml.jackson.databind.jsontype.TestTypedArrayDeserialization (70ms / 0):
+    [junit] MAJOR: 76190 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 343/434 - com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest (70ms / 0):
+    [junit] MAJOR: 76190 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 344/434 - com.fasterxml.jackson.databind.mixins.TestMixinDeserForClass (70ms / 0):
+    [junit] MAJOR: 76191 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 345/434 - com.fasterxml.jackson.databind.ser.TestSerializerProvider (70ms / 0):
+    [junit] MAJOR: 76191 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 346/434 - com.fasterxml.jackson.databind.deser.creators.EnumCreatorTest (71ms / 0):
+    [junit] MAJOR: 76191 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 347/434 - com.fasterxml.jackson.databind.mixins.TestMixinSerForClass (71ms / 0):
+    [junit] MAJOR: 76191 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 348/434 - com.fasterxml.jackson.databind.objectid.ObjectIdReordering1388Test (71ms / 0):
+    [junit] MAJOR: 76191 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 349/434 - com.fasterxml.jackson.databind.ser.BeanSerializerModifierTest (71ms / 0):
+    [junit] MAJOR: 76192 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 350/434 - com.fasterxml.jackson.databind.ser.TestSimpleTypes (71ms / 0):
+    [junit] MAJOR: 76192 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 351/434 - com.fasterxml.jackson.databind.misc.ThreadSafety1759Test (72ms / 0):
+    [junit] MAJOR: 76193 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 352/434 - com.fasterxml.jackson.databind.ser.SerializationFeaturesTest (72ms / 0):
+    [junit] MAJOR: 76193 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 353/434 - com.fasterxml.jackson.databind.ser.jdk.CollectionSerializationTest (72ms / 0):
+    [junit] MAJOR: 76193 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 354/434 - com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest (73ms / 0):
+    [junit] MAJOR: 76194 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 355/434 - com.fasterxml.jackson.databind.jsontype.TestGenericListSerialization (73ms / 0):
+    [junit] MAJOR: 76194 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 356/434 - com.fasterxml.jackson.databind.mixins.TestMixinSerForMethods (73ms / 0):
+    [junit] MAJOR: 76194 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 357/434 - com.fasterxml.jackson.databind.TestHandlerInstantiation (74ms / 0):
+    [junit] MAJOR: 76194 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 358/434 - com.fasterxml.jackson.databind.jsontype.TypeRefinementForMapTest (74ms / 0):
+    [junit] MAJOR: 76195 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 359/434 - com.fasterxml.jackson.databind.jsontype.TypeResolverTest (75ms / 0):
+    [junit] MAJOR: 76195 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 360/434 - com.fasterxml.jackson.databind.jsontype.UnknownSubClassTest (75ms / 0):
+    [junit] MAJOR: 76195 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 361/434 - com.fasterxml.jackson.databind.objectid.ObjectId825BTest (75ms / 0):
+    [junit] MAJOR: 76196 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 362/434 - com.fasterxml.jackson.databind.ser.TestJsonSerialize (75ms / 0):
+    [junit] MAJOR: 76196 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 363/434 - com.fasterxml.jackson.databind.deser.creators.TestCustomValueInstDefaults (76ms / 0):
+    [junit] MAJOR: 76196 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 364/434 - com.fasterxml.jackson.databind.mixins.TestMixinSerWithViews (76ms / 0):
+    [junit] MAJOR: 76196 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 365/434 - com.fasterxml.jackson.databind.struct.UnwrappedCreatorParam265Test (76ms / 0):
+    [junit] MAJOR: 76196 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 366/434 - com.fasterxml.jackson.databind.objectid.PolymorphicWithObjectId1551Test (77ms / 0):
+    [junit] MAJOR: 76197 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 367/434 - com.fasterxml.jackson.databind.jsontype.deftyping.TestDefaultForMaps (78ms / 0):
+    [junit] MAJOR: 76197 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 368/434 - com.fasterxml.jackson.databind.seq.PolyMapWriter827Test (78ms / 0):
+    [junit] MAJOR: 76197 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 369/434 - com.fasterxml.jackson.databind.type.TypeAliasesTest (78ms / 37):
+    [junit] MAJOR: 78805 (0 / 19 / 64) -> AVG-RTPM: 137ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 370/434 - com.fasterxml.jackson.databind.misc.AccessFixTest (79ms / 0):
+    [junit] MAJOR: 78805 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 371/434 - com.fasterxml.jackson.databind.ser.TestJsonSerialize2 (79ms / 0):
+    [junit] MAJOR: 78806 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 372/434 - com.fasterxml.jackson.databind.ser.TestTreeSerialization (79ms / 0):
+    [junit] MAJOR: 78806 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 373/434 - com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test (81ms / 0):
+    [junit] MAJOR: 78806 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 374/434 - com.fasterxml.jackson.databind.objectid.TestObjectIdWithEquals (81ms / 0):
+    [junit] MAJOR: 78806 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 375/434 - com.fasterxml.jackson.databind.deser.TestAnnotationUsing (83ms / 0):
+    [junit] MAJOR: 78806 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 376/434 - com.fasterxml.jackson.databind.deser.jdk.DateDeserializationTZTest (83ms / 0):
+    [junit] MAJOR: 78806 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 377/434 - com.fasterxml.jackson.databind.jsontype.TestEnumTyping (83ms / 0):
+    [junit] MAJOR: 78806 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 378/434 - com.fasterxml.jackson.databind.deser.TestSetterlessProperties (84ms / 36):
+    [junit] MAJOR: 80854 (0 / 19 / 64) -> AVG-RTPM: 107ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 379/434 - com.fasterxml.jackson.databind.introspect.TestNamingStrategyCustom (84ms / 37):
+    [junit] MAJOR: 83097 (0 / 19 / 64) -> AVG-RTPM: 118ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 380/434 - com.fasterxml.jackson.databind.module.TestAbstractTypes (84ms / 0):
+    [junit] MAJOR: 83098 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 381/434 - com.fasterxml.jackson.databind.objectid.ObjectWithCreator1261Test (84ms / 0):
+    [junit] MAJOR: 83098 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 382/434 - com.fasterxml.jackson.databind.introspect.TestNamingStrategyStd (85ms / 0):
+    [junit] MAJOR: 83098 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 383/434 - com.fasterxml.jackson.databind.deser.creators.TestConstructFromMap (86ms / 0):
+    [junit] MAJOR: 83098 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 384/434 - com.fasterxml.jackson.databind.ser.TestStatics (86ms / 0):
+    [junit] MAJOR: 83098 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 385/434 - com.fasterxml.jackson.databind.ser.TestKeySerializers (88ms / 0):
+    [junit] MAJOR: 83098 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 386/434 - com.fasterxml.jackson.databind.ser.TestMapSerialization (88ms / 0):
+    [junit] MAJOR: 83098 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 387/434 - com.fasterxml.jackson.databind.deser.jdk.EnumMapDeserializationTest (90ms / 0):
+    [junit] MAJOR: 83098 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 388/434 - com.fasterxml.jackson.databind.jsontype.deftyping.TestDefaultForArrays (90ms / 0):
+    [junit] MAJOR: 83098 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 389/434 - com.fasterxml.jackson.databind.module.TestCustomEnumKeyDeserializer (91ms / 37):
+    [junit] MAJOR: 85487 (0 / 19 / 64) -> AVG-RTPM: 125ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 390/434 - com.fasterxml.jackson.databind.ser.filter.TestIgnoredTypes (91ms / 0):
+    [junit] MAJOR: 85487 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 391/434 - com.fasterxml.jackson.databind.jsontype.deftyping.TestDefaultForEnums (92ms / 0):
+    [junit] MAJOR: 85487 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 392/434 - com.fasterxml.jackson.databind.deser.TestValueAnnotations (93ms / 37):
+    [junit] MAJOR: 89458 (0 / 19 / 64) -> AVG-RTPM: 209ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 393/434 - com.fasterxml.jackson.databind.objectid.TestAbstractWithObjectId (93ms / 0):
+    [junit] MAJOR: 89459 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 394/434 - com.fasterxml.jackson.databind.objectid.TestObjectIdDeserialization (93ms / 0):
+    [junit] MAJOR: 89459 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 395/434 - com.fasterxml.jackson.databind.ser.TestTypedRootValueSerialization (93ms / 0):
+    [junit] MAJOR: 89459 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 396/434 - com.fasterxml.jackson.databind.ser.filter.IgnorePropsForSerTest (93ms / 0):
+    [junit] MAJOR: 89459 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 397/434 - com.fasterxml.jackson.databind.TestRootName (94ms / 0):
+    [junit] MAJOR: 89459 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 398/434 - com.fasterxml.jackson.databind.jsontype.Generic1128Test (94ms / 0):
+    [junit] MAJOR: 89459 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 399/434 - com.fasterxml.jackson.databind.jsontype.deftyping.TestDefaultForScalars (94ms / 0):
+    [junit] MAJOR: 89459 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 400/434 - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest (94ms / 0):
+    [junit] MAJOR: 89460 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 401/434 - com.fasterxml.jackson.databind.jsontype.TestTypedDeserialization (95ms / 0):
+    [junit] MAJOR: 89460 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 402/434 - com.fasterxml.jackson.databind.jsontype.TestAbstractTypeNames (97ms / 0):
+    [junit] MAJOR: 89460 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 403/434 - com.fasterxml.jackson.databind.node.TestTreeTraversingParser (98ms / 37):
+    [junit] MAJOR: 91907 (0 / 19 / 64) -> AVG-RTPM: 128ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 404/434 - com.fasterxml.jackson.databind.exc.ExceptionSerializationTest (100ms / 0):
+    [junit] MAJOR: 91907 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 405/434 - com.fasterxml.jackson.databind.type.TestTypeFactory (100ms / 37):
+    [junit] MAJOR: 94362 (0 / 19 / 64) -> AVG-RTPM: 129ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 406/434 - com.fasterxml.jackson.databind.ext.TestCoreXMLTypes (101ms / 0):
+    [junit] MAJOR: 94362 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 407/434 - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest (101ms / 0):
+    [junit] MAJOR: 94362 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 408/434 - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo (103ms / 0):
+    [junit] MAJOR: 94362 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 409/434 - com.fasterxml.jackson.databind.ser.filter.JsonIncludeTest (103ms / 0):
+    [junit] MAJOR: 94362 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 410/434 - com.fasterxml.jackson.databind.ser.TestJacksonTypes (104ms / 0):
+    [junit] MAJOR: 94363 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 411/434 - com.fasterxml.jackson.databind.deser.jdk.EnumDeserializationTest (105ms / 0):
+    [junit] MAJOR: 94363 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 412/434 - com.fasterxml.jackson.databind.exc.ExceptionDeserializationTest (105ms / 0):
+    [junit] MAJOR: 94363 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 413/434 - com.fasterxml.jackson.databind.type.LocalTypeTest (105ms / 0):
+    [junit] MAJOR: 94363 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 414/434 - com.fasterxml.jackson.databind.module.SimpleModuleTest (106ms / 0):
+    [junit] MAJOR: 94363 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 415/434 - com.fasterxml.jackson.databind.jsontype.deftyping.TestDefaultForObject (114ms / 0):
+    [junit] MAJOR: 94363 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 416/434 - com.fasterxml.jackson.databind.jsontype.deftyping.TestDefaultForLists (116ms / 37):
+    [junit] MAJOR: 98412 (0 / 19 / 64) -> AVG-RTPM: 213ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 417/434 - com.fasterxml.jackson.databind.ser.filter.JsonInclude1327Test (117ms / 0):
+    [junit] MAJOR: 98412 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 418/434 - com.fasterxml.jackson.databind.ser.TestEnumSerialization (119ms / 0):
+    [junit] MAJOR: 98412 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 419/434 - com.fasterxml.jackson.databind.deser.TestArrayDeserialization (122ms / 0):
+    [junit] MAJOR: 98412 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 420/434 - com.fasterxml.jackson.databind.ser.jdk.JDKTypeSerializationTest (125ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 421/434 - com.fasterxml.jackson.databind.TestJDKSerialization (133ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 422/434 - com.fasterxml.jackson.databind.ser.TestRootType (148ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 423/434 - com.fasterxml.jackson.databind.big.TestBiggerData (157ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 424/434 - com.fasterxml.jackson.databind.type.RecursiveType1658Test (161ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 425/434 - com.fasterxml.jackson.databind.ser.filter.JsonIncludeOverrideTest (182ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 426/434 - com.fasterxml.jackson.databind.ser.TestCyclicTypes (183ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 427/434 - com.fasterxml.jackson.databind.deser.jdk.MapDeserializationTest (185ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 428/434 - com.fasterxml.jackson.databind.ext.TestDOM (191ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 429/434 - com.fasterxml.jackson.databind.jsontype.ext.TestSubtypesExternalPropertyMissingProperty (191ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 430/434 - com.fasterxml.jackson.databind.ser.filter.TestMapFiltering (202ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 431/434 - com.fasterxml.jackson.databind.type.TestTypeFactoryWithClassLoader (238ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 432/434 - com.fasterxml.jackson.databind.deser.jdk.JDKStringLikeTypesTest (331ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 433/434 - com.fasterxml.jackson.databind.misc.RaceCondition738Test (725ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 434/434 - com.fasterxml.jackson.databind.deser.TestConcurrency (2128ms / 0):
+    [junit] MAJOR: 98413 (0 / 0 / 64) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (9-25-3) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time                 : 98,41 seconds
+    [junit] MAJOR: Mutation score                : 52,11% (57,81%)
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME): 37 (9-25-3)
+    [junit] MAJOR: Mutants live                  : 27
+    [junit] MAJOR: Mutant executions             : 593
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant details to /Users/m.rudenko/mpr/project/data/raw/JacksonDatabind/112f/kill.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Done!
+    [junit] MAJOR: ------------------------------------------------------------
+ConfigurationSource{location='file:/Users/m.rudenko/mpr/project/defects4j/framework/projects/JacksonDatabind/lib/org/powermock/powermock-core/2.0.0/powermock-core-2.0.0.jar!/org/powermock/default.properties}. Which one will be used is undefined. Please, remove duplicated configuration file (or second PowerMock jar file) from class path to have stable tests.
+
+BUILD SUCCESSFUL
+Total time: 3 minutes 29 seconds

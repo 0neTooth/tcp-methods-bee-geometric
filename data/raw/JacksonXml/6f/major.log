@@ -1,0 +1,34 @@
+[10/25 02:14:10] [INFO   ] org.mutationtesting.major.plugin.MajorPluginTaskListener.<init>:
+    Created MajorPluginTaskListener with options: [mml:/Users/m.rudenko/mpr/project/data/raw/JacksonXml/6f/.mml/default.mml.bin, enable.decl.refactor, enable.method.refactor]
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.initOperatorSymbols:
+    Initializing operator symbols for opcode mapping
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.mutateTree:
+    Mutating tree: Env[AttrContext[Scope[super, this]],outer=Env[AttrContext[Scope[com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector]]]]
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([])null
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([boolean defaultUseWrapper])null
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: findWrapperName([Annotated ann])PropertyName
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: findRootName([AnnotatedClass ac])PropertyName
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: findNamespace([Annotated ann])String
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isOutputAsAttribute([Annotated ann])Boolean
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isOutputAsText([Annotated ann])Boolean
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isOutputAsCData([Annotated ann])Boolean
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: setDefaultUseWrapper([boolean b])void
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: findNameForSerialization([Annotated a])PropertyName
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: findNameForDeserialization([Annotated a])PropertyName
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: _constructStdTypeResolverBuilder([])StdTypeResolverBuilder
+[10/25 02:14:11] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: _findXmlName([Annotated a])PropertyName

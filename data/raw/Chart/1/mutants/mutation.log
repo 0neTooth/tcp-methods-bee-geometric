@@ -1,0 +1,1472 @@
+
+initialise:
+
+compile:
+    [javac] /Users/m.rudenko/mpr/project/defects4j/framework/projects/Chart/Chart.build.xml:58: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile-experimental:
+    [javac] /Users/m.rudenko/mpr/project/defects4j/framework/projects/Chart/Chart.build.xml:108: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+    [javac] /Users/m.rudenko/mpr/project/defects4j/framework/projects/Chart/Chart.build.xml:126: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 356 ordered test(s)to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 10.00 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Serialize preprocessing results to preprocessing.ser
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 443
+    [junit] MAJOR: Mutants covered:   225 (50.79%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export coverage map to covMap.csv
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 225 mutant(s) and 356 test(s).
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 1/356 - org.jfree.chart.block.junit.RectangleConstraintTests (1ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 2/356 - org.jfree.chart.imagemap.junit.DynamicDriveToolTipTagFragmentGeneratorTests (1ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 3/356 - org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests (1ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 4/356 - org.jfree.chart.imagemap.junit.StandardURLTagFragmentGeneratorTests (1ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 5/356 - org.jfree.chart.util.junit.HashUtilitiesTests (1ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 6/356 - org.jfree.chart.util.junit.LineUtilitiesTests (1ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 7/356 - org.jfree.chart.imagemap.junit.OverLIBToolTipTagFragmentGeneratorTests (2ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 8/356 - org.jfree.chart.needle.junit.MeterNeedleTests (2ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 9/356 - org.jfree.data.general.junit.DatasetGroupTests (2ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 10/356 - org.jfree.data.time.junit.MovingAverageTests (2ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 11/356 - org.jfree.chart.imagemap.junit.ImageMapUtilitiesTests (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 12/356 - org.jfree.chart.labels.junit.ItemLabelAnchorTests (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 13/356 - org.jfree.chart.plot.junit.PlotOrientationTests (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 14/356 - org.jfree.chart.renderer.junit.AreaRendererEndTypeTests (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 15/356 - org.jfree.chart.title.junit.TitleTests (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 16/356 - org.jfree.chart.urls.junit.StandardXYURLGeneratorTests (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 17/356 - org.jfree.data.statistics.junit.BoxAndWhiskerItemTests (3ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 18/356 - org.jfree.data.time.junit.TimePeriodAnchorTests (3ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 19/356 - org.jfree.chart.annotations.junit.TextAnnotationTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 20/356 - org.jfree.chart.axis.junit.AxisSpaceTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 21/356 - org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 22/356 - org.jfree.chart.axis.junit.DateTickMarkPositionTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 23/356 - org.jfree.chart.axis.junit.StandardTickUnitSourceTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 24/356 - org.jfree.chart.labels.junit.ItemLabelPositionTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 25/356 - org.jfree.chart.renderer.junit.OutlierTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 26/356 - org.jfree.data.junit.DomainOrderTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 27/356 - org.jfree.data.junit.RangeTypeTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 28/356 - org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 29/356 - org.jfree.data.statistics.junit.HistogramBinTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 30/356 - org.jfree.data.time.ohlc.junit.OHLCTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 31/356 - org.jfree.data.xy.junit.OHLCDataItemTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 32/356 - org.jfree.data.xy.junit.XYIntervalTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 33/356 - org.jfree.data.xy.junit.YIntervalTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 34/356 - org.jfree.data.xy.junit.YWithXIntervalTests (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 35/356 - org.jfree.chart.axis.junit.AxisLocationTests (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 36/356 - org.jfree.chart.axis.junit.CategoryAnchorTests (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 37/356 - org.jfree.chart.axis.junit.NumberTickUnitTests (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 38/356 - org.jfree.chart.block.junit.BlockBorderTests (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 39/356 - org.jfree.chart.block.junit.ColumnArrangementTests (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 40/356 - org.jfree.chart.entity.junit.TickLabelEntityTests (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 41/356 - org.jfree.chart.labels.junit.CustomXYItemLabelGeneratorTests (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 42/356 - org.jfree.chart.needle.junit.ArrowNeedleTests (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 43/356 - org.jfree.chart.needle.junit.LineNeedleTests (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 44/356 - org.jfree.chart.needle.junit.LongNeedleTests (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 45/356 - org.jfree.chart.needle.junit.MiddlePinNeedleTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 46/356 - org.jfree.chart.needle.junit.PlumNeedleTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 47/356 - org.jfree.chart.needle.junit.PointerNeedleTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 48/356 - org.jfree.chart.needle.junit.ShipNeedleTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 49/356 - org.jfree.chart.needle.junit.WindNeedleTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 50/356 - org.jfree.chart.plot.dial.junit.AbstractDialLayerTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 51/356 - org.jfree.chart.plot.junit.PlotRenderingInfoTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 52/356 - org.jfree.chart.util.junit.ShapeUtilitiesTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 53/356 - org.jfree.data.function.junit.NormalDistributionFunction2DTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 54/356 - org.jfree.data.function.junit.PowerFunction2DTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 55/356 - org.jfree.data.general.junit.DefaultKeyedValuesDatasetTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 56/356 - org.jfree.data.junit.DefaultKeyedValueTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 57/356 - org.jfree.data.statistics.junit.MeanAndStandardDeviationTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 58/356 - org.jfree.data.time.junit.FixedMillisecondTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 59/356 - org.jfree.data.time.junit.TimePeriodValueTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 60/356 - org.jfree.data.xy.junit.VectorTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 61/356 - org.jfree.data.xy.junit.XYDataItemTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 62/356 - org.jfree.data.xy.junit.XYIntervalDataItemTests (5ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 63/356 - org.jfree.chart.axis.junit.AxisTests (6ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 64/356 - org.jfree.chart.axis.junit.CategoryLabelPositionTests (6ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 65/356 - org.jfree.chart.axis.junit.CategoryLabelPositionsTests (6ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 66/356 - org.jfree.chart.block.junit.ColorBlockTests (6ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 67/356 - org.jfree.chart.block.junit.FlowArrangementTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 68/356 - org.jfree.chart.block.junit.LineBorderTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 69/356 - org.jfree.chart.entity.junit.CategoryLabelEntityTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 70/356 - org.jfree.chart.entity.junit.LegendItemEntityTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 71/356 - org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 72/356 - org.jfree.chart.plot.dial.junit.DialCapTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 73/356 - org.jfree.chart.plot.dial.junit.StandardDialFrameTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 74/356 - org.jfree.chart.plot.junit.DefaultDrawingSupplierTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 75/356 - org.jfree.chart.plot.junit.MeterIntervalTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 76/356 - org.jfree.chart.renderer.category.junit.StandardBarPainterTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 77/356 - org.jfree.chart.renderer.junit.GrayPaintScaleTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 78/356 - org.jfree.chart.renderer.xy.junit.GradientXYBarPainterTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 79/356 - org.jfree.chart.renderer.xy.junit.StandardXYBarPainterTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 80/356 - org.jfree.chart.urls.junit.CustomPieURLGeneratorTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 81/356 - org.jfree.chart.urls.junit.CustomXYURLGeneratorTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 82/356 - org.jfree.chart.urls.junit.StandardPieURLGeneratorTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 83/356 - org.jfree.chart.util.junit.BooleanListTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 84/356 - org.jfree.chart.util.junit.LogFormatTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 85/356 - org.jfree.chart.util.junit.RelativeDateFormatTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 86/356 - org.jfree.chart.util.junit.ShapeListTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 87/356 - org.jfree.chart.util.junit.StrokeListTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 88/356 - org.jfree.data.function.junit.LineFunction2DTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 89/356 - org.jfree.data.gantt.junit.TaskSeriesTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 90/356 - org.jfree.data.gantt.junit.TaskTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 91/356 - org.jfree.data.general.junit.DefaultHeatMapDatasetTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 92/356 - org.jfree.data.general.junit.DefaultKeyedValueDatasetTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 93/356 - org.jfree.data.general.junit.DefaultKeyedValues2DDatasetTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 94/356 - org.jfree.data.junit.ComparableObjectItemTests (6ms / 0):
+    [junit] MAJOR: 4 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 95/356 - org.jfree.data.junit.KeyedObjectTests (6ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 96/356 - org.jfree.data.time.junit.DateRangeTests (6ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 97/356 - org.jfree.data.time.junit.TimeSeriesDataItemTests (6ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 98/356 - org.jfree.data.time.ohlc.junit.OHLCItemTests (6ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 99/356 - org.jfree.data.xy.junit.DefaultHighLowDatasetTests (6ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 100/356 - org.jfree.data.xy.junit.VectorDataItemTests (6ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 101/356 - org.jfree.data.xy.junit.XIntervalDataItemTests (6ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 102/356 - org.jfree.data.xy.junit.XYCoordinateTests (6ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 103/356 - org.jfree.data.xy.junit.YIntervalDataItemTests (6ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 104/356 - org.jfree.chart.axis.junit.DateTickTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 105/356 - org.jfree.chart.axis.junit.TickUnitsTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 106/356 - org.jfree.chart.block.junit.AbstractBlockTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 107/356 - org.jfree.chart.block.junit.EmptyBlockTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 108/356 - org.jfree.chart.entity.junit.XYItemEntityTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 109/356 - org.jfree.chart.junit.LegendItemCollectionTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 110/356 - org.jfree.chart.labels.junit.BoxAndWhiskerToolTipGeneratorTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 111/356 - org.jfree.chart.labels.junit.StandardPieToolTipGeneratorTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 112/356 - org.jfree.chart.labels.junit.StandardXYToolTipGeneratorTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 113/356 - org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 114/356 - org.jfree.chart.needle.junit.PinNeedleTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 115/356 - org.jfree.chart.plot.dial.junit.ArcDialFrameTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 116/356 - org.jfree.chart.plot.dial.junit.DialBackgroundTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 117/356 - org.jfree.chart.plot.dial.junit.DialTextAnnotationTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 118/356 - org.jfree.chart.plot.dial.junit.StandardDialRangeTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 119/356 - org.jfree.chart.plot.dial.junit.StandardDialScaleTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 120/356 - org.jfree.chart.plot.junit.PieLabelRecordTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 121/356 - org.jfree.chart.renderer.category.junit.GradientBarPainterTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 122/356 - org.jfree.chart.renderer.junit.RendererUtilitiesTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 123/356 - org.jfree.chart.urls.junit.CustomCategoryURLGeneratorTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 124/356 - org.jfree.chart.urls.junit.StandardCategoryURLGeneratorTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 125/356 - org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 126/356 - org.jfree.chart.util.junit.PaintListTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 127/356 - org.jfree.data.function.junit.PolynomialFunction2DTests (7ms / 0):
+    [junit] MAJOR: 5 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 128/356 - org.jfree.data.gantt.junit.SlidingGanttCategoryDatasetTests (7ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 129/356 - org.jfree.data.gantt.junit.XYTaskDatasetTests (7ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 130/356 - org.jfree.data.junit.ComparableObjectSeriesTests (7ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 131/356 - org.jfree.data.statistics.junit.SimpleHistogramBinTests (7ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 132/356 - org.jfree.data.xy.junit.IntervalXYDelegateTests (7ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 133/356 - org.jfree.data.xy.junit.MatrixSeriesCollectionTests (7ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 134/356 - org.jfree.chart.axis.junit.CategoryTickTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 135/356 - org.jfree.chart.axis.junit.MarkerAxisBandTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 136/356 - org.jfree.chart.block.junit.BlockContainerTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 137/356 - org.jfree.chart.entity.junit.CategoryItemEntityTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 138/356 - org.jfree.chart.junit.ChartRenderingInfoTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 139/356 - org.jfree.chart.junit.LegendItemTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 140/356 - org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 141/356 - org.jfree.chart.labels.junit.HighLowItemLabelGeneratorTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 142/356 - org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 143/356 - org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 144/356 - org.jfree.chart.plot.junit.CategoryMarkerTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 145/356 - org.jfree.chart.renderer.junit.LookupPaintScaleTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 146/356 - org.jfree.chart.title.junit.TextTitleTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 147/356 - org.jfree.chart.util.junit.StrokeMapTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 148/356 - org.jfree.data.general.junit.DefaultPieDatasetTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 149/356 - org.jfree.data.junit.DataUtilitiesTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 150/356 - org.jfree.data.statistics.junit.SimpleHistogramDatasetTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 151/356 - org.jfree.data.xy.junit.MatrixSeriesTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 152/356 - org.jfree.data.xy.junit.XYBarDatasetTests (8ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 153/356 - org.jfree.chart.axis.junit.DateTickUnitTests (9ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 154/356 - org.jfree.chart.axis.junit.MonthDateFormatTests (9ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 155/356 - org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests (9ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 156/356 - org.jfree.chart.block.junit.BorderArrangementTests (9ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 157/356 - org.jfree.chart.block.junit.LabelBlockTests (9ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 158/356 - org.jfree.chart.entity.junit.PieSectionEntityTests (9ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 159/356 - org.jfree.chart.labels.junit.StandardCategorySeriesLabelGeneratorTests (9ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 160/356 - org.jfree.chart.labels.junit.StandardXYItemLabelGeneratorTests (9ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 161/356 - org.jfree.chart.labels.junit.StandardXYSeriesLabelGeneratorTests (9ms / 0):
+    [junit] MAJOR: 6 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 162/356 - org.jfree.chart.plot.dial.junit.DialValueIndicatorTests (9ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 163/356 - org.jfree.chart.plot.junit.ValueMarkerTests (9ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 164/356 - org.jfree.chart.title.junit.DateTitleTests (9ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 165/356 - org.jfree.chart.title.junit.LegendGraphicTests (9ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 166/356 - org.jfree.chart.title.junit.ShortTextTitleTests (9ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 167/356 - org.jfree.chart.util.junit.PaintMapTests (9ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 168/356 - org.jfree.data.junit.KeyToGroupMapTests (9ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 169/356 - org.jfree.data.time.junit.SimpleTimePeriodTests (9ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 170/356 - org.jfree.data.xy.junit.DefaultWindDatasetTests (9ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 171/356 - org.jfree.data.xy.junit.DefaultXYZDatasetTests (9ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 172/356 - org.jfree.chart.axis.junit.NumberAxis3DTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 173/356 - org.jfree.chart.axis.junit.QuarterDateFormatTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 174/356 - org.jfree.chart.entity.junit.StandardEntityCollectionTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 175/356 - org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 176/356 - org.jfree.chart.labels.junit.IntervalCategoryItemLabelGeneratorTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 177/356 - org.jfree.chart.labels.junit.IntervalCategoryToolTipGeneratorTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 178/356 - org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 179/356 - org.jfree.chart.plot.dial.junit.DialPointerTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 180/356 - org.jfree.chart.plot.junit.CompassPlotTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 181/356 - org.jfree.chart.plot.junit.PlotTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 182/356 - org.jfree.data.statistics.junit.DefaultBoxAndWhiskerXYDatasetTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 183/356 - org.jfree.data.statistics.junit.RegressionTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 184/356 - org.jfree.data.xy.junit.DefaultOHLCDatasetTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 185/356 - org.jfree.data.xy.junit.DefaultXYDatasetTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 186/356 - org.jfree.data.xy.junit.VectorSeriesCollectionTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 187/356 - org.jfree.data.xy.junit.XIntervalSeriesCollectionTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 188/356 - org.jfree.data.xy.junit.XYIntervalSeriesCollectionTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 189/356 - org.jfree.data.xy.junit.YIntervalSeriesCollectionTests (10ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 190/356 - org.jfree.chart.annotations.junit.XYShapeAnnotationTests (11ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 191/356 - org.jfree.chart.annotations.junit.XYTextAnnotationTests (11ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 192/356 - org.jfree.chart.axis.junit.CategoryAxis3DTests (11ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 193/356 - org.jfree.chart.title.junit.CompositeTitleTests (11ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 194/356 - org.jfree.chart.title.junit.ImageTitleTests (11ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 195/356 - org.jfree.data.category.junit.CategoryToPieDatasetTests (11ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 196/356 - org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests (11ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 197/356 - org.jfree.data.time.junit.TimePeriodValuesCollectionTests (11ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 198/356 - org.jfree.data.xy.junit.CategoryTableXYDatasetTests (11ms / 0):
+    [junit] MAJOR: 7 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 199/356 - org.jfree.data.xy.junit.DefaultTableXYDatasetTests (11ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 200/356 - org.jfree.chart.annotations.junit.XYDrawableAnnotationTests (12ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 201/356 - org.jfree.chart.annotations.junit.XYLineAnnotationTests (12ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 202/356 - org.jfree.chart.annotations.junit.XYPolygonAnnotationTests (12ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 203/356 - org.jfree.chart.axis.junit.SymbolAxisTests (12ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 204/356 - org.jfree.chart.plot.junit.MeterPlotTests (12ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 205/356 - org.jfree.data.junit.RangeTests (12ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 206/356 - org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests (12ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 207/356 - org.jfree.data.time.junit.TimeTableXYDatasetTests (12ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 208/356 - org.jfree.data.time.ohlc.junit.OHLCSeriesTests (12ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 209/356 - org.jfree.chart.labels.junit.StandardCategoryItemLabelGeneratorTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 210/356 - org.jfree.chart.plot.junit.RingPlotTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 211/356 - org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 212/356 - org.jfree.chart.renderer.xy.junit.XYShapeRendererTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 213/356 - org.jfree.data.category.junit.SlidingCategoryDatasetTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 214/356 - org.jfree.data.statistics.junit.HistogramDatasetTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 215/356 - org.jfree.data.statistics.junit.StatisticsTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 216/356 - org.jfree.data.time.junit.TimePeriodValuesTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 217/356 - org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 218/356 - org.jfree.data.xy.junit.TableXYDatasetTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 219/356 - org.jfree.data.xy.junit.YIntervalSeriesTests (13ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 220/356 - org.jfree.chart.annotations.junit.XYPointerAnnotationTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 221/356 - org.jfree.chart.axis.junit.CategoryAxisTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 222/356 - org.jfree.chart.axis.junit.ExtendedCategoryAxisTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 223/356 - org.jfree.chart.axis.junit.ModuloAxisTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 224/356 - org.jfree.chart.junit.MeterChartTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 225/356 - org.jfree.chart.plot.junit.PolarPlotTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 226/356 - org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 227/356 - org.jfree.chart.title.junit.PaintScaleLegendTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 228/356 - org.jfree.data.junit.KeyedObjects2DTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 229/356 - org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 230/356 - org.jfree.data.xy.junit.VectorSeriesTests (14ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 231/356 - org.jfree.chart.annotations.junit.CategoryTextAnnotationTests (15ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 232/356 - org.jfree.chart.plot.junit.IntervalMarkerTests (15ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 233/356 - org.jfree.chart.plot.junit.ThermometerPlotTests (15ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 234/356 - org.jfree.chart.renderer.xy.junit.VectorRendererTests (15ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 235/356 - org.jfree.data.xy.junit.XYIntervalSeriesTests (15ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 236/356 - org.jfree.chart.axis.junit.LogarithmicAxisTests (16ms / 0):
+    [junit] MAJOR: 8 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 225
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 237/356 - org.jfree.chart.renderer.category.junit.LineRenderer3DTests (16ms / 38):
+    [junit] MAJOR: 561 (14 / 38 / 225) -> AVG-RTPM: 14ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 238/356 - org.jfree.chart.renderer.category.junit.ScatterRendererTests (16ms / 38):
+    [junit] MAJOR: 835 (0 / 24 / 225) -> AVG-RTPM: 11ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 239/356 - org.jfree.chart.renderer.xy.junit.DeviationRendererTests (16ms / 0):
+    [junit] MAJOR: 835 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 240/356 - org.jfree.chart.renderer.xy.junit.WindItemRendererTests (16ms / 0):
+    [junit] MAJOR: 835 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 241/356 - org.jfree.chart.renderer.xy.junit.XYBoxAndWhiskerRendererTests (16ms / 0):
+    [junit] MAJOR: 835 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 242/356 - org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests (16ms / 0):
+    [junit] MAJOR: 835 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 243/356 - org.jfree.chart.renderer.xy.junit.XYSplineRendererTests (16ms / 0):
+    [junit] MAJOR: 835 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 244/356 - org.jfree.data.junit.DefaultKeyedValues2DTests (16ms / 0):
+    [junit] MAJOR: 835 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 245/356 - org.jfree.data.time.junit.TimeSeriesCollectionTests (16ms / 0):
+    [junit] MAJOR: 835 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 246/356 - org.jfree.data.xy.junit.XIntervalSeriesTests (16ms / 0):
+    [junit] MAJOR: 835 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 247/356 - org.jfree.chart.plot.dial.junit.DialPlotTests (17ms / 0):
+    [junit] MAJOR: 835 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 248/356 - org.jfree.chart.renderer.category.junit.BarRenderer3DTests (17ms / 38):
+    [junit] MAJOR: 1193 (0 / 24 / 225) -> AVG-RTPM: 14ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 249/356 - org.jfree.chart.renderer.category.junit.DefaultCategoryItemRendererTests (17ms / 38):
+    [junit] MAJOR: 1475 (0 / 24 / 225) -> AVG-RTPM: 11ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 250/356 - org.jfree.chart.renderer.xy.junit.HighLowRendererTests (17ms / 0):
+    [junit] MAJOR: 1475 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 251/356 - org.jfree.chart.title.junit.LegendTitleTests (17ms / 0):
+    [junit] MAJOR: 1475 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 252/356 - org.jfree.chart.util.junit.SerialUtilitiesTests (17ms / 0):
+    [junit] MAJOR: 1475 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 253/356 - org.jfree.data.junit.KeyedObjectsTests (17ms / 0):
+    [junit] MAJOR: 1475 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 254/356 - org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests (17ms / 0):
+    [junit] MAJOR: 1475 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 255/356 - org.jfree.data.xy.junit.XYSeriesCollectionTests (17ms / 0):
+    [junit] MAJOR: 1475 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 256/356 - org.jfree.chart.annotations.junit.CategoryPointerAnnotationTests (18ms / 0):
+    [junit] MAJOR: 1475 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 257/356 - org.jfree.chart.renderer.category.junit.GanttRendererTests (18ms / 38):
+    [junit] MAJOR: 1829 (0 / 24 / 225) -> AVG-RTPM: 14ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 258/356 - org.jfree.chart.renderer.category.junit.StackedAreaRendererTests (18ms / 38):
+    [junit] MAJOR: 2118 (0 / 24 / 225) -> AVG-RTPM: 12ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 259/356 - org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests (18ms / 0):
+    [junit] MAJOR: 2118 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 260/356 - org.jfree.chart.renderer.xy.junit.XYErrorRendererTests (18ms / 0):
+    [junit] MAJOR: 2118 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 261/356 - org.jfree.data.category.junit.DefaultCategoryDatasetTests (18ms / 0):
+    [junit] MAJOR: 2118 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 262/356 - org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests (19ms / 38):
+    [junit] MAJOR: 2427 (0 / 24 / 225) -> AVG-RTPM: 12ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 263/356 - org.jfree.data.junit.DefaultKeyedValuesTests (19ms / 0):
+    [junit] MAJOR: 2427 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 264/356 - org.jfree.data.time.junit.SecondTests (19ms / 0):
+    [junit] MAJOR: 2427 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 265/356 - org.jfree.chart.annotations.junit.XYImageAnnotationTests (20ms / 0):
+    [junit] MAJOR: 2427 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 266/356 - org.jfree.chart.block.junit.GridArrangementTests (20ms / 0):
+    [junit] MAJOR: 2427 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 267/356 - org.jfree.chart.renderer.xy.junit.CandlestickRendererTests (20ms / 0):
+    [junit] MAJOR: 2427 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 268/356 - org.jfree.chart.renderer.xy.junit.XYBlockRendererTests (20ms / 0):
+    [junit] MAJOR: 2427 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 269/356 - org.jfree.data.time.junit.MinuteTests (20ms / 0):
+    [junit] MAJOR: 2427 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 270/356 - org.jfree.chart.junit.StandardChartThemeTests (21ms / 0):
+    [junit] MAJOR: 2427 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 271/356 - org.jfree.chart.plot.junit.SpiderWebPlotTests (21ms / 0):
+    [junit] MAJOR: 2427 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 272/356 - org.jfree.chart.renderer.category.junit.StackedBarRendererTests (21ms / 38):
+    [junit] MAJOR: 2805 (0 / 24 / 225) -> AVG-RTPM: 15ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 273/356 - org.jfree.data.time.junit.MillisecondTests (21ms / 0):
+    [junit] MAJOR: 2805 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 274/356 - org.jfree.chart.junit.PieChartTests (22ms / 0):
+    [junit] MAJOR: 2805 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 275/356 - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests (23ms / 0):
+    [junit] MAJOR: 2805 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 276/356 - org.jfree.data.time.junit.YearTests (23ms / 0):
+    [junit] MAJOR: 2805 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 14 (11-3-0) / 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 277/356 - org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests (24ms / 133):
+    [junit] MAJOR: 4612 (65 / 119 / 225) -> AVG-RTPM: 15ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 278/356 - org.jfree.data.time.junit.HourTests (24ms / 0):
+    [junit] MAJOR: 4612 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 279/356 - org.jfree.data.time.junit.MonthTests (24ms / 0):
+    [junit] MAJOR: 4612 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 280/356 - org.jfree.chart.renderer.category.junit.LineAndShapeRendererTests (25ms / 54):
+    [junit] MAJOR: 4948 (0 / 14 / 225) -> AVG-RTPM: 24ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 281/356 - org.jfree.chart.renderer.xy.junit.XYBubbleRendererTests (25ms / 0):
+    [junit] MAJOR: 4948 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 282/356 - org.jfree.chart.renderer.xy.junit.XYDotRendererTests (25ms / 0):
+    [junit] MAJOR: 4948 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 283/356 - org.jfree.data.time.junit.DayTests (25ms / 0):
+    [junit] MAJOR: 4948 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 284/356 - org.jfree.data.time.junit.QuarterTests (25ms / 0):
+    [junit] MAJOR: 4948 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 285/356 - org.jfree.chart.renderer.category.junit.CategoryStepRendererTests (26ms / 54):
+    [junit] MAJOR: 5294 (0 / 14 / 225) -> AVG-RTPM: 24ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 286/356 - org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests (26ms / 0):
+    [junit] MAJOR: 5294 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 287/356 - org.jfree.data.gantt.junit.TaskSeriesCollectionTests (26ms / 0):
+    [junit] MAJOR: 5294 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 288/356 - org.jfree.data.time.junit.WeekTests (26ms / 0):
+    [junit] MAJOR: 5295 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 289/356 - org.jfree.chart.axis.junit.CyclicNumberAxisTests (27ms / 0):
+    [junit] MAJOR: 5295 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 290/356 - org.jfree.chart.renderer.category.junit.AreaRendererTests (27ms / 54):
+    [junit] MAJOR: 5641 (0 / 14 / 225) -> AVG-RTPM: 24ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 291/356 - org.jfree.chart.plot.junit.FastScatterPlotTests (28ms / 0):
+    [junit] MAJOR: 5641 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 292/356 - org.jfree.chart.renderer.xy.junit.YIntervalRendererTests (28ms / 0):
+    [junit] MAJOR: 5641 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 293/356 - org.jfree.chart.annotations.junit.CategoryLineAnnotationTests (29ms / 0):
+    [junit] MAJOR: 5642 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 294/356 - org.jfree.chart.axis.junit.ValueAxisTests (29ms / 0):
+    [junit] MAJOR: 5642 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 295/356 - org.jfree.chart.plot.junit.PiePlot3DTests (31ms / 0):
+    [junit] MAJOR: 5642 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 296/356 - org.jfree.chart.renderer.category.junit.BarRendererTests (31ms / 61):
+    [junit] MAJOR: 6139 (0 / 19 / 225) -> AVG-RTPM: 26ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 297/356 - org.jfree.chart.renderer.xy.junit.XYStepAreaRendererTests (31ms / 0):
+    [junit] MAJOR: 6139 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 298/356 - org.jfree.chart.plot.junit.MarkerTests (32ms / 0):
+    [junit] MAJOR: 6139 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 299/356 - org.jfree.chart.junit.XYBarChartTests (33ms / 0):
+    [junit] MAJOR: 6139 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 300/356 - org.jfree.chart.junit.PieChart3DTests (34ms / 0):
+    [junit] MAJOR: 6139 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 301/356 - org.jfree.chart.junit.XYStepAreaChartTests (34ms / 0):
+    [junit] MAJOR: 6139 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 302/356 - org.jfree.chart.plot.junit.MultiplePiePlotTests (34ms / 0):
+    [junit] MAJOR: 6139 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 303/356 - org.jfree.chart.renderer.xy.junit.XYAreaRendererTests (34ms / 0):
+    [junit] MAJOR: 6139 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 304/356 - org.jfree.chart.junit.ScatterPlotTests (35ms / 0):
+    [junit] MAJOR: 6139 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 79 (62-17-0) / 146
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 305/356 - org.jfree.chart.junit.WaterfallChartTests (35ms / 44):
+    [junit] MAJOR: 6948 (1 / 24 / 225) -> AVG-RTPM: 33ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 80 (63-17-0) / 145
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 306/356 - org.jfree.chart.junit.XYAreaChartTests (35ms / 0):
+    [junit] MAJOR: 6948 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 80 (63-17-0) / 145
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 307/356 - org.jfree.chart.junit.XYLineChartTests (35ms / 0):
+    [junit] MAJOR: 6948 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 80 (63-17-0) / 145
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 308/356 - org.jfree.chart.junit.XYStepChartTests (35ms / 0):
+    [junit] MAJOR: 6948 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 80 (63-17-0) / 145
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 309/356 - org.jfree.chart.renderer.category.junit.LevelRendererTests (35ms / 133):
+    [junit] MAJOR: 9768 (20 / 86 / 225) -> AVG-RTPM: 32ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 100 (71-29-0) / 125
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 310/356 - org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests (35ms / 126):
+    [junit] MAJOR: 11737 (0 / 59 / 225) -> AVG-RTPM: 33ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 100 (71-29-0) / 125
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 311/356 - org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests (35ms / 0):
+    [junit] MAJOR: 11737 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 100 (71-29-0) / 125
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 312/356 - org.jfree.chart.renderer.xy.junit.XYStepRendererTests (36ms / 0):
+    [junit] MAJOR: 11737 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 100 (71-29-0) / 125
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 313/356 - org.jfree.chart.junit.AreaChartTests (37ms / 56):
+    [junit] MAJOR: 12673 (0 / 28 / 225) -> AVG-RTPM: 33ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 100 (71-29-0) / 125
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 314/356 - org.jfree.chart.junit.LineChartTests (37ms / 56):
+    [junit] MAJOR: 13644 (0 / 28 / 225) -> AVG-RTPM: 34ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 100 (71-29-0) / 125
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 315/356 - org.jfree.chart.junit.StackedBarChart3DTests (37ms / 44):
+    [junit] MAJOR: 14429 (0 / 23 / 225) -> AVG-RTPM: 34ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 100 (71-29-0) / 125
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 316/356 - org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests (37ms / 111):
+    [junit] MAJOR: 16079 (1 / 49 / 225) -> AVG-RTPM: 33ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 317/356 - org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests (37ms / 0):
+    [junit] MAJOR: 16079 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 318/356 - org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests (37ms / 0):
+    [junit] MAJOR: 16080 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 319/356 - org.jfree.data.xy.junit.XYSeriesTests (37ms / 0):
+    [junit] MAJOR: 16080 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 320/356 - org.jfree.chart.axis.junit.SubCategoryAxisTests (38ms / 30):
+    [junit] MAJOR: 16594 (0 / 15 / 225) -> AVG-RTPM: 34ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 321/356 - org.jfree.chart.junit.BarChart3DTests (38ms / 56):
+    [junit] MAJOR: 17568 (0 / 28 / 225) -> AVG-RTPM: 34ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 322/356 - org.jfree.chart.junit.BarChartTests (38ms / 56):
+    [junit] MAJOR: 18551 (0 / 28 / 225) -> AVG-RTPM: 35ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 323/356 - org.jfree.chart.junit.StackedAreaChartTests (38ms / 44):
+    [junit] MAJOR: 19440 (0 / 23 / 225) -> AVG-RTPM: 38ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 324/356 - org.jfree.chart.junit.StackedBarChartTests (38ms / 44):
+    [junit] MAJOR: 20293 (0 / 23 / 225) -> AVG-RTPM: 37ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 325/356 - org.jfree.chart.junit.TimeSeriesChartTests (38ms / 0):
+    [junit] MAJOR: 20294 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 326/356 - org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests (38ms / 38):
+    [junit] MAJOR: 20400 (0 / 6 / 225) -> AVG-RTPM: 17ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 327/356 - org.jfree.chart.renderer.xy.junit.XYBarRendererTests (38ms / 0):
+    [junit] MAJOR: 20400 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 328/356 - org.jfree.chart.renderer.category.junit.IntervalBarRendererTests (39ms / 115):
+    [junit] MAJOR: 22319 (0 / 52 / 225) -> AVG-RTPM: 36ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 329/356 - org.jfree.chart.renderer.category.junit.LayeredBarRendererTests (39ms / 115):
+    [junit] MAJOR: 24462 (0 / 53 / 225) -> AVG-RTPM: 40ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 330/356 - org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests (40ms / 74):
+    [junit] MAJOR: 25602 (0 / 25 / 225) -> AVG-RTPM: 45ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 331/356 - org.jfree.chart.plot.junit.CombinedDomainXYPlotTests (40ms / 0):
+    [junit] MAJOR: 25602 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 332/356 - org.jfree.chart.plot.junit.CombinedRangeXYPlotTests (40ms / 0):
+    [junit] MAJOR: 25602 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 333/356 - org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests (40ms / 0):
+    [junit] MAJOR: 25602 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 334/356 - org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests (40ms / 0):
+    [junit] MAJOR: 25602 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 335/356 - org.jfree.data.time.junit.TimeSeriesTests (41ms / 0):
+    [junit] MAJOR: 25602 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 336/356 - org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests (43ms / 101):
+    [junit] MAJOR: 27443 (0 / 46 / 225) -> AVG-RTPM: 40ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 337/356 - org.jfree.chart.junit.LineChart3DTests (45ms / 56):
+    [junit] MAJOR: 28425 (0 / 28 / 225) -> AVG-RTPM: 35ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 101 (72-29-0) / 124
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 338/356 - org.jfree.chart.renderer.junit.AbstractRendererTests (46ms / 43):
+    [junit] MAJOR: 28693 (1 / 10 / 225) -> AVG-RTPM: 26ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 102 (73-29-0) / 123
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 339/356 - org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests (47ms / 74):
+    [junit] MAJOR: 29865 (0 / 24 / 225) -> AVG-RTPM: 48ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 102 (73-29-0) / 123
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 340/356 - org.jfree.chart.axis.junit.NumberAxisTests (48ms / 26):
+    [junit] MAJOR: 30322 (0 / 10 / 225) -> AVG-RTPM: 45ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 102 (73-29-0) / 123
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 341/356 - org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests (48ms / 0):
+    [junit] MAJOR: 30323 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 102 (73-29-0) / 123
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 342/356 - org.jfree.chart.plot.junit.PiePlotTests (49ms / 0):
+    [junit] MAJOR: 30323 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 102 (73-29-0) / 123
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 343/356 - org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests (49ms / 116):
+    [junit] MAJOR: 32656 (2 / 52 / 225) -> AVG-RTPM: 44ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 104 (75-29-0) / 121
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 344/356 - org.jfree.chart.annotations.junit.XYTitleAnnotationTests (54ms / 0):
+    [junit] MAJOR: 32656 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 104 (75-29-0) / 121
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 345/356 - org.jfree.chart.axis.junit.LogAxisTests (59ms / 26):
+    [junit] MAJOR: 33051 (0 / 10 / 225) -> AVG-RTPM: 39ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 104 (75-29-0) / 121
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 346/356 - org.jfree.data.general.junit.DatasetUtilitiesTests (61ms / 0):
+    [junit] MAJOR: 33051 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 104 (75-29-0) / 121
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 347/356 - org.jfree.chart.junit.GanttChartTests (65ms / 108):
+    [junit] MAJOR: 36075 (0 / 63 / 225) -> AVG-RTPM: 48ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 104 (75-29-0) / 121
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 348/356 - org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests (70ms / 133):
+    [junit] MAJOR: 39692 (2 / 66 / 225) -> AVG-RTPM: 54ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 106 (77-29-0) / 119
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 349/356 - org.jfree.chart.axis.junit.PeriodAxisTests (72ms / 0):
+    [junit] MAJOR: 39692 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 106 (77-29-0) / 119
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 350/356 - org.jfree.chart.plot.junit.CategoryPlotTests (83ms / 87):
+    [junit] MAJOR: 42524 (0 / 33 / 225) -> AVG-RTPM: 85ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 106 (77-29-0) / 119
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 351/356 - org.jfree.chart.junit.ChartPanelTests (85ms / 0):
+    [junit] MAJOR: 42525 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 106 (77-29-0) / 119
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 352/356 - org.jfree.chart.junit.JFreeChartTests (90ms / 48):
+    [junit] MAJOR: 43293 (0 / 10 / 225) -> AVG-RTPM: 76ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 106 (77-29-0) / 119
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 353/356 - org.jfree.chart.plot.junit.XYPlotTests (98ms / 0):
+    [junit] MAJOR: 43294 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 106 (77-29-0) / 119
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 354/356 - org.jfree.chart.axis.junit.DateAxisTests (99ms / 0):
+    [junit] MAJOR: 43294 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 106 (77-29-0) / 119
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 355/356 - org.jfree.chart.annotations.junit.XYBoxAnnotationTests (332ms / 0):
+    [junit] MAJOR: 43294 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 106 (77-29-0) / 119
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 356/356 - org.jfree.chart.axis.junit.SegmentedTimelineTests (984ms / 0):
+    [junit] MAJOR: 43294 (0 / 0 / 225) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 106 (77-29-0) / 119
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time                 : 43.29 seconds
+    [junit] MAJOR: Mutation score                : 23.93% (47.11%)
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME): 106 (77-29-0)
+    [junit] MAJOR: Mutants live                  : 119
+    [junit] MAJOR: Mutant executions             : 1288
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant details to /Users/m.rudenko/mpr/project/data/raw/Chart/1f/kill.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Done!
+    [junit] MAJOR: ------------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 53 seconds

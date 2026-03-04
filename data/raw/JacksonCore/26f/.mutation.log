@@ -1,0 +1,535 @@
+
+test-offline:
+
+get-deps:
+
+jackson-core-from-maven.compile:
+    [javac] /Users/m.rudenko/mpr/project/data/raw/JacksonCore/26f/maven-build.xml:74: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+jackson-core-from-maven.compile-tests:
+    [javac] /Users/m.rudenko/mpr/project/data/raw/JacksonCore/26f/maven-build.xml:102: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 121 ordered test(s)to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 28.70 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Serialize preprocessing results to preprocessing.ser
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 3310
+    [junit] MAJOR: Mutants covered:   2957 (89.34%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export coverage map to covMap.csv
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 2957 mutant(s) and 121 test(s).
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 1/121 - com.fasterxml.jackson.core.io.TestCharTypes (1ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 2/121 - com.fasterxml.jackson.core.io.TestIOContext (1ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 3/121 - com.fasterxml.jackson.core.util.ByteArrayBuilderTest (1ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 4/121 - com.fasterxml.jackson.core.util.TestCharTypes (1ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 5/121 - com.fasterxml.jackson.core.format.DataFormatMatcherTest (2ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 6/121 - com.fasterxml.jackson.core.io.SegmentedStringWriterTest (2ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 7/121 - com.fasterxml.jackson.core.io.TestMergedStream (2ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 8/121 - com.fasterxml.jackson.core.util.SeparatorsTest (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 9/121 - com.fasterxml.jackson.core.util.TestSerializedString (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 10/121 - com.fasterxml.jackson.core.JsonpCharacterEscapesTest (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 11/121 - com.fasterxml.jackson.core.json.JsonReadContextTest (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 12/121 - com.fasterxml.jackson.core.json.TestUnicode (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 13/121 - com.fasterxml.jackson.core.type.TypeReferenceTest (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 14/121 - com.fasterxml.jackson.core.util.DefaultIndenterTest (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 15/121 - com.fasterxml.jackson.core.util.VersionUtilTest (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 16/121 - com.fasterxml.jackson.core.TestVersions (5ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 17/121 - com.fasterxml.jackson.core.VersionTest (5ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 18/121 - com.fasterxml.jackson.core.json.GeneratorFailTest (5ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 19/121 - com.fasterxml.jackson.core.json.LocationInArrayTest (5ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 20/121 - com.fasterxml.jackson.core.json.LocationInObjectTest (5ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 21/121 - com.fasterxml.jackson.core.json.TestParserOverrides (5ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 22/121 - com.fasterxml.jackson.core.util.RequestPayloadTest (5ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 23/121 - com.fasterxml.jackson.core.io.UTF8WriterTest (6ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 24/121 - com.fasterxml.jackson.core.json.GeneratorFailFromReaderTest (6ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 25/121 - com.fasterxml.jackson.core.json.LocationOffsetsTest (6ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 26/121 - com.fasterxml.jackson.core.json.TestDecorators (6ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 27/121 - com.fasterxml.jackson.core.json.TestGeneratorDupHandling (6ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 28/121 - com.fasterxml.jackson.core.json.TestMaxErrorSize (6ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 2957
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 29/121 - com.fasterxml.jackson.core.json.async.AsyncLocationTest (6ms / 68):
+    [junit] MAJOR: 818 (37 / 68 / 2957) -> AVG-RTPM: 12ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 30/121 - com.fasterxml.jackson.core.main.TestGeneratorArray (6ms / 0):
+    [junit] MAJOR: 818 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 31/121 - com.fasterxml.jackson.core.main.TestGeneratorCopy (6ms / 0):
+    [junit] MAJOR: 818 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 32/121 - com.fasterxml.jackson.core.read.DataInputTest (6ms / 0):
+    [junit] MAJOR: 818 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 33/121 - com.fasterxml.jackson.core.read.ParserSymbolHandlingTest (6ms / 0):
+    [junit] MAJOR: 818 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 34/121 - com.fasterxml.jackson.core.read.UTF32ParseTest (6ms / 0):
+    [junit] MAJOR: 818 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 35/121 - com.fasterxml.jackson.core.sym.TestHashCollisionChars (6ms / 0):
+    [junit] MAJOR: 818 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 36/121 - com.fasterxml.jackson.core.sym.TestSymbolsWithMediaItem (6ms / 0):
+    [junit] MAJOR: 818 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 37/121 - com.fasterxml.jackson.core.format.TestJsonFormatDetection (7ms / 0):
+    [junit] MAJOR: 818 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 38/121 - com.fasterxml.jackson.core.json.ParserSequenceTest (7ms / 0):
+    [junit] MAJOR: 818 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 39/121 - com.fasterxml.jackson.core.json.TestCustomEscaping (7ms / 0):
+    [junit] MAJOR: 818 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 37 (17-20-0) / 2920
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 40/121 - com.fasterxml.jackson.core.json.async.ConfigTest (7ms / 89):
+    [junit] MAJOR: 1391 (9 / 52 / 2957) -> AVG-RTPM: 11ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 46 (19-27-0) / 2911
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 41/121 - com.fasterxml.jackson.core.main.TestParserWithObjects (7ms / 0):
+    [junit] MAJOR: 1391 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 46 (19-27-0) / 2911
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 42/121 - com.fasterxml.jackson.core.sym.TestByteBasedSymbols (7ms / 0):
+    [junit] MAJOR: 1391 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 46 (19-27-0) / 2911
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 43/121 - com.fasterxml.jackson.core.util.TestVersionUtil (7ms / 0):
+    [junit] MAJOR: 1391 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 46 (19-27-0) / 2911
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 44/121 - com.fasterxml.jackson.core.TestLocation (8ms / 0):
+    [junit] MAJOR: 1391 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 46 (19-27-0) / 2911
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 45/121 - com.fasterxml.jackson.core.base64.Base64CodecTest (8ms / 0):
+    [junit] MAJOR: 1391 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 46 (19-27-0) / 2911
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 46/121 - com.fasterxml.jackson.core.json.async.AsyncCharEscapingTest (8ms / 298):
+    [junit] MAJOR: 5908 (156 / 256 / 2957) -> AVG-RTPM: 17ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 202 (110-85-7) / 2755
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 47/121 - com.fasterxml.jackson.core.json.async.AsyncInvalidCharsTest (8ms / 237):
+    [junit] MAJOR: 8711 (93 / 193 / 2957) -> AVG-RTPM: 14ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 295 (148-139-8) / 2662
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 48/121 - com.fasterxml.jackson.core.json.async.AsyncScopeMatchingTest (8ms / 200):
+    [junit] MAJOR: 10240 (17 / 107 / 2957) -> AVG-RTPM: 14ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 312 (154-150-8) / 2645
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 49/121 - com.fasterxml.jackson.core.main.TestGeneratorClosing (8ms / 0):
+    [junit] MAJOR: 10240 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 312 (154-150-8) / 2645
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 50/121 - com.fasterxml.jackson.core.main.TestGeneratorObject (8ms / 0):
+    [junit] MAJOR: 10240 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 312 (154-150-8) / 2645
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 51/121 - com.fasterxml.jackson.core.read.ValueConversionsTest (8ms / 0):
+    [junit] MAJOR: 10240 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 312 (154-150-8) / 2645
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 52/121 - com.fasterxml.jackson.core.util.TestDelegates (8ms / 0):
+    [junit] MAJOR: 10240 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 312 (154-150-8) / 2645
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 53/121 - com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest (9ms / 0):
+    [junit] MAJOR: 10241 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 312 (154-150-8) / 2645
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 54/121 - com.fasterxml.jackson.core.json.async.AsyncNumberLeadingZeroesTest (9ms / 302):
+    [junit] MAJOR: 14428 (122 / 245 / 2957) -> AVG-RTPM: 17ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 434 (242-181-11) / 2523
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 55/121 - com.fasterxml.jackson.core.json.async.AsyncTokenFilterTest (9ms / 326):
+    [junit] MAJOR: 17384 (55 / 239 / 2957) -> AVG-RTPM: 12ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 489 (258-220-11) / 2468
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 56/121 - com.fasterxml.jackson.core.main.TestParserClosing (9ms / 0):
+    [junit] MAJOR: 17384 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 489 (258-220-11) / 2468
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 57/121 - com.fasterxml.jackson.core.main.TestParserFeatures (9ms / 0):
+    [junit] MAJOR: 17384 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 489 (258-220-11) / 2468
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 58/121 - com.fasterxml.jackson.core.main.TestParserLinefeeds (9ms / 0):
+    [junit] MAJOR: 17384 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 489 (258-220-11) / 2468
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 59/121 - com.fasterxml.jackson.core.sym.SymbolTableMergingTest (9ms / 0):
+    [junit] MAJOR: 17384 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 489 (258-220-11) / 2468
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 60/121 - com.fasterxml.jackson.core.PointerFromContextTest (10ms / 0):
+    [junit] MAJOR: 17384 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 489 (258-220-11) / 2468
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 61/121 - com.fasterxml.jackson.core.json.JsonFactoryTest (10ms / 0):
+    [junit] MAJOR: 17385 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 489 (258-220-11) / 2468
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 62/121 - com.fasterxml.jackson.core.json.TestGeneratorWithSerializedString (10ms / 0):
+    [junit] MAJOR: 17385 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 489 (258-220-11) / 2468
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 63/121 - com.fasterxml.jackson.core.json.async.AsyncRootValuesTest (10ms / 701):
+    [junit] MAJOR: 24644 (197 / 498 / 2957) -> AVG-RTPM: 14ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 686 (313-360-13) / 2271
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 64/121 - com.fasterxml.jackson.core.json.async.AsyncSimpleObjectTest (10ms / 894):
+    [junit] MAJOR: 36019 (171 / 556 / 2957) -> AVG-RTPM: 20ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 857 (405-439-13) / 2100
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 65/121 - com.fasterxml.jackson.core.read.ParserErrorHandlingTest (10ms / 0):
+    [junit] MAJOR: 36020 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 857 (405-439-13) / 2100
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 66/121 - com.fasterxml.jackson.core.TestExceptions (11ms / 0):
+    [junit] MAJOR: 36020 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 857 (405-439-13) / 2100
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 67/121 - com.fasterxml.jackson.core.TestJsonPointer (11ms / 0):
+    [junit] MAJOR: 36020 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 857 (405-439-13) / 2100
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 68/121 - com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest (11ms / 0):
+    [junit] MAJOR: 36020 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 857 (405-439-13) / 2100
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 69/121 - com.fasterxml.jackson.core.json.RequestPayloadOnExceptionTest (11ms / 0):
+    [junit] MAJOR: 36020 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 857 (405-439-13) / 2100
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 70/121 - com.fasterxml.jackson.core.json.TestUtf8Generator (11ms / 0):
+    [junit] MAJOR: 36020 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 857 (405-439-13) / 2100
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 71/121 - com.fasterxml.jackson.core.json.async.AsyncFieldNamesTest (11ms / 1109):
+    [junit] MAJOR: 49368 (362 / 755 / 2957) -> AVG-RTPM: 17ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1219 (620-583-16) / 1738
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 72/121 - com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest (11ms / 250):
+    [junit] MAJOR: 50470 (29 / 95 / 2957) -> AVG-RTPM: 11ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1248 (622-610-16) / 1709
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 73/121 - com.fasterxml.jackson.core.json.async.AsyncRootNumbersTest (11ms / 654):
+    [junit] MAJOR: 55753 (142 / 364 / 2957) -> AVG-RTPM: 14ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1390 (666-706-18) / 1567
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 74/121 - com.fasterxml.jackson.core.json.async.AsyncStringObjectTest (11ms / 668):
+    [junit] MAJOR: 61154 (132 / 332 / 2957) -> AVG-RTPM: 16ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 75/121 - com.fasterxml.jackson.core.main.TestArrayParsing (11ms / 0):
+    [junit] MAJOR: 61154 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 76/121 - com.fasterxml.jackson.core.read.ParserDupHandlingTest (11ms / 0):
+    [junit] MAJOR: 61154 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 77/121 - com.fasterxml.jackson.core.read.ParserScopeMatchingTest (11ms / 0):
+    [junit] MAJOR: 61154 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 78/121 - com.fasterxml.jackson.core.sym.SymbolsViaParserTest (11ms / 0):
+    [junit] MAJOR: 61154 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 79/121 - com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter (11ms / 0):
+    [junit] MAJOR: 61154 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 80/121 - com.fasterxml.jackson.core.base64.Base64GenerationTest (12ms / 0):
+    [junit] MAJOR: 61154 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 81/121 - com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest (12ms / 0):
+    [junit] MAJOR: 61154 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 82/121 - com.fasterxml.jackson.core.json.JsonParserClosedCaseTest (12ms / 0):
+    [junit] MAJOR: 61155 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 83/121 - com.fasterxml.jackson.core.json.TestCharEscaping (12ms / 0):
+    [junit] MAJOR: 61155 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 84/121 - com.fasterxml.jackson.core.json.TestRootValues (12ms / 0):
+    [junit] MAJOR: 61155 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 85/121 - com.fasterxml.jackson.core.read.UTF8NamesParseTest (12ms / 0):
+    [junit] MAJOR: 61155 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1522 (725-779-18) / 1435
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 86/121 - com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest (13ms / 767):
+    [junit] MAJOR: 65933 (99 / 319 / 2957) -> AVG-RTPM: 14ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1621 (746-857-18) / 1336
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 87/121 - com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest (13ms / 993):
+    [junit] MAJOR: 71651 (21 / 393 / 2957) -> AVG-RTPM: 14ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1642 (758-866-18) / 1315
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 88/121 - com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest (14ms / 231):
+    [junit] MAJOR: 72480 (0 / 66 / 2957) -> AVG-RTPM: 12ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1642 (758-866-18) / 1315
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 89/121 - com.fasterxml.jackson.core.json.async.AsyncParserNamesTest (14ms / 533):
+    [junit] MAJOR: 75763 (4 / 156 / 2957) -> AVG-RTPM: 21ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1646 (758-870-18) / 1311
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 90/121 - com.fasterxml.jackson.core.main.TestPrettyPrinter (14ms / 0):
+    [junit] MAJOR: 75763 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1646 (758-870-18) / 1311
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 91/121 - com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest (15ms / 0):
+    [junit] MAJOR: 75763 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1646 (758-870-18) / 1311
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 92/121 - com.fasterxml.jackson.core.json.GeneratorFeaturesTest (16ms / 0):
+    [junit] MAJOR: 75763 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1646 (758-870-18) / 1311
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 93/121 - com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest (16ms / 741):
+    [junit] MAJOR: 81603 (8 / 272 / 2957) -> AVG-RTPM: 21ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 94/121 - com.fasterxml.jackson.core.read.NumberCoercionTest (16ms / 0):
+    [junit] MAJOR: 81604 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 95/121 - com.fasterxml.jackson.core.json.GeneratorBasicTest (17ms / 0):
+    [junit] MAJOR: 81604 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 96/121 - com.fasterxml.jackson.core.read.CommentParsingTest (17ms / 0):
+    [junit] MAJOR: 81604 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 97/121 - com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest (17ms / 0):
+    [junit] MAJOR: 81604 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 98/121 - com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest (18ms / 0):
+    [junit] MAJOR: 81604 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 99/121 - com.fasterxml.jackson.core.util.TestTextBuffer (22ms / 0):
+    [junit] MAJOR: 81604 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 100/121 - com.fasterxml.jackson.core.filter.BasicParserFilteringTest (28ms / 0):
+    [junit] MAJOR: 81604 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 101/121 - com.fasterxml.jackson.core.io.TestJsonStringEncoder (29ms / 0):
+    [junit] MAJOR: 81604 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 102/121 - com.fasterxml.jackson.core.json.TestWithTonsaSymbols (29ms / 0):
+    [junit] MAJOR: 81604 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 103/121 - com.fasterxml.jackson.core.TestJDKSerializability (34ms / 0):
+    [junit] MAJOR: 81604 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1654 (762-872-20) / 1303
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 104/121 - com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest (38ms / 1316):
+    [junit] MAJOR: 115933 (147 / 556 / 2957) -> AVG-RTPM: 61ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1801 (834-939-28) / 1156
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 105/121 - com.fasterxml.jackson.core.main.TestRawStringWriting (47ms / 0):
+    [junit] MAJOR: 115935 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1801 (834-939-28) / 1156
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 106/121 - com.fasterxml.jackson.core.read.JsonParserTest (48ms / 0):
+    [junit] MAJOR: 115935 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1801 (834-939-28) / 1156
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 107/121 - com.fasterxml.jackson.core.json.ArrayGenerationTest (50ms / 0):
+    [junit] MAJOR: 115936 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1801 (834-939-28) / 1156
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 108/121 - com.fasterxml.jackson.core.read.NumberOverflowTest (51ms / 0):
+    [junit] MAJOR: 115936 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1801 (834-939-28) / 1156
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 109/121 - com.fasterxml.jackson.core.json.async.AsyncStringArrayTest (53ms / 507):
+    [junit] MAJOR: 127912 (11 / 109 / 2957) -> AVG-RTPM: 109ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1812 (837-945-30) / 1145
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 110/121 - com.fasterxml.jackson.core.json.async.AsyncUnicodeHandlingTest (61ms / 936):
+    [junit] MAJOR: 151081 (187 / 447 / 2957) -> AVG-RTPM: 51ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1999 (940-1029-30) / 958
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 111/121 - com.fasterxml.jackson.core.main.TestNumberParsing (74ms / 0):
+    [junit] MAJOR: 151081 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1999 (940-1029-30) / 958
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 112/121 - com.fasterxml.jackson.core.base64.Base64BinaryParsingTest (78ms / 0):
+    [junit] MAJOR: 151081 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1999 (940-1029-30) / 958
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 113/121 - com.fasterxml.jackson.core.util.TestNumberPrinting (114ms / 0):
+    [junit] MAJOR: 151081 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1999 (940-1029-30) / 958
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 114/121 - com.fasterxml.jackson.core.read.NumberParsingTest (129ms / 0):
+    [junit] MAJOR: 151081 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1999 (940-1029-30) / 958
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 115/121 - com.fasterxml.jackson.core.sym.TestSymbolTables (147ms / 0):
+    [junit] MAJOR: 151081 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 1999 (940-1029-30) / 958
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 116/121 - com.fasterxml.jackson.core.json.async.AsyncBinaryParseTest (150ms / 493):
+    [junit] MAJOR: 178382 (3 / 111 / 2957) -> AVG-RTPM: 245ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 2002 (942-1030-30) / 955
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 117/121 - com.fasterxml.jackson.core.main.TestGeneratorMisc (236ms / 0):
+    [junit] MAJOR: 178384 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 2002 (942-1030-30) / 955
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 118/121 - com.fasterxml.jackson.core.json.StringGenerationFromReaderTest (424ms / 0):
+    [junit] MAJOR: 178384 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 2002 (942-1030-30) / 955
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 119/121 - com.fasterxml.jackson.core.json.async.AsyncConcurrencyTest (633ms / 217):
+    [junit] MAJOR: 220676 (0 / 47 / 2957) -> AVG-RTPM: 899ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 2002 (942-1030-30) / 955
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 120/121 - com.fasterxml.jackson.core.json.StringGenerationTest (684ms / 0):
+    [junit] MAJOR: 220678 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 2002 (942-1030-30) / 955
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 121/121 - com.fasterxml.jackson.core.read.NextXxxAccessTest (783ms / 0):
+    [junit] MAJOR: 220678 (0 / 0 / 2957) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 2002 (942-1030-30) / 955
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time                 : 220.68 seconds
+    [junit] MAJOR: Mutation score                : 60.48% (67.70%)
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME): 2002 (942-1030-30)
+    [junit] MAJOR: Mutants live                  : 955
+    [junit] MAJOR: Mutant executions             : 6236
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant details to /Users/m.rudenko/mpr/project/data/raw/JacksonCore/26f/kill.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Done!
+    [junit] MAJOR: ------------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 4 minutes 9 seconds

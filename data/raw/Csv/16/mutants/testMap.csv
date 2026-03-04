@@ -1,0 +1,15 @@
+TestNo,TestName,Runtime
+1,org.apache.commons.csv.issues.JiraCsv167Test,1
+2,org.apache.commons.csv.AssertionsTest,2
+3,org.apache.commons.csv.issues.JiraCsv164Test,4
+4,org.apache.commons.csv.ExtendedBufferedReaderTest,5
+5,org.apache.commons.csv.TokenMatchersTest,5
+6,org.apache.commons.csv.CSVFormatPredefinedTest,9
+7,org.apache.commons.csv.issues.JiraCsv203Test,9
+8,org.apache.commons.csv.CSVFileParserTest,22
+9,org.apache.commons.csv.LexerTest,30
+10,org.apache.commons.csv.CSVRecordTest,32
+11,org.apache.commons.csv.CSVFormatTest,72
+12,org.apache.commons.csv.CSVParserTest,83
+13,org.apache.commons.csv.issues.JiraCsv198Test,112
+14,org.apache.commons.csv.CSVPrinterTest,1534

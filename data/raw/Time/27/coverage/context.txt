@@ -1,0 +1,6 @@
+project=Time
+bug_id=27
+src_test_dir=src/test/java
+classes_dir=build/classes
+test_classes_dir=build/tests
+cp_test=/Users/m.rudenko/mpr/project/data/raw/Time/27f/build/classes:/Users/m.rudenko/mpr/project/data/raw/Time/27f/build/tests:/Users/m.rudenko/mpr/project/defects4j/framework/projects/lib/junit-4.12-hamcrest-1.3.jar:/Users/m.rudenko/mpr/project/data/raw/Time/27f/src/test/java

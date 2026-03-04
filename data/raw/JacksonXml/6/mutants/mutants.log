@@ -1,0 +1,534 @@
+1:LVR:FALSE:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature:48:1722:false |==> true
+2:LVR:FALSE:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature:59:2304:false |==> true
+3:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@collectDefaults():71:2593:0 |==> 1
+4:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@collectDefaults():71:2593:0 |==> -1
+5:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@collectDefaults():73:2675:f.enabledByDefault() |==> false
+6:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@collectDefaults():73:2675:f.enabledByDefault() |==> true
+7:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@collectDefaults():74:2701:flags |= f.getMask(); |==> <NO-OP>
+8:LVR:POS:0:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@<init>(boolean):82:2903:1 |==> 0
+9:LVR:POS:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@<init>(boolean):82:2903:1 |==> -1
+10:SOR:<<(int,int):>>(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@<init>(boolean):82:2903:1 << ordinal() |==> 1 >> ordinal()
+11:SOR:<<(int,int):>>>(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@<init>(boolean):82:2903:1 << ordinal() |==> 1 >>> ordinal()
+12:LOR:&(int,int):^(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@enabledIn(int):87:3130:flags & getMask() |==> flags ^ getMask()
+13:LOR:&(int,int):|(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@enabledIn(int):87:3130:flags & getMask() |==> flags | getMask()
+14:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@enabledIn(int):87:3152:0 |==> 1
+15:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@enabledIn(int):87:3152:0 |==> -1
+16:ROR:!=(int,int):<(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@enabledIn(int):87:3129:(flags & getMask()) != 0 |==> (flags & getMask()) < 0
+17:ROR:!=(int,int):>(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@enabledIn(int):87:3129:(flags & getMask()) != 0 |==> (flags & getMask()) > 0
+18:ROR:!=(int,int):TRUE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator$Feature@enabledIn(int):87:3149:(flags & getMask()) != 0 |==> true
+19:LVR:FALSE:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:144:4692:false |==> true
+20:LVR:FALSE:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:152:4980:false |==> true
+21:LVR:FALSE:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:158:5145:false |==> true
+22:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@<init>(com.fasterxml.jackson.core.io.IOContext,int,int,com.fasterxml.jackson.core.ObjectCodec,javax.xml.stream.XMLStreamWriter):176:5733:_formatFeatures = xmlFeatures; |==> <NO-OP>
+23:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@<init>(com.fasterxml.jackson.core.io.IOContext,int,int,com.fasterxml.jackson.core.ObjectCodec,javax.xml.stream.XMLStreamWriter):180:5923:_xmlWriter != sw |==> true
+24:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@<init>(com.fasterxml.jackson.core.io.IOContext,int,int,com.fasterxml.jackson.core.ObjectCodec,javax.xml.stream.XMLStreamWriter):181:5939:_xmlPrettyPrinter = (_cfgPrettyPrinter instanceof XmlPrettyPrinter) ? (XmlPrettyPrinter)_cfgPrettyPrinter : null; |==> <NO-OP>
+25:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():191:6256:_initialized |==> false
+26:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():191:6256:_initialized |==> true
+27:LVR:TRUE:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():194:6325:true |==> false
+28:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():194:6310:_initialized = true; |==> <NO-OP>
+29:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():196:6392:Feature.WRITE_XML_1_1.enabledIn(_formatFeatures) |==> false
+30:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():196:6392:Feature.WRITE_XML_1_1.enabledIn(_formatFeatures) |==> true
+31:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():197:6429:_xmlWriter.writeStartDocument("UTF-8", "1.1"); |==> <NO-OP>
+32:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():198:6538:Feature.WRITE_XML_DECLARATION.enabledIn(_formatFeatures) |==> false
+33:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():198:6538:Feature.WRITE_XML_DECLARATION.enabledIn(_formatFeatures) |==> true
+34:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():199:6575:_xmlWriter.writeStartDocument("UTF-8", "1.0"); |==> <NO-OP>
+35:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():204:6782:_xmlPrettyPrinter != null |==> true
+36:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():206:6874:_stax2Emulation |==> false
+37:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():206:6874:_stax2Emulation |==> true
+38:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():207:6913:_xmlPrettyPrinter.writePrologLinefeed(_xmlWriter); |==> <NO-OP>
+39:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@initGenerator():211:7049:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+40:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@setPrettyPrinter(com.fasterxml.jackson.core.PrettyPrinter):228:7511:_cfgPrettyPrinter = pp; |==> <NO-OP>
+41:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@setPrettyPrinter(com.fasterxml.jackson.core.PrettyPrinter):229:7543:_xmlPrettyPrinter = (pp instanceof XmlPrettyPrinter) ? (XmlPrettyPrinter)pp : null; |==> <NO-OP>
+42:LVR:NEG:0:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@getOutputBuffered():247:8085:-1 |==> 0
+43:LVR:NEG:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@getOutputBuffered():247:8085:-1 |==> 1
+44:ORU:~(int):+(int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):259:8363:~mask |==> +mask
+45:ORU:~(int):-(int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):259:8363:~mask |==> -mask
+46:LOR:&(int,int):^(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):259:8345:_formatFeatures & ~mask |==> _formatFeatures ^ ~mask
+47:LOR:&(int,int):|(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):259:8345:_formatFeatures & ~mask |==> _formatFeatures | ~mask
+48:LOR:&(int,int):^(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):259:8373:values & mask |==> values ^ mask
+49:LOR:&(int,int):|(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):259:8373:values & mask |==> values | mask
+50:LOR:|(int,int):&(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):259:8344:(_formatFeatures & ~mask) | (values & mask) |==> (_formatFeatures & ~mask) & (values & mask)
+51:LOR:|(int,int):^(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):259:8344:(_formatFeatures & ~mask) | (values & mask) |==> (_formatFeatures & ~mask) ^ (values & mask)
+52:ROR:!=(int,int):<(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):261:8402:oldF != newF |==> oldF < newF
+53:ROR:!=(int,int):>(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):261:8402:oldF != newF |==> oldF > newF
+54:ROR:!=(int,int):TRUE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):261:8407:oldF != newF |==> true
+55:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@overrideFormatFeatures(int,int):262:8430:_formatFeatures = newF; |==> <NO-OP>
+56:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@enable(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):274:8725:_formatFeatures |= f.getMask(); |==> <NO-OP>
+57:ORU:~(int):+(int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@disable(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):279:8859:~f.getMask() |==> +f.getMask()
+58:ORU:~(int):-(int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@disable(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):279:8859:~f.getMask() |==> -f.getMask()
+59:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@disable(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):279:8840:_formatFeatures &= ~f.getMask(); |==> <NO-OP>
+60:LOR:&(int,int):^(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@isEnabled(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):284:8965:_formatFeatures & f.getMask() |==> _formatFeatures ^ f.getMask()
+61:LOR:&(int,int):|(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@isEnabled(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):284:8965:_formatFeatures & f.getMask() |==> _formatFeatures | f.getMask()
+62:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@isEnabled(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):284:8999:0 |==> 1
+63:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@isEnabled(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):284:8999:0 |==> -1
+64:ROR:!=(int,int):<(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@isEnabled(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):284:8964:(_formatFeatures & f.getMask()) != 0 |==> (_formatFeatures & f.getMask()) < 0
+65:ROR:!=(int,int):>(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@isEnabled(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):284:8964:(_formatFeatures & f.getMask()) != 0 |==> (_formatFeatures & f.getMask()) > 0
+66:ROR:!=(int,int):TRUE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@isEnabled(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature):284:8996:(_formatFeatures & f.getMask()) != 0 |==> true
+67:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@configure(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature,boolean):288:9085:state |==> false
+68:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@configure(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature,boolean):288:9085:state |==> true
+69:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@configure(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature,boolean):289:9106:enable(f); |==> <NO-OP>
+70:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@configure(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature,boolean):291:9146:disable(f); |==> <NO-OP>
+71:LVR:TRUE:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@canWriteFormattedNumbers():297:9265:true |==> false
+72:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@setNextIsAttribute(boolean):332:10354:_nextIsAttribute = isAttribute; |==> <NO-OP>
+73:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@setNextIsUnwrapped(boolean):337:10463:_nextIsUnwrapped = isUnwrapped; |==> <NO-OP>
+74:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@setNextIsCData(boolean):342:10564:_nextIsCData = isCData; |==> <NO-OP>
+75:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@setNextName(javax.xml.namespace.QName):347:10659:_nextName = name; |==> <NO-OP>
+76:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@setNextNameIfMissing(javax.xml.namespace.QName):358:10911:_nextName == null |==> false
+77:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@setNextNameIfMissing(javax.xml.namespace.QName):359:10934:_nextName = name; |==> <NO-OP>
+78:LVR:TRUE:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@setNextNameIfMissing(javax.xml.namespace.QName):360:10971:true |==> false
+79:LVR:FALSE:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@setNextNameIfMissing(javax.xml.namespace.QName):362:11002:false |==> true
+80:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@startWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):375:11441:wrapperName != null |==> true
+81:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@startWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):377:11508:_xmlPrettyPrinter != null |==> true
+82:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@startWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):378:11539:_xmlPrettyPrinter.writeStartElement(_xmlWriter, wrapperName.getNamespaceURI(), wrapperName.getLocalPart()); |==> <NO-OP>
+83:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@startWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):381:11720:_xmlWriter.writeStartElement(wrapperName.getNamespaceURI(), wrapperName.getLocalPart()); |==> <NO-OP>
+84:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@startWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):384:11888:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+85:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@startWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):387:11966:this.setNextName(wrappedName); |==> <NO-OP>
+86:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@finishWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):396:12250:wrapperName != null |==> true
+87:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@finishWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):398:12317:_xmlPrettyPrinter != null |==> true
+88:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@finishWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):399:12348:_xmlPrettyPrinter.writeEndElement(_xmlWriter, _writeContext.getEntryCount()); |==> <NO-OP>
+89:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@finishWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):401:12471:_xmlWriter.writeEndElement(); |==> <NO-OP>
+90:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@finishWrappedValue(javax.xml.namespace.QName,javax.xml.namespace.QName):404:12580:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+91:ROR:==(int,int):<=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRepeatedFieldName():416:12851:_writeContext.writeFieldName(_nextName.getLocalPart()) == JsonWriteContext.STATUS_EXPECT_VALUE |==> _writeContext.writeFieldName(_nextName.getLocalPart()) <= JsonWriteContext.STATUS_EXPECT_VALUE
+92:ROR:==(int,int):>=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRepeatedFieldName():416:12851:_writeContext.writeFieldName(_nextName.getLocalPart()) == JsonWriteContext.STATUS_EXPECT_VALUE |==> _writeContext.writeFieldName(_nextName.getLocalPart()) >= JsonWriteContext.STATUS_EXPECT_VALUE
+93:ROR:==(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRepeatedFieldName():416:12906:_writeContext.writeFieldName(_nextName.getLocalPart()) == JsonWriteContext.STATUS_EXPECT_VALUE |==> false
+94:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRepeatedFieldName():417:12961:_reportError("Can not write a field name, expecting a value"); |==> <NO-OP>
+95:ROR:==(int,int):<=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeFieldName(java.lang.String):434:13446:_writeContext.writeFieldName(name) == JsonWriteContext.STATUS_EXPECT_VALUE |==> _writeContext.writeFieldName(name) <= JsonWriteContext.STATUS_EXPECT_VALUE
+96:ROR:==(int,int):>=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeFieldName(java.lang.String):434:13446:_writeContext.writeFieldName(name) == JsonWriteContext.STATUS_EXPECT_VALUE |==> _writeContext.writeFieldName(name) >= JsonWriteContext.STATUS_EXPECT_VALUE
+97:ROR:==(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeFieldName(java.lang.String):434:13481:_writeContext.writeFieldName(name) == JsonWriteContext.STATUS_EXPECT_VALUE |==> false
+98:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeFieldName(java.lang.String):435:13536:_reportError("Can not write a field name, expecting a value"); |==> <NO-OP>
+99:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeFieldName(java.lang.String):438:13680:_nextName == null |==> false
+100:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeFieldName(java.lang.String):439:13733:setNextName(new QName(ns, name)); |==> <NO-OP>
+101:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStringField(java.lang.String,java.lang.String):445:13896:writeFieldName(fieldName); |==> <NO-OP>
+102:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStringField(java.lang.String,java.lang.String):446:13931:writeString(value); |==> <NO-OP>
+103:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStartArray():478:15072:_verifyValueWrite("start an array"); |==> <NO-OP>
+104:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStartArray():479:15117:_writeContext = _writeContext.createChildArrayContext(); |==> <NO-OP>
+105:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStartArray():480:15204:_cfgPrettyPrinter != null |==> true
+106:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStartArray():481:15227:_cfgPrettyPrinter.writeStartArray(this); |==> <NO-OP>
+107:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndArray():490:15465:_writeContext.inArray() |==> false
+108:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndArray():490:15465:_writeContext.inArray() |==> true
+109:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndArray():491:15483:_reportError("Current context not Array but " + _writeContext.typeDesc()); |==> <NO-OP>
+110:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndArray():493:15596:_cfgPrettyPrinter != null |==> true
+111:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndArray():494:15619:_cfgPrettyPrinter.writeEndArray(this, _writeContext.getEntryCount()); |==> <NO-OP>
+112:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndArray():498:15772:_writeContext = _writeContext.getParent(); |==> <NO-OP>
+113:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStartObject():504:15910:_verifyValueWrite("start an object"); |==> <NO-OP>
+114:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStartObject():505:15956:_writeContext = _writeContext.createChildObjectContext(); |==> <NO-OP>
+115:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStartObject():506:16044:_cfgPrettyPrinter != null |==> true
+116:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStartObject():507:16067:_cfgPrettyPrinter.writeStartObject(this); |==> <NO-OP>
+117:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStartObject():509:16138:_handleStartObject(); |==> <NO-OP>
+118:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():516:16290:_writeContext.inObject() |==> false
+119:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():516:16290:_writeContext.inObject() |==> true
+120:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():517:16308:_reportError("Current context not Object but " + _writeContext.typeDesc()); |==> <NO-OP>
+121:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():519:16400:_writeContext = _writeContext.getParent(); |==> <NO-OP>
+122:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():520:16473:_cfgPrettyPrinter != null |==> true
+123:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():522:16599:_nextIsAttribute |==> false
+124:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():522:16599:_nextIsAttribute |==> true
+125:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():522:16618:0 |==> 1
+126:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():522:16618:0 |==> -1
+127:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():523:16665:_cfgPrettyPrinter.writeEndObject(this, count); |==> <NO-OP>
+128:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeEndObject():525:16741:_handleEndObject(); |==> <NO-OP>
+129:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleStartObject():532:16941:_nextName == null |==> false
+130:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleStartObject():533:16964:handleMissingName(); |==> <NO-OP>
+131:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleStartObject():536:17071:_elementNameStack.addLast(_nextName); |==> <NO-OP>
+132:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleStartObject():538:17135:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+133:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleStartObject():540:17273:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+134:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():548:17567:_elementNameStack.isEmpty() |==> false
+135:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():548:17567:_elementNameStack.isEmpty() |==> true
+136:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():551:17700:_nextName = _elementNameStack.removeLast(); |==> <NO-OP>
+137:LVR:FALSE:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():554:17879:false |==> true
+138:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():554:17860:_nextIsAttribute = false; |==> <NO-OP>
+139:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():555:17898:_xmlWriter.writeEndElement(); |==> <NO-OP>
+140:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():557:18060:_xmlPrettyPrinter != null |==> true
+141:COR:&&(boolean,boolean):==(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():557:18010:_elementNameStack.isEmpty() && (_xmlPrettyPrinter != null) |==> _elementNameStack.isEmpty() == (_xmlPrettyPrinter != null)
+142:COR:&&(boolean,boolean):FALSE(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():557:18038:_elementNameStack.isEmpty() && (_xmlPrettyPrinter != null) |==> false
+143:COR:&&(boolean,boolean):LHS(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():557:18010:_elementNameStack.isEmpty() && (_xmlPrettyPrinter != null) |==> _elementNameStack.isEmpty()
+144:COR:&&(boolean,boolean):RHS(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():557:18041:_elementNameStack.isEmpty() && (_xmlPrettyPrinter != null) |==> (_xmlPrettyPrinter != null)
+145:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():559:18153:_stax2Emulation |==> false
+146:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():559:18153:_stax2Emulation |==> true
+147:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():560:18192:_xmlPrettyPrinter.writePrologLinefeed(_xmlWriter); |==> <NO-OP>
+148:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_handleEndObject():564:18328:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+149:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeFieldName(com.fasterxml.jackson.core.SerializableString):577:18688:writeFieldName(name.getValue()); |==> <NO-OP>
+150:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):583:18820:_verifyValueWrite("write String value"); |==> <NO-OP>
+151:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):584:18883:_nextName == null |==> false
+152:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):585:18906:handleMissingName(); |==> <NO-OP>
+153:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):588:18967:_nextIsAttribute |==> false
+154:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):588:18967:_nextIsAttribute |==> true
+155:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):589:19056:_xmlWriter.writeAttribute(_nextName.getNamespaceURI(), _nextName.getLocalPart(), text); |==> <NO-OP>
+156:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):590:19187:checkNextIsUnwrapped() |==> false
+157:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):590:19187:checkNextIsUnwrapped() |==> true
+158:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):594:19436:_nextIsCData |==> false
+159:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):594:19436:_nextIsCData |==> true
+160:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):595:19472:_xmlWriter.writeCData(text); |==> <NO-OP>
+161:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):597:19546:_xmlWriter.writeCharacters(text); |==> <NO-OP>
+162:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):599:19639:_xmlPrettyPrinter != null |==> true
+163:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):600:19666:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), text, _nextIsCData); |==> <NO-OP>
+164:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):604:19874:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+165:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):605:19978:_nextIsCData |==> false
+166:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):605:19978:_nextIsCData |==> true
+167:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):606:20014:_xmlWriter.writeCData(text); |==> <NO-OP>
+168:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):608:20088:_xmlWriter.writeCharacters(text); |==> <NO-OP>
+169:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):610:20156:_xmlWriter.writeEndElement(); |==> <NO-OP>
+170:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(java.lang.String):613:20254:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+171:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):620:20434:_verifyValueWrite("write String value"); |==> <NO-OP>
+172:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):621:20497:_nextName == null |==> false
+173:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):622:20520:handleMissingName(); |==> <NO-OP>
+174:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):625:20581:_nextIsAttribute |==> false
+175:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):625:20581:_nextIsAttribute |==> true
+176:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):626:20617:_xmlWriter.writeAttribute(_nextName.getNamespaceURI(), _nextName.getLocalPart(), new String(text, offset, len)); |==> <NO-OP>
+177:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):627:20773:checkNextIsUnwrapped() |==> false
+178:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):627:20773:checkNextIsUnwrapped() |==> true
+179:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):629:20857:_nextIsCData |==> false
+180:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):629:20857:_nextIsCData |==> true
+181:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):630:20893:_xmlWriter.writeCData(text, offset, len); |==> <NO-OP>
+182:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):632:20980:_xmlWriter.writeCharacters(text, offset, len); |==> <NO-OP>
+183:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):634:21086:_xmlPrettyPrinter != null |==> true
+184:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):635:21113:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), text, offset, len, _nextIsCData); |==> <NO-OP>
+185:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):639:21334:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+186:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):640:21438:_nextIsCData |==> false
+187:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):640:21438:_nextIsCData |==> true
+188:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):641:21474:_xmlWriter.writeCData(text, offset, len); |==> <NO-OP>
+189:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):643:21561:_xmlWriter.writeCharacters(text, offset, len); |==> <NO-OP>
+190:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):645:21642:_xmlWriter.writeEndElement(); |==> <NO-OP>
+191:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(char[],int,int):648:21739:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+192:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeString(com.fasterxml.jackson.core.SerializableString):654:21898:writeString(text.getValue()); |==> <NO-OP>
+193:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawUTF8String(byte[],int,int):661:22154:_reportUnsupportedOperation(); |==> <NO-OP>
+194:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeUTF8String(byte[],int,int):668:22404:_reportUnsupportedOperation(); |==> <NO-OP>
+195:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):680:22765:_stax2Emulation |==> false
+196:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):680:22765:_stax2Emulation |==> true
+197:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):681:22796:_reportUnimplementedStax2("writeRawValue"); |==> <NO-OP>
+198:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):684:22876:_verifyValueWrite("write raw value"); |==> <NO-OP>
+199:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):685:22940:_nextName == null |==> false
+200:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):686:22967:handleMissingName(); |==> <NO-OP>
+201:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):689:23019:_nextIsAttribute |==> false
+202:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):689:23019:_nextIsAttribute |==> true
+203:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):690:23055:_xmlWriter.writeAttribute(_nextName.getNamespaceURI(), _nextName.getLocalPart(), text); |==> <NO-OP>
+204:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):692:23180:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+205:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):693:23281:_xmlWriter.writeRaw(text); |==> <NO-OP>
+206:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):694:23324:_xmlWriter.writeEndElement(); |==> <NO-OP>
+207:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String):697:23421:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+208:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):704:23626:_stax2Emulation |==> false
+209:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):704:23626:_stax2Emulation |==> true
+210:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):705:23657:_reportUnimplementedStax2("writeRawValue"); |==> <NO-OP>
+211:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):708:23737:_verifyValueWrite("write raw value"); |==> <NO-OP>
+212:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):709:23801:_nextName == null |==> false
+213:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):710:23828:handleMissingName(); |==> <NO-OP>
+214:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):713:23880:_nextIsAttribute |==> false
+215:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):713:23880:_nextIsAttribute |==> true
+216:AOR:+(int,int):%(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):714:24020:offset + len |==> offset % len
+217:AOR:+(int,int):*(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):714:24020:offset + len |==> offset * len
+218:AOR:+(int,int):-(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):714:24020:offset + len |==> offset - len
+219:AOR:+(int,int):/(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):714:24020:offset + len |==> offset / len
+220:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):714:23916:_xmlWriter.writeAttribute(_nextName.getNamespaceURI(), _nextName.getLocalPart(), text.substring(offset, offset + len)); |==> <NO-OP>
+221:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):716:24073:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+222:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):717:24174:_xmlWriter.writeRaw(text, offset, len); |==> <NO-OP>
+223:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):718:24230:_xmlWriter.writeEndElement(); |==> <NO-OP>
+224:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(java.lang.String,int,int):721:24327:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+225:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):728:24532:_stax2Emulation |==> false
+226:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):728:24532:_stax2Emulation |==> true
+227:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):729:24563:_reportUnimplementedStax2("writeRawValue"); |==> <NO-OP>
+228:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):731:24625:_verifyValueWrite("write raw value"); |==> <NO-OP>
+229:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):732:24685:_nextName == null |==> false
+230:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):733:24708:handleMissingName(); |==> <NO-OP>
+231:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):736:24769:_nextIsAttribute |==> false
+232:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):736:24769:_nextIsAttribute |==> true
+233:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):737:24805:_xmlWriter.writeAttribute(_nextName.getNamespaceURI(), _nextName.getLocalPart(), new String(text, offset, len)); |==> <NO-OP>
+234:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):739:24955:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+235:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):740:25056:_xmlWriter.writeRaw(text, offset, len); |==> <NO-OP>
+236:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):741:25112:_xmlWriter.writeEndElement(); |==> <NO-OP>
+237:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(char[],int,int):744:25209:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+238:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRawValue(com.fasterxml.jackson.core.SerializableString):750:25370:_reportUnsupportedOperation(); |==> <NO-OP>
+239:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(java.lang.String):757:25528:_stax2Emulation |==> false
+240:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(java.lang.String):757:25528:_stax2Emulation |==> true
+241:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(java.lang.String):758:25559:_reportUnimplementedStax2("writeRaw"); |==> <NO-OP>
+242:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(java.lang.String):761:25634:_xmlWriter.writeRaw(text); |==> <NO-OP>
+243:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(java.lang.String):763:25714:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+244:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(java.lang.String,int,int):771:25918:_stax2Emulation |==> false
+245:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(java.lang.String,int,int):771:25918:_stax2Emulation |==> true
+246:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(java.lang.String,int,int):772:25949:_reportUnimplementedStax2("writeRaw"); |==> <NO-OP>
+247:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(java.lang.String,int,int):775:26024:_xmlWriter.writeRaw(text, offset, len); |==> <NO-OP>
+248:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(java.lang.String,int,int):777:26117:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+249:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(char[],int,int):785:26321:_stax2Emulation |==> false
+250:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(char[],int,int):785:26321:_stax2Emulation |==> true
+251:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(char[],int,int):786:26352:_reportUnimplementedStax2("writeRaw"); |==> <NO-OP>
+252:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(char[],int,int):789:26427:_xmlWriter.writeRaw(text, offset, len); |==> <NO-OP>
+253:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(char[],int,int):791:26520:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+254:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeRaw(char):798:26663:writeRaw(String.valueOf(c)); |==> <NO-OP>
+255:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):811:27057:data == null |==> false
+256:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):812:27080:writeNull(); |==> <NO-OP>
+257:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):815:27131:_verifyValueWrite("write Binary value"); |==> <NO-OP>
+258:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):816:27194:_nextName == null |==> false
+259:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):817:27217:handleMissingName(); |==> <NO-OP>
+260:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):820:27278:_nextIsAttribute |==> false
+261:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):820:27278:_nextIsAttribute |==> true
+262:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):823:27449:_xmlWriter.writeBinaryAttribute("", _nextName.getNamespaceURI(), _nextName.getLocalPart(), fullBuffer); |==> <NO-OP>
+263:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):824:27596:checkNextIsUnwrapped() |==> false
+264:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):824:27596:checkNextIsUnwrapped() |==> true
+265:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):826:27677:_xmlWriter.writeBinary(data, offset, len); |==> <NO-OP>
+266:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):828:27779:_xmlPrettyPrinter != null |==> true
+267:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):829:27810:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), data, offset, len); |==> <NO-OP>
+268:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):833:28033:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+269:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):834:28138:_xmlWriter.writeBinary(data, offset, len); |==> <NO-OP>
+270:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):835:28201:_xmlWriter.writeEndElement(); |==> <NO-OP>
+271:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int):839:28316:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+272:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):846:28522:data == null |==> false
+273:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):847:28545:writeNull(); |==> <NO-OP>
+274:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):848:28577:0 |==> 1
+275:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):848:28577:0 |==> -1
+276:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):850:28598:_verifyValueWrite("write Binary value"); |==> <NO-OP>
+277:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):851:28661:_nextName == null |==> false
+278:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):852:28684:handleMissingName(); |==> <NO-OP>
+279:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):855:28745:_nextIsAttribute |==> false
+280:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):855:28745:_nextIsAttribute |==> true
+281:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):858:28915:_xmlWriter.writeBinaryAttribute("", _nextName.getNamespaceURI(), _nextName.getLocalPart(), fullBuffer); |==> <NO-OP>
+282:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):859:29062:checkNextIsUnwrapped() |==> false
+283:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):859:29062:checkNextIsUnwrapped() |==> true
+284:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):861:29144:writeStreamAsBinary(data, dataLength); |==> <NO-OP>
+285:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):864:29243:_xmlPrettyPrinter != null |==> true
+286:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):867:29464:0 |==> 1
+287:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):867:29464:0 |==> -1
+288:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):865:29274:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), toFullBuffer(data, dataLength), 0, dataLength); |==> <NO-OP>
+289:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):869:29525:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+290:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):870:29630:writeStreamAsBinary(data, dataLength); |==> <NO-OP>
+291:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):871:29689:_xmlWriter.writeEndElement(); |==> <NO-OP>
+292:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int):875:29804:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+293:LVR:POS:0:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):884:30097:3 |==> 0
+294:LVR:POS:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):884:30097:3 |==> -3
+295:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):885:30122:0 |==> 1
+296:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):885:30122:0 |==> -1
+297:LVR:POS:0:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):887:30197:3 |==> 0
+298:LVR:POS:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):887:30197:3 |==> -3
+299:AOR:-(int,int):%(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):887:30197:3 - offset |==> 3 % offset
+300:AOR:-(int,int):*(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):887:30197:3 - offset |==> 3 * offset
+301:AOR:-(int,int):+(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):887:30197:3 - offset |==> 3 + offset
+302:AOR:-(int,int):/(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):887:30197:3 - offset |==> 3 / offset
+303:LVR:NEG:0:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):887:30219:-1 |==> 0
+304:LVR:NEG:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):887:30219:-1 |==> 1
+305:ROR:!=(int,int):<(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):887:30157:(read = data.read(tmp, offset, Math.min(3 - offset, len))) != -1 |==> (read = data.read(tmp, offset, Math.min(3 - offset, len))) < -1
+306:ROR:!=(int,int):>(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):887:30157:(read = data.read(tmp, offset, Math.min(3 - offset, len))) != -1 |==> (read = data.read(tmp, offset, Math.min(3 - offset, len))) > -1
+307:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):888:30237:offset += read; |==> <NO-OP>
+308:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):889:30265:len -= read; |==> <NO-OP>
+309:LVR:POS:0:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):890:30303:3 |==> 0
+310:LVR:POS:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):890:30303:3 |==> -3
+311:ROR:==(int,int):<=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):890:30293:offset == 3 |==> offset <= 3
+312:ROR:==(int,int):>=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):890:30293:offset == 3 |==> offset >= 3
+313:ROR:==(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):890:30300:offset == 3 |==> false
+314:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):891:30333:0 |==> 1
+315:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):891:30333:0 |==> -1
+316:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):891:30324:offset = 0; |==> <NO-OP>
+317:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):892:30380:0 |==> 1
+318:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):892:30380:0 |==> -1
+319:LVR:POS:0:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):892:30383:3 |==> 0
+320:LVR:POS:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):892:30383:3 |==> -3
+321:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):892:30352:_xmlWriter.writeBinary(tmp, 0, 3); |==> <NO-OP>
+322:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):894:30424:0 |==> 1
+323:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):894:30424:0 |==> -1
+324:ROR:==(int,int):<=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):894:30417:len == 0 |==> len <= 0
+325:ROR:==(int,int):>=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):894:30417:len == 0 |==> len >= 0
+326:ROR:==(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):894:30421:len == 0 |==> false
+327:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):900:30546:0 |==> 1
+328:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):900:30546:0 |==> -1
+329:ROR:>(int,int):!=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):900:30537:offset > 0 |==> offset != 0
+330:ROR:>(int,int):>=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):900:30537:offset > 0 |==> offset >= 0
+331:ROR:>(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):900:30544:offset > 0 |==> false
+332:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):901:30591:0 |==> 1
+333:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):901:30591:0 |==> -1
+334:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeStreamAsBinary(java.io.InputStream,int):901:30563:_xmlWriter.writeBinary(tmp, 0, offset); |==> <NO-OP>
+335:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30751:0 |==> 1
+336:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30751:0 |==> -1
+337:ROR:==(int,int):<=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30741:offset == 0 |==> offset <= 0
+338:ROR:==(int,int):>=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30741:offset == 0 |==> offset >= 0
+339:ROR:==(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30748:offset == 0 |==> false
+340:ROR:==(int,int):<=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30756:len == data.length |==> len <= data.length
+341:ROR:==(int,int):>=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30756:len == data.length |==> len >= data.length
+342:ROR:==(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30760:len == data.length |==> false
+343:COR:&&(boolean,boolean):==(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30741:offset == 0 && len == data.length |==> offset == 0 == (len == data.length)
+344:COR:&&(boolean,boolean):FALSE(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30753:offset == 0 && len == data.length |==> false
+345:COR:&&(boolean,boolean):LHS(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30741:offset == 0 && len == data.length |==> offset == 0
+346:COR:&&(boolean,boolean):RHS(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):909:30756:offset == 0 && len == data.length |==> len == data.length
+347:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):913:30870:0 |==> 1
+348:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):913:30870:0 |==> -1
+349:ROR:>(int,int):!=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):913:30864:len > 0 |==> len != 0
+350:ROR:>(int,int):>=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):913:30864:len > 0 |==> len >= 0
+351:ROR:>(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):913:30868:len > 0 |==> false
+352:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):914:30926:0 |==> 1
+353:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):914:30926:0 |==> -1
+354:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(byte[],int,int):914:30887:System.arraycopy(data, offset, result, 0, len); |==> <NO-OP>
+355:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):922:31126:0 |==> 1
+356:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):922:31126:0 |==> -1
+357:ROR:<(int,int):!=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):924:31145:offset < len |==> offset != len
+358:ROR:<(int,int):<=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):924:31145:offset < len |==> offset <= len
+359:ROR:<(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):924:31152:offset < len |==> false
+360:AOR:-(int,int):%(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):925:31213:len - offset |==> len % offset
+361:AOR:-(int,int):*(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):925:31213:len - offset |==> len * offset
+362:AOR:-(int,int):+(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):925:31213:len - offset |==> len + offset
+363:AOR:-(int,int):/(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):925:31213:len - offset |==> len / offset
+364:LVR:0:POS:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):926:31252:0 |==> 1
+365:LVR:0:NEG:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):926:31252:0 |==> -1
+366:ROR:<(int,int):!=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):926:31244:count < 0 |==> count != 0
+367:ROR:<(int,int):<=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):926:31244:count < 0 |==> count <= 0
+368:ROR:<(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):926:31250:count < 0 |==> false
+369:AOR:-(int,int):%(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):927:31323:len - offset |==> len % offset
+370:AOR:-(int,int):*(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):927:31323:len - offset |==> len * offset
+371:AOR:-(int,int):+(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):927:31323:len - offset |==> len + offset
+372:AOR:-(int,int):/(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):927:31323:len - offset |==> len / offset
+373:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):927:31273:_reportError("Too few bytes available: missing " + (len - offset) + " bytes (out of " + len + ")"); |==> <NO-OP>
+374:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@toFullBuffer(java.io.InputStream,int):929:31391:offset += count; |==> <NO-OP>
+375:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):943:31731:_verifyValueWrite("write boolean value"); |==> <NO-OP>
+376:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):944:31795:_nextName == null |==> false
+377:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):945:31818:handleMissingName(); |==> <NO-OP>
+378:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):948:31879:_nextIsAttribute |==> false
+379:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):948:31879:_nextIsAttribute |==> true
+380:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):949:31915:_xmlWriter.writeBooleanAttribute(null, _nextName.getNamespaceURI(), _nextName.getLocalPart(), value); |==> <NO-OP>
+381:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):950:32060:checkNextIsUnwrapped() |==> false
+382:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):950:32060:checkNextIsUnwrapped() |==> true
+383:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):952:32141:_xmlWriter.writeBoolean(value); |==> <NO-OP>
+384:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):954:32232:_xmlPrettyPrinter != null |==> true
+385:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):955:32260:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), value); |==> <NO-OP>
+386:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):959:32450:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+387:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):960:32552:_xmlWriter.writeBoolean(value); |==> <NO-OP>
+388:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):961:32601:_xmlWriter.writeEndElement(); |==> <NO-OP>
+389:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeBoolean(boolean):965:32716:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+390:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():972:32854:_verifyValueWrite("write null value"); |==> <NO-OP>
+391:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():973:32915:_nextName == null |==> false
+392:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():974:32938:handleMissingName(); |==> <NO-OP>
+393:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():978:33048:_nextIsAttribute |==> false
+394:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():978:33048:_nextIsAttribute |==> true
+395:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():982:33257:checkNextIsUnwrapped() |==> false
+396:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():982:33257:checkNextIsUnwrapped() |==> true
+397:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():985:33374:_xmlPrettyPrinter != null |==> true
+398:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():986:33402:_xmlPrettyPrinter.writeLeafNullElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+399:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():989:33567:_xmlWriter.writeEmptyElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+400:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNull():993:33737:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+401:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1000:33882:_verifyValueWrite("write number"); |==> <NO-OP>
+402:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1001:33939:_nextName == null |==> false
+403:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1002:33962:handleMissingName(); |==> <NO-OP>
+404:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1005:34023:_nextIsAttribute |==> false
+405:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1005:34023:_nextIsAttribute |==> true
+406:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1006:34059:_xmlWriter.writeIntAttribute(null, _nextName.getNamespaceURI(), _nextName.getLocalPart(), i); |==> <NO-OP>
+407:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1007:34196:checkNextIsUnwrapped() |==> false
+408:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1007:34196:checkNextIsUnwrapped() |==> true
+409:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1009:34277:_xmlWriter.writeInt(i); |==> <NO-OP>
+410:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1011:34360:_xmlPrettyPrinter != null |==> true
+411:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1012:34388:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), i); |==> <NO-OP>
+412:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1016:34574:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+413:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1017:34676:_xmlWriter.writeInt(i); |==> <NO-OP>
+414:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1018:34717:_xmlWriter.writeEndElement(); |==> <NO-OP>
+415:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(int):1022:34832:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+416:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1029:34978:_verifyValueWrite("write number"); |==> <NO-OP>
+417:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1030:35035:_nextName == null |==> false
+418:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1031:35058:handleMissingName(); |==> <NO-OP>
+419:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1034:35119:_nextIsAttribute |==> false
+420:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1034:35119:_nextIsAttribute |==> true
+421:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1035:35155:_xmlWriter.writeLongAttribute(null, _nextName.getNamespaceURI(), _nextName.getLocalPart(), l); |==> <NO-OP>
+422:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1036:35293:checkNextIsUnwrapped() |==> false
+423:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1036:35293:checkNextIsUnwrapped() |==> true
+424:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1037:35315:_xmlWriter.writeLong(l); |==> <NO-OP>
+425:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1039:35399:_xmlPrettyPrinter != null |==> true
+426:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1040:35427:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), l); |==> <NO-OP>
+427:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1044:35613:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+428:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1045:35715:_xmlWriter.writeLong(l); |==> <NO-OP>
+429:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1046:35757:_xmlWriter.writeEndElement(); |==> <NO-OP>
+430:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(long):1050:35872:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+431:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1057:36020:_verifyValueWrite("write number"); |==> <NO-OP>
+432:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1058:36077:_nextName == null |==> false
+433:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1059:36100:handleMissingName(); |==> <NO-OP>
+434:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1062:36161:_nextIsAttribute |==> false
+435:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1062:36161:_nextIsAttribute |==> true
+436:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1063:36197:_xmlWriter.writeDoubleAttribute(null, _nextName.getNamespaceURI(), _nextName.getLocalPart(), d); |==> <NO-OP>
+437:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1064:36337:checkNextIsUnwrapped() |==> false
+438:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1064:36337:checkNextIsUnwrapped() |==> true
+439:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1065:36359:_xmlWriter.writeDouble(d); |==> <NO-OP>
+440:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1067:36445:_xmlPrettyPrinter != null |==> true
+441:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1068:36473:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), d); |==> <NO-OP>
+442:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1072:36659:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+443:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1073:36761:_xmlWriter.writeDouble(d); |==> <NO-OP>
+444:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1074:36805:_xmlWriter.writeEndElement(); |==> <NO-OP>
+445:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(double):1078:36920:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+446:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1085:37067:_verifyValueWrite("write number"); |==> <NO-OP>
+447:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1086:37124:_nextName == null |==> false
+448:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1087:37147:handleMissingName(); |==> <NO-OP>
+449:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1090:37208:_nextIsAttribute |==> false
+450:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1090:37208:_nextIsAttribute |==> true
+451:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1091:37244:_xmlWriter.writeFloatAttribute(null, _nextName.getNamespaceURI(), _nextName.getLocalPart(), f); |==> <NO-OP>
+452:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1092:37383:checkNextIsUnwrapped() |==> false
+453:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1092:37383:checkNextIsUnwrapped() |==> true
+454:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1093:37405:_xmlWriter.writeFloat(f); |==> <NO-OP>
+455:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1095:37490:_xmlPrettyPrinter != null |==> true
+456:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1096:37518:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), f); |==> <NO-OP>
+457:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1100:37704:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+458:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1101:37806:_xmlWriter.writeFloat(f); |==> <NO-OP>
+459:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1102:37849:_xmlWriter.writeEndElement(); |==> <NO-OP>
+460:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(float):1106:37964:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+461:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1113:38126:dec == null |==> false
+462:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1114:38149:writeNull(); |==> <NO-OP>
+463:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1117:38200:_verifyValueWrite("write number"); |==> <NO-OP>
+464:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1118:38257:_nextName == null |==> false
+465:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1119:38280:handleMissingName(); |==> <NO-OP>
+466:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1123:38428:_nextIsAttribute |==> false
+467:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1123:38428:_nextIsAttribute |==> true
+468:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1124:38468:usePlain |==> false
+469:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1124:38468:usePlain |==> true
+470:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1125:38500:_xmlWriter.writeAttribute("", _nextName.getNamespaceURI(), _nextName.getLocalPart(), dec.toPlainString()); |==> <NO-OP>
+471:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1128:38680:_xmlWriter.writeDecimalAttribute("", _nextName.getNamespaceURI(), _nextName.getLocalPart(), dec); |==> <NO-OP>
+472:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1130:38839:checkNextIsUnwrapped() |==> false
+473:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1130:38839:checkNextIsUnwrapped() |==> true
+474:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1131:38865:usePlain |==> false
+475:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1131:38865:usePlain |==> true
+476:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1132:38897:_xmlWriter.writeCharacters(dec.toPlainString()); |==> <NO-OP>
+477:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1134:38991:_xmlWriter.writeDecimal(dec); |==> <NO-OP>
+478:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1137:39098:_xmlPrettyPrinter != null |==> true
+479:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1138:39126:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), dec); |==> <NO-OP>
+480:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1142:39314:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+481:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1143:39420:usePlain |==> false
+482:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1143:39420:usePlain |==> true
+483:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1144:39457:_xmlWriter.writeCharacters(dec.toPlainString()); |==> <NO-OP>
+484:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1146:39557:_xmlWriter.writeDecimal(dec); |==> <NO-OP>
+485:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1148:39623:_xmlWriter.writeEndElement(); |==> <NO-OP>
+486:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigDecimal):1152:39738:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+487:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1159:39904:value == null |==> false
+488:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1160:39927:writeNull(); |==> <NO-OP>
+489:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1163:39978:_verifyValueWrite("write number"); |==> <NO-OP>
+490:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1164:40035:_nextName == null |==> false
+491:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1165:40058:handleMissingName(); |==> <NO-OP>
+492:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1168:40119:_nextIsAttribute |==> false
+493:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1168:40119:_nextIsAttribute |==> true
+494:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1169:40155:_xmlWriter.writeIntegerAttribute("", _nextName.getNamespaceURI(), _nextName.getLocalPart(), value); |==> <NO-OP>
+495:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1171:40316:checkNextIsUnwrapped() |==> false
+496:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1171:40316:checkNextIsUnwrapped() |==> true
+497:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1172:40338:_xmlWriter.writeInteger(value); |==> <NO-OP>
+498:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1174:40429:_xmlPrettyPrinter != null |==> true
+499:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1175:40457:_xmlPrettyPrinter.writeLeafElement(_xmlWriter, _nextName.getNamespaceURI(), _nextName.getLocalPart(), value); |==> <NO-OP>
+500:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1179:40647:_xmlWriter.writeStartElement(_nextName.getNamespaceURI(), _nextName.getLocalPart()); |==> <NO-OP>
+501:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1180:40749:_xmlWriter.writeInteger(value); |==> <NO-OP>
+502:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1181:40798:_xmlWriter.writeEndElement(); |==> <NO-OP>
+503:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.math.BigInteger):1185:40913:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+504:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@writeNumber(java.lang.String):1192:41103:writeString(encodedValue); |==> <NO-OP>
+505:ROR:==(int,int):<=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_verifyValueWrite(java.lang.String):1205:41492:status == JsonWriteContext.STATUS_EXPECT_NAME |==> status <= JsonWriteContext.STATUS_EXPECT_NAME
+506:ROR:==(int,int):>=(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_verifyValueWrite(java.lang.String):1205:41492:status == JsonWriteContext.STATUS_EXPECT_NAME |==> status >= JsonWriteContext.STATUS_EXPECT_NAME
+507:ROR:==(int,int):FALSE(int,int):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_verifyValueWrite(java.lang.String):1205:41499:status == JsonWriteContext.STATUS_EXPECT_NAME |==> false
+508:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@_verifyValueWrite(java.lang.String):1206:41553:_reportError("Can not " + typeMsg + ", expecting field name"); |==> <NO-OP>
+509:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@flush():1219:41890:isEnabled(JsonGenerator.Feature.FLUSH_PASSED_TO_STREAM) |==> false
+510:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@flush():1219:41890:isEnabled(JsonGenerator.Feature.FLUSH_PASSED_TO_STREAM) |==> true
+511:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@flush():1221:41974:_xmlWriter.flush(); |==> <NO-OP>
+512:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@flush():1223:42055:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+513:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1232:42242:super.close(); |==> <NO-OP>
+514:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1235:42337:isEnabled(JsonGenerator.Feature.AUTO_CLOSE_JSON_CONTENT) |==> false
+515:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1235:42337:isEnabled(JsonGenerator.Feature.AUTO_CLOSE_JSON_CONTENT) |==> true
+516:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1244:42794:ctxt.inArray() |==> false
+517:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1244:42794:ctxt.inArray() |==> true
+518:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1245:42824:writeEndArray(); |==> <NO-OP>
+519:COR:<METHOD_INVOCATION(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1246:42885:ctxt.inObject() |==> false
+520:COR:<METHOD_INVOCATION(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1246:42885:ctxt.inObject() |==> true
+521:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1247:42915:writeEndObject(); |==> <NO-OP>
+522:COR:||(boolean,boolean):!=(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1260:43396:_ioContext.isResourceManaged() || isEnabled(JsonGenerator.Feature.AUTO_CLOSE_TARGET) |==> _ioContext.isResourceManaged() != isEnabled(JsonGenerator.Feature.AUTO_CLOSE_TARGET)
+523:COR:||(boolean,boolean):LHS(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1260:43396:_ioContext.isResourceManaged() || isEnabled(JsonGenerator.Feature.AUTO_CLOSE_TARGET) |==> _ioContext.isResourceManaged()
+524:COR:||(boolean,boolean):RHS(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1260:43430:_ioContext.isResourceManaged() || isEnabled(JsonGenerator.Feature.AUTO_CLOSE_TARGET) |==> isEnabled(JsonGenerator.Feature.AUTO_CLOSE_TARGET)
+525:COR:||(boolean,boolean):TRUE(boolean,boolean):com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1260:43427:_ioContext.isResourceManaged() || isEnabled(JsonGenerator.Feature.AUTO_CLOSE_TARGET) |==> true
+526:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1261:43500:_xmlWriter.closeCompletely(); |==> <NO-OP>
+527:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1263:43567:_xmlWriter.close(); |==> <NO-OP>
+528:STD:<CALL>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@close():1266:43654:StaxUtil.throwAsGenerationException(e, this); |==> <NO-OP>
+529:COR:<IDENTIFIER(boolean)>:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@checkNextIsUnwrapped():1288:44234:_nextIsUnwrapped |==> false
+530:COR:<IDENTIFIER(boolean)>:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@checkNextIsUnwrapped():1288:44234:_nextIsUnwrapped |==> true
+531:LVR:FALSE:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@checkNextIsUnwrapped():1289:44283:false |==> true
+532:STD:<ASSIGN>:<NO-OP>:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@checkNextIsUnwrapped():1289:44264:_nextIsUnwrapped = false; |==> <NO-OP>
+533:LVR:TRUE:FALSE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@checkNextIsUnwrapped():1290:44307:true |==> false
+534:LVR:FALSE:TRUE:com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator@checkNextIsUnwrapped():1292:44338:false |==> true

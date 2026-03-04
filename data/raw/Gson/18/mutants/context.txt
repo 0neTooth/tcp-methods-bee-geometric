@@ -1,0 +1,6 @@
+project=Gson
+bug_id=18
+workdir=/Users/m.rudenko/mpr/project/data/raw/Gson/18f
+exclude_file=/Users/m.rudenko/mpr/project/config/major_excludes/Gson-18.txt
+filter_file=/Users/m.rudenko/mpr/project/config/mml_filters/Gson-18.txt
+mml_override=/Users/m.rudenko/mpr/project/config/mml/Gson-18.mml

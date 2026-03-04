@@ -1,0 +1,74 @@
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.plugin.MajorPluginTaskListener.<init>:
+    Created MajorPluginTaskListener with options: [mml:/Users/m.rudenko/mpr/project/data/raw/JacksonCore/26f/.mml/default.mml.bin, enable.decl.refactor, enable.method.refactor]
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.initOperatorSymbols:
+    Initializing operator symbols for opcode mapping
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.mutateTree:
+    Mutating tree: Env[AttrContext[Scope[super, this]],outer=Env[AttrContext[Scope[com.fasterxml.jackson.core.Base64Variant]]]]
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: com.fasterxml.jackson.core.Base64Variant
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([String name, String base64Alphabet, boolean usesPadding, char paddingChar, int maxLineLength])null
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([Base64Variant base, String name, int maxLineLength])null
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([Base64Variant base, String name, boolean usesPadding, char paddingChar, int maxLineLength])null
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: readResolve([])Object
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getName([])String
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: usesPadding([])boolean
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: usesPaddingChar([char c])boolean
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: usesPaddingChar([int ch])boolean
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getPaddingChar([])char
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getPaddingByte([])byte
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getMaxLineLength([])int
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: decodeBase64Char([char c])int
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: decodeBase64Char([int ch])int
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: decodeBase64Byte([byte b])int
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encodeBase64BitsAsChar([int value])char
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encodeBase64Chunk([int b24, char[] buffer, int ptr])int
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encodeBase64Chunk([StringBuilder sb, int b24])void
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encodeBase64Partial([int bits, int outputBytes, char[] buffer, int outPtr])int
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encodeBase64Partial([StringBuilder sb, int bits, int outputBytes])void
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encodeBase64BitsAsByte([int value])byte
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encodeBase64Chunk([int b24, byte[] buffer, int ptr])int
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encodeBase64Partial([int bits, int outputBytes, byte[] buffer, int outPtr])int
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encode([byte[] input])String
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encode([byte[] input, boolean addQuotes])String
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: encode([byte[] input, boolean addQuotes, String linefeed])String
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: decode([String input])byte[]
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: decode([String str, ByteArrayBuilder builder])void
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toString([])String
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: equals([Object o])boolean
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: hashCode([])int
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: _reportInvalidBase64([char ch, int bindex, String msg])void
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: _reportBase64EOF([])void
+[10/25 02:25:22] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: missingPaddingMessage([])String

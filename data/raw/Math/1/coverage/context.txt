@@ -1,0 +1,6 @@
+project=Math
+bug_id=1
+src_test_dir=src/test/java
+classes_dir=/Users/m.rudenko/mpr/project/data/raw/Math/1f/target/classes
+test_classes_dir=/Users/m.rudenko/mpr/project/data/raw/Math/1f/target/test-classes
+cp_test=/Users/m.rudenko/mpr/project/data/raw/Math/1f/target/classes:/Users/m.rudenko/mpr/project/data/raw/Math/1f/target/test-classes:/Users/m.rudenko/mpr/project/defects4j/framework/projects/lib/junit-4.12-hamcrest-1.3.jar

@@ -1,0 +1,358 @@
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.plugin.MajorPluginTaskListener.<init>:
+    Created MajorPluginTaskListener with options: [mml:/Users/m.rudenko/mpr/project/data/raw/Lang/65f/.mml/default.mml.bin, enable.decl.refactor, enable.method.refactor]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.initOperatorSymbols:
+    Initializing operator symbols for opcode mapping
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.mutateTree:
+    Mutating tree: Env[AttrContext[Scope[super, this]],outer=Env[AttrContext[Scope[org.apache.commons.lang.ArrayUtils]]]]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: org.apache.commons.lang.ArrayUtils
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([])null
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toString([Object array])String
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toString([Object array, String stringIfNull])String
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: hashCode([Object array])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isEquals([Object array1, Object array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toMap([Object[] array])Map
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clone([Object[] array])Object[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clone([long[] array])long[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clone([int[] array])int[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clone([short[] array])short[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clone([char[] array])char[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clone([byte[] array])byte[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clone([double[] array])double[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clone([float[] array])float[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: clone([boolean[] array])boolean[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: subarray([Object[] array, int startIndexInclusive, int endIndexExclusive])Object[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: subarray([long[] array, int startIndexInclusive, int endIndexExclusive])long[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: subarray([int[] array, int startIndexInclusive, int endIndexExclusive])int[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: subarray([short[] array, int startIndexInclusive, int endIndexExclusive])short[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: subarray([char[] array, int startIndexInclusive, int endIndexExclusive])char[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: subarray([byte[] array, int startIndexInclusive, int endIndexExclusive])byte[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: subarray([double[] array, int startIndexInclusive, int endIndexExclusive])double[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: subarray([float[] array, int startIndexInclusive, int endIndexExclusive])float[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: subarray([boolean[] array, int startIndexInclusive, int endIndexExclusive])boolean[]
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isSameLength([Object[] array1, Object[] array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isSameLength([long[] array1, long[] array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isSameLength([int[] array1, int[] array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isSameLength([short[] array1, short[] array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isSameLength([char[] array1, char[] array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isSameLength([byte[] array1, byte[] array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isSameLength([double[] array1, double[] array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isSameLength([float[] array1, float[] array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isSameLength([boolean[] array1, boolean[] array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: getLength([Object array])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isSameType([Object array1, Object array2])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: reverse([Object[] array])void
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: reverse([long[] array])void
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: reverse([int[] array])void
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: reverse([short[] array])void
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: reverse([char[] array])void
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: reverse([byte[] array])void
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: reverse([double[] array])void
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: reverse([float[] array])void
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: reverse([boolean[] array])void
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([Object[] array, Object objectToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([Object[] array, Object objectToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([Object[] array, Object objectToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([Object[] array, Object objectToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contains([Object[] array, Object objectToFind])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([long[] array, long valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([long[] array, long valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([long[] array, long valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([long[] array, long valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contains([long[] array, long valueToFind])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([int[] array, int valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([int[] array, int valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([int[] array, int valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([int[] array, int valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contains([int[] array, int valueToFind])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([short[] array, short valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([short[] array, short valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([short[] array, short valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([short[] array, short valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contains([short[] array, short valueToFind])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([char[] array, char valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([char[] array, char valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([char[] array, char valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([char[] array, char valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contains([char[] array, char valueToFind])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([byte[] array, byte valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([byte[] array, byte valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([byte[] array, byte valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([byte[] array, byte valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contains([byte[] array, byte valueToFind])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([double[] array, double valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([double[] array, double valueToFind, double tolerance])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([double[] array, double valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([double[] array, double valueToFind, int startIndex, double tolerance])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([double[] array, double valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([double[] array, double valueToFind, double tolerance])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([double[] array, double valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([double[] array, double valueToFind, int startIndex, double tolerance])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contains([double[] array, double valueToFind])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contains([double[] array, double valueToFind, double tolerance])boolean
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([float[] array, float valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([float[] array, float valueToFind, int startIndex])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([float[] array, float valueToFind])int
+[10/25 02:29:55] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([float[] array, float valueToFind, int startIndex])int
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contains([float[] array, float valueToFind])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([boolean[] array, boolean valueToFind])int
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: indexOf([boolean[] array, boolean valueToFind, int startIndex])int
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([boolean[] array, boolean valueToFind])int
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: lastIndexOf([boolean[] array, boolean valueToFind, int startIndex])int
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: contains([boolean[] array, boolean valueToFind])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Character[] array])char[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Character[] array, char valueForNull])char[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toObject([char[] array])Character[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Long[] array])long[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Long[] array, long valueForNull])long[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toObject([long[] array])Long[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Integer[] array])int[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Integer[] array, int valueForNull])int[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toObject([int[] array])Integer[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Short[] array])short[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Short[] array, short valueForNull])short[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toObject([short[] array])Short[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Byte[] array])byte[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Byte[] array, byte valueForNull])byte[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toObject([byte[] array])Byte[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Double[] array])double[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Double[] array, double valueForNull])double[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toObject([double[] array])Double[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Float[] array])float[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Float[] array, float valueForNull])float[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toObject([float[] array])Float[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Boolean[] array])boolean[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toPrimitive([Boolean[] array, boolean valueForNull])boolean[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: toObject([boolean[] array])Boolean[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isEmpty([Object[] array])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isEmpty([long[] array])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isEmpty([int[] array])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isEmpty([short[] array])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isEmpty([char[] array])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isEmpty([byte[] array])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isEmpty([double[] array])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isEmpty([float[] array])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: isEmpty([boolean[] array])boolean
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: addAll([Object[] array1, Object[] array2])Object[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: addAll([boolean[] array1, boolean[] array2])boolean[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: addAll([char[] array1, char[] array2])char[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: addAll([byte[] array1, byte[] array2])byte[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: addAll([short[] array1, short[] array2])short[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: addAll([int[] array1, int[] array2])int[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: addAll([long[] array1, long[] array2])long[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: addAll([float[] array1, float[] array2])float[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: addAll([double[] array1, double[] array2])double[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([Object[] array, Object element])Object[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([boolean[] array, boolean element])boolean[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([byte[] array, byte element])byte[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([char[] array, char element])char[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([double[] array, double element])double[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([float[] array, float element])float[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([int[] array, int element])int[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([long[] array, long element])long[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([short[] array, short element])short[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: copyArrayGrow1([Object array, Class newArrayComponentType])Object
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([Object[] array, int index, Object element])Object[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([boolean[] array, int index, boolean element])boolean[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([char[] array, int index, char element])char[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([byte[] array, int index, byte element])byte[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([short[] array, int index, short element])short[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([int[] array, int index, int element])int[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([long[] array, int index, long element])long[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([float[] array, int index, float element])float[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([double[] array, int index, double element])double[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: add([Object array, int index, Object element, Class clss])Object
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: remove([Object[] array, int index])Object[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeElement([Object[] array, Object element])Object[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: remove([boolean[] array, int index])boolean[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeElement([boolean[] array, boolean element])boolean[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: remove([byte[] array, int index])byte[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeElement([byte[] array, byte element])byte[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: remove([char[] array, int index])char[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeElement([char[] array, char element])char[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: remove([double[] array, int index])double[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeElement([double[] array, double element])double[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: remove([float[] array, int index])float[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeElement([float[] array, float element])float[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: remove([int[] array, int index])int[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeElement([int[] array, int element])int[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: remove([long[] array, int index])long[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeElement([long[] array, long element])long[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: remove([short[] array, int index])short[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: removeElement([short[] array, short element])short[]
+[10/25 02:29:56] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: remove([Object array, int index])Object

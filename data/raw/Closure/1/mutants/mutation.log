@@ -1,0 +1,966 @@
+
+rhino:
+
+properties:
+
+init:
+
+compile:
+
+compile-most:
+
+compile-jdk15:
+
+compile:
+
+properties:
+
+compile:
+
+xmlimplsrc-compile:
+     [echo] Calling /Users/m.rudenko/mpr/project/data/raw/Closure/1f/lib/rhino/xmlimplsrc/build.xml
+
+compile:
+
+compile-all:
+
+compile:
+
+jar:
+
+rhino-jarjar:
+   [jarjar] Updating jar: /Users/m.rudenko/mpr/project/data/raw/Closure/1f/build/lib/rhino.jar
+
+svnversion:
+
+compile:
+    [javac] /Users/m.rudenko/mpr/project/data/raw/Closure/1f/build.xml:256: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /Users/m.rudenko/mpr/project/data/raw/Closure/1f/build.xml:262: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+[propertyfile] Updating property file: /Users/m.rudenko/mpr/project/data/raw/Closure/1f/build/classes/com/google/javascript/jscomp/parsing/ParserConfig.properties
+
+compile-tests:
+    [javac] /Users/m.rudenko/mpr/project/data/raw/Closure/1f/build.xml:330: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /Users/m.rudenko/mpr/project/data/raw/Closure/1f/build.xml:336: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 221 ordered test(s)to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 175.60 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Serialize preprocessing results to preprocessing.ser
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 442
+    [junit] MAJOR: Mutants covered:   433 (97.96%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export coverage map to covMap.csv
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 433 mutant(s) and 221 test(s).
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 1/221 - com.google.debugging.sourcemap.Base64Test (3ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 2/221 - com.google.javascript.jscomp.CleanupPassesTest (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 3/221 - com.google.javascript.rhino.jstype.BooleanLiteralSetTest (4ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 4/221 - com.google.javascript.jscomp.GlobalNamespaceTest (5ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 5/221 - com.google.javascript.jscomp.GlobalVarReferenceMapTest (6ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 6/221 - com.google.javascript.jscomp.JsMessageTest (7ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 7/221 - com.google.javascript.jscomp.DotFormatterTest (8ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 8/221 - com.google.javascript.jscomp.BasicErrorManagerTest (9ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 9/221 - com.google.javascript.jscomp.SourceInformationAnnotatorTest (10ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 10/221 - com.google.javascript.jscomp.graph.GraphReachabilityTest (10ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 11/221 - com.google.javascript.rhino.jstype.TernaryValueTest (12ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 12/221 - com.google.debugging.sourcemap.Base64VLQTest (13ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 13/221 - com.google.javascript.jscomp.graph.GraphPrunerTest (13ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 14/221 - com.google.javascript.jscomp.LightweightMessageFormatterTest (19ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 15/221 - com.google.javascript.jscomp.deps.JsFileLineParserTest (19ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 16/221 - com.google.javascript.rhino.IRTest (19ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 17/221 - com.google.javascript.jscomp.CheckPathsBetweenNodesTest (20ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 18/221 - com.google.javascript.jscomp.FixedPointGraphTraversalTest (20ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 19/221 - com.google.javascript.jscomp.DataFlowAnalysisTest (22ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 20/221 - com.google.javascript.jscomp.graph.GraphTest (23ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 21/221 - com.google.javascript.jscomp.CompilerOptionsTest (25ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 22/221 - com.google.javascript.jscomp.VariableMapTest (25ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 23/221 - com.google.debugging.sourcemap.SourceMapConsumerV2Test (26ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 24/221 - com.google.javascript.rhino.JSDocInfoTest (28ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 25/221 - com.google.javascript.jscomp.graph.StandardUnionFindTest (29ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 26/221 - com.google.javascript.jscomp.parsing.JsDocTokenStreamTest (29ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 27/221 - com.google.javascript.jscomp.deps.SortedDependenciesTest (30ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 28/221 - com.google.javascript.rhino.jstype.FunctionParamBuilderTest (35ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 29/221 - com.google.javascript.jscomp.regex.CharRangesTest (37ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 30/221 - com.google.javascript.rhino.jstype.EnumElementTypeTest (37ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 31/221 - com.google.javascript.rhino.jstype.PrototypeObjectTypeTest (38ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 32/221 - com.google.javascript.rhino.jstype.NamedTypeTest (41ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 33/221 - com.google.javascript.jscomp.ConcreteTypeTest (42ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 34/221 - com.google.javascript.rhino.jstype.ParameterizedTypeTest (44ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 35/221 - com.google.javascript.jscomp.jsonml.JsonMLValidationTest (45ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 36/221 - com.google.javascript.jscomp.deps.JsFunctionParserTest (60ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 37/221 - com.google.javascript.rhino.jstype.UnionTypeBuilderTest (60ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 38/221 - com.google.javascript.rhino.NodeTest (65ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 39/221 - com.google.debugging.sourcemap.SourceMapConsumerV1Test (67ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 40/221 - com.google.javascript.jscomp.XtbMessageBundleTest (69ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 41/221 - com.google.javascript.jscomp.deps.DepsFileParserTest (69ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 42/221 - com.google.javascript.jscomp.deps.JsFileParserTest (74ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 43/221 - com.google.javascript.rhino.jstype.UnionTypeTest (84ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 44/221 - com.google.javascript.jscomp.DiagnosticGroupTest (87ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 45/221 - com.google.javascript.rhino.jstype.FunctionTypeTest (89ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 46/221 - com.google.javascript.rhino.jstype.JSTypeRegistryTest (95ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 47/221 - com.google.javascript.rhino.jstype.RecordTypeTest (96ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 48/221 - com.google.javascript.jscomp.JSModuleTest (123ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 49/221 - com.google.javascript.jscomp.GatherSideEffectSubexpressionsCallbackTest (138ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 50/221 - com.google.javascript.jscomp.JSModuleGraphTest (141ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 51/221 - com.google.javascript.jscomp.PrepareAstTest (144ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 52/221 - com.google.javascript.jscomp.GoogleCodingConventionTest (145ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 53/221 - com.google.javascript.jscomp.MemoizedScopeCreatorTest (145ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 54/221 - com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest (147ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 55/221 - com.google.javascript.jscomp.PhaseOptimizerTest (153ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 56/221 - com.google.javascript.jscomp.CombinedCompilerPassTest (154ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 57/221 - com.google.javascript.jscomp.FunctionNamesTest (155ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 58/221 - com.google.javascript.jscomp.NodeTraversalTest (156ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 59/221 - com.google.javascript.jscomp.ClosureOptimizePrimitivesTest (164ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 60/221 - com.google.javascript.jscomp.VariableVisibilityAnalysisTest (167ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 61/221 - com.google.javascript.jscomp.InlineCostEstimatorTest (170ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 62/221 - com.google.javascript.jscomp.DefinitionsRemoverTest (173ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 63/221 - com.google.javascript.jscomp.ClosureCodingConventionTest (175ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 64/221 - com.google.javascript.jscomp.MoveFunctionDeclarationsTest (175ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 65/221 - com.google.javascript.jscomp.JsMessageExtractorTest (177ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 433
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 66/221 - com.google.javascript.jscomp.OptimizeCallsTest (178ms / 348):
+    [junit] MAJOR: 84148 (148 / 348 / 433) -> AVG-RTPM: 241ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 67/221 - com.google.javascript.jscomp.SourceMapTest (178ms / 0):
+    [junit] MAJOR: 84148 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 68/221 - com.google.javascript.jscomp.ObjectPropertyStringPreprocessTest (179ms / 0):
+    [junit] MAJOR: 84148 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 69/221 - com.google.javascript.jscomp.RhinoErrorReporterTest (180ms / 0):
+    [junit] MAJOR: 84148 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 70/221 - com.google.javascript.jscomp.graph.GraphColoringTest (182ms / 0):
+    [junit] MAJOR: 84148 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 71/221 - com.google.javascript.jscomp.NodeIteratorsTest (184ms / 0):
+    [junit] MAJOR: 84149 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 72/221 - com.google.javascript.jscomp.DenormalizeTest (186ms / 0):
+    [junit] MAJOR: 84149 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 73/221 - com.google.javascript.jscomp.ClosureCodeRemovalTest (187ms / 0):
+    [junit] MAJOR: 84149 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 74/221 - com.google.javascript.jscomp.DefaultCodingConventionTest (188ms / 0):
+    [junit] MAJOR: 84149 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 75/221 - com.google.javascript.jscomp.CheckDebuggerStatementTest (189ms / 0):
+    [junit] MAJOR: 84149 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 76/221 - com.google.javascript.jscomp.SyntacticScopeCreatorTest (190ms / 0):
+    [junit] MAJOR: 84149 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 148 (79-68-1) / 285
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 77/221 - com.google.javascript.jscomp.jsonml.SecureCompilerTest (192ms / 56):
+    [junit] MAJOR: 91316 (2 / 30 / 433) -> AVG-RTPM: 238ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 78/221 - com.google.javascript.jscomp.AstParallelizerTest (194ms / 0):
+    [junit] MAJOR: 91316 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 79/221 - com.google.javascript.jscomp.CheckProvidesTest (195ms / 0):
+    [junit] MAJOR: 91316 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 80/221 - com.google.javascript.jscomp.CheckMissingGetCssNameTest (198ms / 0):
+    [junit] MAJOR: 91316 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 81/221 - com.google.javascript.jscomp.ReplaceMessagesForChromeTest (198ms / 0):
+    [junit] MAJOR: 91316 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 82/221 - com.google.javascript.jscomp.JsMessageVisitorTest (200ms / 0):
+    [junit] MAJOR: 91316 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 83/221 - com.google.javascript.jscomp.SanityCheckTest (204ms / 0):
+    [junit] MAJOR: 91316 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 84/221 - com.google.javascript.jscomp.ObjectPropertyStringPostprocessTest (205ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 85/221 - com.google.javascript.jscomp.RenameLocalVarsTest (206ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 86/221 - com.google.javascript.jscomp.parsing.IRFactoryTest (209ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 87/221 - com.google.javascript.jscomp.SimpleFunctionAliasAnalysisTest (211ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 88/221 - com.google.javascript.jscomp.GenerateExportsTest (214ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 89/221 - com.google.javascript.jscomp.CheckRegExpTest (215ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 90/221 - com.google.javascript.jscomp.MustBeReachingVariableDefTest (217ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 91/221 - com.google.javascript.jscomp.FunctionArgumentInjectorTest (218ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 92/221 - com.google.javascript.jscomp.GatherRawExportsTest (219ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 93/221 - com.google.javascript.jscomp.CreateSyntheticBlocksTest (222ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 94/221 - com.google.javascript.jscomp.ControlStructureCheckTest (225ms / 0):
+    [junit] MAJOR: 91317 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 95/221 - com.google.javascript.jscomp.MaybeReachingVariableUseTest (225ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 96/221 - com.google.javascript.jscomp.ConvertToDottedPropertiesTest (227ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 97/221 - com.google.javascript.jscomp.PeepholeOptimizationsPassTest (229ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 98/221 - com.google.javascript.jscomp.ChainCallsTest (230ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 99/221 - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest (232ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 100/221 - com.google.javascript.jscomp.InferJSDocInfoTest (234ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 101/221 - com.google.javascript.jscomp.RemoveUnusedNamesTest (234ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 102/221 - com.google.javascript.jscomp.ExpandJqueryAliasesTest (236ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 103/221 - com.google.javascript.jscomp.RenameLabelsTest (236ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 104/221 - com.google.javascript.jscomp.AstValidatorTest (241ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 105/221 - com.google.javascript.jscomp.IgnoreCajaPropertiesTest (241ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 106/221 - com.google.javascript.jscomp.OptimizeArgumentsArrayTest (241ms / 0):
+    [junit] MAJOR: 91318 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 107/221 - com.google.javascript.jscomp.RecordFunctionInformationTest (244ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 108/221 - com.google.javascript.jscomp.CheckSideEffectsTest (245ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 109/221 - com.google.javascript.jscomp.ClosureRewriteClassTest (246ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 110/221 - com.google.javascript.jscomp.LiveVariableAnalysisTest (248ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 111/221 - com.google.javascript.jscomp.PeepholeFoldWithTypesTest (250ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 112/221 - com.google.javascript.jscomp.FunctionTypeBuilderTest (252ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 113/221 - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest (253ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 114/221 - com.google.javascript.jscomp.GroupVariableDeclarationsTest (256ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 115/221 - com.google.debugging.sourcemap.SourceMapGeneratorV2Test (257ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 116/221 - com.google.javascript.jscomp.ControlFlowAnalysisTest (257ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 117/221 - com.google.javascript.jscomp.TypeValidatorTest (258ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 118/221 - com.google.javascript.jscomp.CollapseVariableDeclarationsTest (260ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 119/221 - com.google.javascript.jscomp.ConstCheckTest (260ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 120/221 - com.google.debugging.sourcemap.SourceMapGeneratorV3Test (263ms / 0):
+    [junit] MAJOR: 91319 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 121/221 - com.google.javascript.jscomp.NameAnonymousFunctionsTest (265ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 122/221 - com.google.javascript.jscomp.FunctionToBlockMutatorTest (266ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 123/221 - com.google.javascript.jscomp.OptimizeReturnsTest (269ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 124/221 - com.google.javascript.jscomp.RemoveTryCatchTest (270ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 125/221 - com.google.javascript.jscomp.TransformAMDToCJSModuleTest (274ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 126/221 - com.google.javascript.jscomp.FunctionRewriterTest (275ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 127/221 - com.google.javascript.jscomp.InlineVariablesConstantsTest (276ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 128/221 - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest (277ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 129/221 - com.google.javascript.jscomp.ProcessCommonJSModulesTest (278ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 130/221 - com.google.javascript.jscomp.ExploitAssignsTest (281ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 131/221 - com.google.javascript.jscomp.ShadowVariablesTest (282ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 132/221 - com.google.javascript.jscomp.ReplaceCssNamesTest (283ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 133/221 - com.google.javascript.jscomp.ExportTestFunctionsTest (285ms / 0):
+    [junit] MAJOR: 91320 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 134/221 - com.google.javascript.jscomp.PeepholeCollectPropertyAssignmentsTest (285ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 135/221 - com.google.javascript.jscomp.VariableReferenceCheckTest (285ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 136/221 - com.google.javascript.jscomp.RemoveUnusedClassPropertiesTest (286ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 137/221 - com.google.javascript.jscomp.SpecializeModuleTest (289ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 138/221 - com.google.javascript.jscomp.VarCheckTest (289ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 139/221 - com.google.javascript.jscomp.ExtractPrototypeMemberDeclarationsTest (292ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 140/221 - com.google.javascript.jscomp.CrossModuleMethodMotionTest (294ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 141/221 - com.google.javascript.jscomp.ReplaceMessagesTest (294ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 142/221 - com.google.javascript.jscomp.ReplaceIdGeneratorsTest (295ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 143/221 - com.google.javascript.jscomp.ExpressionDecomposerTest (296ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 144/221 - com.google.javascript.jscomp.SimpleDefinitionFinderTest (297ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 145/221 - com.google.javascript.jscomp.CrossModuleCodeMotionTest (298ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 146/221 - com.google.javascript.jscomp.ProcessDefinesTest (298ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 147/221 - com.google.javascript.jscomp.CheckUnreachableCodeTest (299ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 148/221 - com.google.javascript.jscomp.AliasKeywordsTest (300ms / 0):
+    [junit] MAJOR: 91321 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 150 (79-70-1) / 283
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 149/221 - com.google.javascript.jscomp.CompilerTest (301ms / 127):
+    [junit] MAJOR: 111627 (1 / 64 / 433) -> AVG-RTPM: 317ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 150/221 - com.google.javascript.jscomp.LinkedFlowScopeTest (315ms / 0):
+    [junit] MAJOR: 111627 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 151/221 - com.google.javascript.jscomp.InlineSimpleMethodsTest (316ms / 0):
+    [junit] MAJOR: 111627 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 152/221 - com.google.javascript.jscomp.InlinePropertiesTest (324ms / 0):
+    [junit] MAJOR: 111627 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 153/221 - com.google.javascript.jscomp.RescopeGlobalSymbolsTest (326ms / 0):
+    [junit] MAJOR: 111627 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 154/221 - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest (327ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 155/221 - com.google.javascript.jscomp.ProcessTweaksTest (329ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 156/221 - com.google.javascript.jscomp.ExternExportsPassTest (340ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 157/221 - com.google.debugging.sourcemap.SourceMapGeneratorV1Test (341ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 158/221 - com.google.javascript.jscomp.CheckRequiresForConstructorsTest (342ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 159/221 - com.google.javascript.jscomp.StrictModeCheckTest (342ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 160/221 - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest (345ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 161/221 - com.google.javascript.jscomp.CheckGlobalThisTest (350ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 162/221 - com.google.javascript.jscomp.parsing.ParserTest (350ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 163/221 - com.google.javascript.jscomp.StatementFusionTest (352ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 164/221 - com.google.javascript.jscomp.CheckSuspiciousCodeTest (354ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 165/221 - com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest (366ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 166/221 - com.google.javascript.jscomp.CheckMissingReturnTest (369ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 167/221 - com.google.javascript.jscomp.StripCodeTest (371ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 168/221 - com.google.javascript.jscomp.MinimizeExitPointsTest (373ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 169/221 - com.google.javascript.jscomp.SideEffectsAnalysisTest (374ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 170/221 - com.google.javascript.jscomp.TypeCheckFunctionCheckTest (379ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 171/221 - com.google.javascript.jscomp.RenamePrototypesTest (394ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 172/221 - com.google.javascript.jscomp.NodeUtilTest (395ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 173/221 - com.google.javascript.jscomp.CallGraphTest (396ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 174/221 - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest (396ms / 0):
+    [junit] MAJOR: 111628 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 175/221 - com.google.javascript.jscomp.RenameVarsTest (408ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 176/221 - com.google.javascript.jscomp.FunctionInjectorTest (415ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 177/221 - com.google.javascript.jscomp.AliasExternalsTest (419ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 178/221 - com.google.javascript.jscomp.InstrumentFunctionsTest (420ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 179/221 - com.google.javascript.jscomp.PeepholeIntegrationTest (423ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 180/221 - com.google.javascript.jscomp.CoalesceVariableNamesTest (428ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 181/221 - com.google.javascript.jscomp.AliasStringsTest (429ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 182/221 - com.google.javascript.jscomp.ScopedAliasesTest (431ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 183/221 - com.google.javascript.jscomp.MarkNoSideEffectCallsTest (438ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 184/221 - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest (442ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 185/221 - com.google.javascript.jscomp.InlineObjectLiteralsTest (444ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 186/221 - com.google.javascript.jscomp.CheckGlobalNamesTest (454ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 187/221 - com.google.javascript.jscomp.ReorderConstantExpressionTest (471ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 188/221 - com.google.javascript.jscomp.RenamePropertiesTest (472ms / 0):
+    [junit] MAJOR: 111629 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 189/221 - com.google.javascript.jscomp.PeepholeSimplifyRegExpTest (477ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 190/221 - com.google.javascript.jscomp.NormalizeTest (516ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 191/221 - com.google.javascript.jscomp.ProcessClosurePrimitivesTest (528ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 192/221 - com.google.javascript.rhino.jstype.JSTypeTest (535ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 193/221 - com.google.javascript.jscomp.OptimizeParametersTest (554ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 194/221 - com.google.javascript.jscomp.CodePrinterTest (557ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 195/221 - com.google.javascript.jscomp.DeadAssignmentsEliminationTest (599ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 196/221 - com.google.javascript.jscomp.UnreachableCodeEliminationTest (642ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 197/221 - com.google.javascript.jscomp.TypeInferenceTest (649ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 198/221 - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest (691ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 199/221 - com.google.javascript.jscomp.jsonml.JsonMLConversionTest (709ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 200/221 - com.google.javascript.jscomp.AmbiguatePropertiesTest (716ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 201/221 - com.google.javascript.jscomp.ReplaceStringsTest (717ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 202/221 - com.google.javascript.jscomp.TightenTypesTest (721ms / 0):
+    [junit] MAJOR: 111630 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 151 (79-71-1) / 282
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 203/221 - com.google.javascript.jscomp.RemoveUnusedVarsTest (725ms / 433):
+    [junit] MAJOR: 313145 (178 / 282 / 433) -> AVG-RTPM: 714ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 204/221 - com.google.javascript.jscomp.InlineVariablesTest (744ms / 0):
+    [junit] MAJOR: 313146 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 205/221 - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest (755ms / 0):
+    [junit] MAJOR: 313146 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 206/221 - com.google.javascript.jscomp.TypedScopeCreatorTest (833ms / 0):
+    [junit] MAJOR: 313146 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 207/221 - com.google.javascript.jscomp.RuntimeTypeCheckTest (859ms / 0):
+    [junit] MAJOR: 313146 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 208/221 - com.google.javascript.jscomp.DisambiguatePropertiesTest (888ms / 0):
+    [junit] MAJOR: 313146 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 209/221 - com.google.javascript.jscomp.SymbolTableTest (894ms / 0):
+    [junit] MAJOR: 313146 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 210/221 - com.google.javascript.jscomp.CheckAccessControlsTest (915ms / 0):
+    [junit] MAJOR: 313146 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 211/221 - com.google.javascript.jscomp.CollapsePropertiesTest (957ms / 0):
+    [junit] MAJOR: 313146 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 212/221 - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest (988ms / 0):
+    [junit] MAJOR: 313147 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 213/221 - com.google.javascript.jscomp.parsing.JsDocInfoParserTest (991ms / 0):
+    [junit] MAJOR: 313147 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 214/221 - com.google.javascript.jscomp.InlineFunctionsTest (1082ms / 0):
+    [junit] MAJOR: 313147 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 215/221 - com.google.javascript.jscomp.NameAnalyzerTest (1187ms / 0):
+    [junit] MAJOR: 313147 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 216/221 - com.google.javascript.jscomp.IntegrationTest (1382ms / 317):
+    [junit] MAJOR: 441948 (0 / 78 / 433) -> AVG-RTPM: 1651ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 217/221 - com.google.javascript.jscomp.PeepholeFoldConstantsTest (1649ms / 0):
+    [junit] MAJOR: 441949 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 218/221 - com.google.javascript.jscomp.CommandLineRunnerTest (1667ms / 309):
+    [junit] MAJOR: 517620 (0 / 78 / 433) -> AVG-RTPM: 970ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 219/221 - com.google.javascript.jscomp.PureFunctionIdentifierTest (1763ms / 0):
+    [junit] MAJOR: 517621 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 220/221 - com.google.javascript.jscomp.LooseTypeCheckTest (2285ms / 0):
+    [junit] MAJOR: 517621 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 221/221 - com.google.javascript.jscomp.TypeCheckTest (5296ms / 0):
+    [junit] MAJOR: 517621 (0 / 0 / 433) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 329 (229-95-5) / 104
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time                 : 517.62 seconds
+    [junit] MAJOR: Mutation score                : 74.43% (75.98%)
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME): 329 (229-95-5)
+    [junit] MAJOR: Mutants live                  : 104
+    [junit] MAJOR: Mutant executions             : 880
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant details to /Users/m.rudenko/mpr/project/data/raw/Closure/1f/kill.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Done!
+    [junit] MAJOR: ------------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 11 minutes 35 seconds

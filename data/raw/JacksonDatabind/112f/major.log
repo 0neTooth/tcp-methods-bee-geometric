@@ -1,0 +1,16 @@
+[10/25 02:10:16] [INFO   ] org.mutationtesting.major.plugin.MajorPluginTaskListener.<init>:
+    Created MajorPluginTaskListener with options: [mml:/Users/m.rudenko/mpr/project/data/raw/JacksonDatabind/112f/.mml/default.mml.bin, enable.decl.refactor, enable.method.refactor]
+[10/25 02:10:17] [INFO   ] org.mutationtesting.major.mutation.Mutator.initOperatorSymbols:
+    Initializing operator symbols for opcode mapping
+[10/25 02:10:17] [INFO   ] org.mutationtesting.major.mutation.Mutator.mutateTree:
+    Mutating tree: Env[AttrContext[Scope[super, this]],outer=Env[AttrContext[Scope[com.fasterxml.jackson.databind.AbstractTypeResolver]]]]
+[10/25 02:10:17] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitClassDef:
+    CLASS: com.fasterxml.jackson.databind.AbstractTypeResolver
+[10/25 02:10:17] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: <init>([])null
+[10/25 02:10:17] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: findTypeMapping([DeserializationConfig config, JavaType type])JavaType
+[10/25 02:10:17] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: resolveAbstractType([DeserializationConfig config, JavaType type])JavaType
+[10/25 02:10:17] [INFO   ] org.mutationtesting.major.mutation.Mutator.visitMethodDef:
+    METHOD: resolveAbstractType([DeserializationConfig config, BeanDescription typeDesc])JavaType

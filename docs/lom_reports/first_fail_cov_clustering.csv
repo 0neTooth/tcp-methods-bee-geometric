@@ -1,0 +1,11 @@
+project,bug,first_fail_percent
+Chart,1,2.66
+Closure,1,2.91
+Codec,18,35.75
+Csv,16,17.24
+JacksonCore,26,3.54
+JacksonDatabind,112,0.83
+JacksonXml,6,17.70
+Lang,65,45.68
+Math,1,34.51
+Time,27,10.83

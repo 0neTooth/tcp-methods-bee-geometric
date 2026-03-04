@@ -1,0 +1,11 @@
+project,bug_id,coverage_ser,coverage_matrix
+Compress,47,yes,yes
+JacksonCore,26,yes,yes
+JacksonDatabind,112,yes,yes
+Gson,18,yes,yes
+JacksonXml,6,yes,yes
+Codec,18,yes,yes
+Time,27,yes,yes
+Lang,65,yes,yes
+Jsoup,93,yes,yes
+Csv,16,yes,yes

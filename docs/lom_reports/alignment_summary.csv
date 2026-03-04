@@ -1,0 +1,11 @@
+project,bug,coverage_methods,impact_entries,matched
+Jsoup,93,1339,6,5
+Gson,18,753,41,36
+Csv,16,173,25,21
+JacksonDatabind,112,12,13,10
+JacksonXml,6,443,74,69
+Compress,47,2244,62,36
+Time,27,3602,100,83
+Codec,18,693,21,20
+JacksonCore,26,108,110,106
+Lang,65,1958,31,28

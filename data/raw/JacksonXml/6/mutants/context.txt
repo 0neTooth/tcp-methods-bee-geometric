@@ -1,0 +1,6 @@
+project=JacksonXml
+bug_id=6
+workdir=/Users/m.rudenko/mpr/project/data/raw/JacksonXml/6f
+exclude_file=
+filter_file=
+mml_override=/Users/m.rudenko/mpr/project/config/mml/JacksonXml-6.mml

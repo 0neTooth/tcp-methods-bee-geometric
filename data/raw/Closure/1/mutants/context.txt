@@ -1,0 +1,6 @@
+project=Closure
+bug_id=1
+workdir=/Users/m.rudenko/mpr/project/data/raw/Closure/1f
+exclude_file=
+filter_file=
+mml_override=

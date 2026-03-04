@@ -1,0 +1,11 @@
+project,bug_id,mutants_log,summary_csv
+Compress,47,no,no
+JacksonCore,26,yes,yes
+JacksonDatabind,112,yes,yes
+Gson,18,no,no
+JacksonXml,6,yes,yes
+Codec,18,yes,yes
+Time,27,yes,yes
+Lang,65,yes,yes
+Jsoup,93,yes,no
+Csv,16,yes,yes

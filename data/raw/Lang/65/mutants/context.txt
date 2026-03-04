@@ -1,0 +1,6 @@
+project=Lang
+bug_id=65
+workdir=/Users/m.rudenko/mpr/project/data/raw/Lang/65f
+exclude_file=
+filter_file=
+mml_override=/Users/m.rudenko/mpr/project/config/mml/Lang-65.mml

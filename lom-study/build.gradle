@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'dev.mpr'
+version = '0.1.0-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation files("${rootProject.projectDir}/../tools/gzoltar/gzoltarcli.jar")
+    implementation 'org.soot-oss:soot:4.4.1'
+    implementation 'org.slf4j:slf4j-nop:2.0.12'
+    implementation 'org.ow2.asm:asm:9.6'
+    implementation 'org.ow2.asm:asm-tree:9.6'
+}
+
+application {
+    mainClass = 'dev.mpr.gzoltar.GzoltarSerExporter'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

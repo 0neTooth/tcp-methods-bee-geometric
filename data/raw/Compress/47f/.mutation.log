@@ -1,0 +1,32 @@
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /Users/m.rudenko/mpr/project/data/raw/Compress/47f/maven-build.xml:95: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-compress-from-maven.compile-tests:
+    [javac] /Users/m.rudenko/mpr/project/data/raw/Compress/47f/maven-build.xml:128: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: org.apache.commons.compress.compressors.DetectCompressorTestCase[testDetection] failed!
+    [junit] MAJOR:  -> java.lang.UnsatisfiedLinkError
+    [junit] MAJOR:  -> "no zstd-jni in java.library.path: [/Users/m.rudenko/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java, .]
+    [junit] Unsupported OS/arch, cannot find /darwin/aarch64/libzstd-jni.dylib or load zstd-jni from system libraries. Please try building from source the jar or providing libzstd-jni in you system."
+    [junit] MAJOR: org.apache.commons.compress.compressors.DetectCompressorTestCase[testDetect] failed!
+    [junit] MAJOR:  -> java.lang.NoClassDefFoundError
+    [junit] MAJOR:  -> "Could not initialize class org.apache.commons.compress.compressors.zstandard.ZstdUtils"
+
+BUILD FAILED
+/Users/m.rudenko/mpr/project/defects4j/framework/projects/defects4j.build.xml:228: Test org.apache.commons.compress.compressors.DetectCompressorTestCase failed
+
+Total time: 4 seconds

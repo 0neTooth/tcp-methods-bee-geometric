@@ -1,0 +1,13 @@
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.CharSetUtils@squeeze(java.lang.String,java.lang.String[])|128|4533|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.StringUtils@indexOfAny(java.lang.String,java.lang.String[])|1382|53217|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.StringUtils@lastIndexOfAny(java.lang.String,java.lang.String[])|1432|55167|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.StringUtils@swapCase(java.lang.String)|4063|157608|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.WordUtils@swapCase(java.lang.String)|460|18268|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.WordUtils@swapCase(java.lang.String)|461|18289|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.math.Fraction@getFraction(double)|259|9732|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.math.Fraction@getFraction(double)|260|9794|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.math.Fraction@getFraction(double)|262|9886|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.math.Fraction@getFraction(double)|264|9929|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.lang.math.Fraction@getFraction(double)|266|9984|ANY
+116|SUPPRESSION|LOOP_BOUNDS|Loop bounds check|org.apache.commons.lang.time.DateUtils@parseDate(java.lang.String,java.lang.String[])|258|9808|!=(int,int)
+248|SUPPRESSION|LOOP_BOUNDS|Loop bounds check|org.apache.commons.lang.time.DateUtils@modify(java.util.Calendar,int,boolean)|670|26078|!=(int,int)

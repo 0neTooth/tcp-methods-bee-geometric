@@ -1,0 +1,40 @@
+1:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@addElement(org.jsoup.nodes.Element):45:1269:elements.add(element); |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@removeChild(org.jsoup.nodes.Node):51:1385:super.removeChild(out); |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@removeChild(org.jsoup.nodes.Node):52:1417:elements.remove(out); |==> <NO-OP>
+4:COR:<METHOD_INVOCATION(boolean)>:FALSE:org.jsoup.nodes.FormElement@submit():63:1961:hasAttr("action") |==> false
+5:COR:<METHOD_INVOCATION(boolean)>:TRUE:org.jsoup.nodes.FormElement@submit():63:1961:hasAttr("action") |==> true
+6:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@submit():64:2012:Validate.notEmpty(action, "Could not determine a form action URL for submit. Ensure you set a base URI when parsing."); |==> <NO-OP>
+7:COR:<METHOD_INVOCATION(boolean)>:FALSE:org.jsoup.nodes.FormElement@submit():65:2202:attr("method").toUpperCase().equals("POST") |==> false
+8:COR:<METHOD_INVOCATION(boolean)>:TRUE:org.jsoup.nodes.FormElement@submit():65:2202:attr("method").toUpperCase().equals("POST") |==> true
+9:COR:<METHOD_INVOCATION(boolean)>:FALSE:org.jsoup.nodes.FormElement@formData():83:2870:el.tag().isFormSubmittable() |==> false
+10:COR:<METHOD_INVOCATION(boolean)>:TRUE:org.jsoup.nodes.FormElement@formData():83:2870:el.tag().isFormSubmittable() |==> true
+11:COR:<METHOD_INVOCATION(boolean)>:FALSE:org.jsoup.nodes.FormElement@formData():84:2964:el.hasAttr("disabled") |==> false
+12:COR:<METHOD_INVOCATION(boolean)>:TRUE:org.jsoup.nodes.FormElement@formData():84:2964:el.hasAttr("disabled") |==> true
+13:LVR:0:POS:org.jsoup.nodes.FormElement@formData():86:3093:0 |==> 1
+14:LVR:0:NEG:org.jsoup.nodes.FormElement@formData():86:3093:0 |==> -1
+15:ROR:==(int,int):>=(int,int):org.jsoup.nodes.FormElement@formData():86:3076:name.length() == 0 |==> name.length() >= 0
+16:ROR:==(int,int):FALSE(int,int):org.jsoup.nodes.FormElement@formData():86:3090:name.length() == 0 |==> false
+17:COR:<METHOD_INVOCATION(boolean)>:FALSE:org.jsoup.nodes.FormElement@formData():89:3187:type.equalsIgnoreCase("button") |==> false
+18:COR:<METHOD_INVOCATION(boolean)>:TRUE:org.jsoup.nodes.FormElement@formData():89:3187:type.equalsIgnoreCase("button") |==> true
+19:COR:<METHOD_INVOCATION(boolean)>:FALSE:org.jsoup.nodes.FormElement@formData():91:3272:"select".equals(el.normalName()) |==> false
+20:COR:<METHOD_INVOCATION(boolean)>:TRUE:org.jsoup.nodes.FormElement@formData():91:3272:"select".equals(el.normalName()) |==> true
+21:LVR:FALSE:TRUE:org.jsoup.nodes.FormElement@formData():93:3389:false |==> true
+22:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@formData():95:3464:data.add(HttpConnection.KeyVal.create(name, option.val())); |==> <NO-OP>
+23:LVR:TRUE:FALSE:org.jsoup.nodes.FormElement@formData():96:3550:true |==> false
+24:STD:<ASSIGN>:<NO-OP>:org.jsoup.nodes.FormElement@formData():96:3544:set = true; |==> <NO-OP>
+25:COR:<IDENTIFIER(boolean)>:FALSE:org.jsoup.nodes.FormElement@formData():98:3595:set |==> false
+26:COR:<IDENTIFIER(boolean)>:TRUE:org.jsoup.nodes.FormElement@formData():98:3595:set |==> true
+27:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.jsoup.nodes.FormElement@formData():100:3699:option != null |==> true
+28:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@formData():101:3732:data.add(HttpConnection.KeyVal.create(name, option.val())); |==> <NO-OP>
+29:COR:||(boolean,boolean):!=(boolean,boolean):org.jsoup.nodes.FormElement@formData():103:3833:"checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type) |==> "checkbox".equalsIgnoreCase(type) != "radio".equalsIgnoreCase(type)
+30:COR:||(boolean,boolean):LHS(boolean,boolean):org.jsoup.nodes.FormElement@formData():103:3833:"checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type) |==> "checkbox".equalsIgnoreCase(type)
+31:COR:||(boolean,boolean):RHS(boolean,boolean):org.jsoup.nodes.FormElement@formData():103:3870:"checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type) |==> "radio".equalsIgnoreCase(type)
+32:COR:||(boolean,boolean):TRUE(boolean,boolean):org.jsoup.nodes.FormElement@formData():103:3867:"checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type) |==> true
+33:COR:<METHOD_INVOCATION(boolean)>:FALSE:org.jsoup.nodes.FormElement@formData():105:4015:el.hasAttr("checked") |==> false
+34:COR:<METHOD_INVOCATION(boolean)>:TRUE:org.jsoup.nodes.FormElement@formData():105:4015:el.hasAttr("checked") |==> true
+35:LVR:0:POS:org.jsoup.nodes.FormElement@formData():106:4090:0 |==> 1
+36:LVR:0:NEG:org.jsoup.nodes.FormElement@formData():106:4090:0 |==> -1
+37:ROR:>(int,int):>=(int,int):org.jsoup.nodes.FormElement@formData():106:4069:el.val().length() > 0 |==> el.val().length() >= 0
+38:ROR:>(int,int):FALSE(int,int):org.jsoup.nodes.FormElement@formData():106:4087:el.val().length() > 0 |==> false
+39:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@formData():107:4131:data.add(HttpConnection.KeyVal.create(name, val)); |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@formData():110:4237:data.add(HttpConnection.KeyVal.create(name, el.val())); |==> <NO-OP>

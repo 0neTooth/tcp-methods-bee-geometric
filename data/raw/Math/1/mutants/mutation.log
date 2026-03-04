@@ -1,0 +1,1594 @@
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+
+check-availability:
+     [echo] doing check-availability...
+
+download-dependencies:
+     [echo] doing download-dependencies...
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+download-junit:
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 385 ordered test(s)to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 78.50 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Serialize preprocessing results to preprocessing.ser
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 868
+    [junit] MAJOR: Mutants covered:   850 (97.93%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export coverage map to covMap.csv
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 850 mutant(s) and 385 test(s).
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 1/385 - org.apache.commons.math3.exception.util.ArgUtilsTest (2ms / 0):
+    [junit] MAJOR: 0 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 2/385 - org.apache.commons.math3.genetics.FixedGenerationCountTest (2ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 3/385 - org.apache.commons.math3.genetics.OnePointCrossoverTest (2ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 4/385 - org.apache.commons.math3.genetics.RandomKeyMutationTest (2ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 5/385 - org.apache.commons.math3.geometry.euclidean.threed.RotationOrderTest (2ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 6/385 - org.apache.commons.math3.util.ContinuedFractionTest (2ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 7/385 - org.apache.commons.math3.exception.MaxCountExceededExceptionTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 8/385 - org.apache.commons.math3.exception.NonMonotonicSequenceExceptionTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 9/385 - org.apache.commons.math3.exception.NotPositiveExceptionTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 10/385 - org.apache.commons.math3.exception.NotStrictlyPositiveExceptionTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 11/385 - org.apache.commons.math3.exception.OutOfRangeExceptionTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 12/385 - org.apache.commons.math3.genetics.BinaryMutationTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 13/385 - org.apache.commons.math3.genetics.TournamentSelectionTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 14/385 - org.apache.commons.math3.geometry.euclidean.twod.SegmentTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 15/385 - org.apache.commons.math3.linear.MatrixDimensionMismatchExceptionTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 16/385 - org.apache.commons.math3.ml.distance.ChebyshevDistanceTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 17/385 - org.apache.commons.math3.ml.distance.EuclideanDistanceTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 18/385 - org.apache.commons.math3.optimization.PointValuePairTest (3ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 19/385 - org.apache.commons.math3.exception.DimensionMismatchExceptionTest (4ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 20/385 - org.apache.commons.math3.exception.NumberIsTooLargeExceptionTest (4ms / 0):
+    [junit] MAJOR: 1 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 21/385 - org.apache.commons.math3.exception.NumberIsTooSmallExceptionTest (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 22/385 - org.apache.commons.math3.genetics.ChromosomeTest (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 23/385 - org.apache.commons.math3.ml.distance.CanberraDistanceTest (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 24/385 - org.apache.commons.math3.ml.distance.EarthMoversDistanceTest (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 25/385 - org.apache.commons.math3.optim.PointValuePairTest (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 26/385 - org.apache.commons.math3.optim.PointVectorValuePairTest (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 27/385 - org.apache.commons.math3.optimization.PointVectorValuePairTest (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 28/385 - org.apache.commons.math3.stat.descriptive.moment.InteractionTest (4ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 29/385 - org.apache.commons.math3.linear.OpenMapRealMatrixTest (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 30/385 - org.apache.commons.math3.ml.distance.ManhattanDistanceTest (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 31/385 - org.apache.commons.math3.util.PairTest (5ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 32/385 - org.apache.commons.math3.analysis.integration.gauss.GaussIntegratorTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 33/385 - org.apache.commons.math3.analysis.integration.gauss.HermiteTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 34/385 - org.apache.commons.math3.analysis.solvers.NewtonRaphsonSolverTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 35/385 - org.apache.commons.math3.analysis.solvers.NewtonSolverTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 36/385 - org.apache.commons.math3.exception.TooManyEvaluationsExceptionTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 37/385 - org.apache.commons.math3.genetics.BinaryChromosomeTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 38/385 - org.apache.commons.math3.geometry.partitioning.utilities.AVLTreeTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 39/385 - org.apache.commons.math3.ml.clustering.MultiKMeansPlusPlusClustererTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 40/385 - org.apache.commons.math3.optim.SimplePointCheckerTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 41/385 - org.apache.commons.math3.optim.SimpleValueCheckerTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 42/385 - org.apache.commons.math3.optim.univariate.BracketFinderTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 43/385 - org.apache.commons.math3.optim.univariate.SimpleUnivariateValueCheckerTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 44/385 - org.apache.commons.math3.optimization.SimplePointCheckerTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 45/385 - org.apache.commons.math3.optimization.SimpleValueCheckerTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 46/385 - org.apache.commons.math3.optimization.SimpleVectorValueCheckerTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 47/385 - org.apache.commons.math3.optimization.univariate.BracketFinderTest (6ms / 0):
+    [junit] MAJOR: 2 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 48/385 - org.apache.commons.math3.stat.descriptive.rank.MedianTest (6ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 49/385 - org.apache.commons.math3.util.BigRealFieldTest (6ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 50/385 - org.apache.commons.math3.analysis.integration.SimpsonIntegratorTest (7ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 51/385 - org.apache.commons.math3.analysis.polynomials.PolynomialSplineFunctionTest (7ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 52/385 - org.apache.commons.math3.complex.ComplexFieldTest (7ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 53/385 - org.apache.commons.math3.fitting.WeightedObservedPointsTest (7ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 54/385 - org.apache.commons.math3.genetics.FitnessCachingTest (7ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 55/385 - org.apache.commons.math3.genetics.NPointCrossoverTest (7ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 56/385 - org.apache.commons.math3.genetics.OrderedCrossoverTest (7ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 57/385 - org.apache.commons.math3.optim.SimpleVectorValueCheckerTest (7ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 58/385 - org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueCheckerTest (7ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 59/385 - org.apache.commons.math3.RetryRunnerTest (8ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 60/385 - org.apache.commons.math3.analysis.function.SqrtTest (8ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 61/385 - org.apache.commons.math3.analysis.integration.RombergIntegratorTest (8ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 62/385 - org.apache.commons.math3.analysis.polynomials.PolynomialFunctionLagrangeFormTest (8ms / 0):
+    [junit] MAJOR: 3 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 0 (0-0-0) / 850
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 63/385 - org.apache.commons.math3.fraction.BigFractionFieldTest (8ms / 72):
+    [junit] MAJOR: 445 (13 / 72 / 850) -> AVG-RTPM: 6ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 13 (2-11-0) / 837
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 64/385 - org.apache.commons.math3.fraction.FractionFieldTest (8ms / 79):
+    [junit] MAJOR: 913 (17 / 79 / 850) -> AVG-RTPM: 5ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 65/385 - org.apache.commons.math3.optimization.MultivariateMultiStartOptimizerTest (8ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 66/385 - org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizerTest (8ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 67/385 - org.apache.commons.math3.stat.clustering.EuclideanIntegerPointTest (8ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 68/385 - org.apache.commons.math3.transform.FastHadamardTransformerTest (8ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 69/385 - org.apache.commons.math3.analysis.interpolation.LinearInterpolatorTest (9ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 70/385 - org.apache.commons.math3.analysis.interpolation.SplineInterpolatorTest (9ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 71/385 - org.apache.commons.math3.analysis.polynomials.PolynomialFunctionNewtonFormTest (9ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 72/385 - org.apache.commons.math3.geometry.euclidean.oned.IntervalTest (9ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 73/385 - org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest (9ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 74/385 - org.apache.commons.math3.ode.sampling.DummyStepInterpolatorTest (9ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 75/385 - org.apache.commons.math3.stat.clustering.EuclideanDoublePointTest (9ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 76/385 - org.apache.commons.math3.analysis.integration.TrapezoidIntegratorTest (10ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 77/385 - org.apache.commons.math3.complex.RootsOfUnityTest (10ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 78/385 - org.apache.commons.math3.genetics.CycleCrossoverTest (10ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 79/385 - org.apache.commons.math3.geometry.euclidean.threed.LineTest (10ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 80/385 - org.apache.commons.math3.linear.CholeskySolverTest (10ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 81/385 - org.apache.commons.math3.stat.descriptive.StatisticalSummaryValuesTest (10ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 82/385 - org.apache.commons.math3.util.MultidimensionalCounterTest (10ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 83/385 - org.apache.commons.math3.analysis.interpolation.NevilleInterpolatorTest (11ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 84/385 - org.apache.commons.math3.analysis.interpolation.UnivariatePeriodicInterpolatorTest (11ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 85/385 - org.apache.commons.math3.analysis.solvers.BisectionSolverTest (11ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 86/385 - org.apache.commons.math3.ode.events.ReappearingEventTest (11ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 87/385 - org.apache.commons.math3.stat.inference.WilcoxonSignedRankTestTest (11ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 88/385 - org.apache.commons.math3.util.DefaultTransformerTest (11ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 89/385 - org.apache.commons.math3.util.TransformerMapTest (11ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 90/385 - org.apache.commons.math3.genetics.ElitisticListPopulationTest (12ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 91/385 - org.apache.commons.math3.genetics.GeneticAlgorithmTestBinary (12ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 92/385 - org.apache.commons.math3.geometry.euclidean.twod.LineTest (12ms / 0):
+    [junit] MAJOR: 913 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 30 (3-27-0) / 820
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 93/385 - org.apache.commons.math3.linear.SparseFieldVectorTest (12ms / 301):
+    [junit] MAJOR: 4170 (128 / 285 / 850) -> AVG-RTPM: 11ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 94/385 - org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizerTest (12ms / 0):
+    [junit] MAJOR: 4170 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 95/385 - org.apache.commons.math3.optimization.direct.MultivariateFunctionPenaltyAdapterTest (12ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 96/385 - org.apache.commons.math3.optimization.direct.PowellOptimizerTest (12ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 97/385 - org.apache.commons.math3.stat.descriptive.MixedListUnivariateImplTest (12ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 98/385 - org.apache.commons.math3.stat.descriptive.moment.VectorialMeanTest (12ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 99/385 - org.apache.commons.math3.analysis.interpolation.DividedDifferenceInterpolatorTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 100/385 - org.apache.commons.math3.analysis.interpolation.TricubicSplineInterpolatorTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 101/385 - org.apache.commons.math3.analysis.solvers.LaguerreSolverTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 102/385 - org.apache.commons.math3.analysis.solvers.MullerSolver2Test (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 103/385 - org.apache.commons.math3.complex.ComplexUtilsTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 104/385 - org.apache.commons.math3.linear.EigenSolverTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 105/385 - org.apache.commons.math3.linear.SingularValueSolverTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 106/385 - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionPenaltyAdapterTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 107/385 - org.apache.commons.math3.stat.data.LewTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 108/385 - org.apache.commons.math3.stat.data.LotteryTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 109/385 - org.apache.commons.math3.stat.descriptive.moment.VectorialCovarianceTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 110/385 - org.apache.commons.math3.stat.inference.MannWhitneyUTestTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 111/385 - org.apache.commons.math3.util.IncrementorTest (13ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 112/385 - org.apache.commons.math3.analysis.function.StepFunctionTest (14ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 113/385 - org.apache.commons.math3.analysis.interpolation.TricubicSplineInterpolatingFunctionTest (14ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 114/385 - org.apache.commons.math3.genetics.RandomKeyTest (14ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 115/385 - org.apache.commons.math3.geometry.euclidean.threed.PlaneTest (14ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 116/385 - org.apache.commons.math3.linear.BiDiagonalTransformerTest (14ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 117/385 - org.apache.commons.math3.linear.LUSolverTest (14ms / 0):
+    [junit] MAJOR: 4171 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 118/385 - org.apache.commons.math3.ml.clustering.DBSCANClustererTest (14ms / 0):
+    [junit] MAJOR: 4172 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 119/385 - org.apache.commons.math3.stat.ranking.NaturalRankingTest (14ms / 0):
+    [junit] MAJOR: 4172 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 120/385 - org.apache.commons.math3.analysis.differentiation.JacobianFunctionTest (15ms / 0):
+    [junit] MAJOR: 4172 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 121/385 - org.apache.commons.math3.analysis.function.HarmonicOscillatorTest (15ms / 0):
+    [junit] MAJOR: 4172 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 122/385 - org.apache.commons.math3.analysis.solvers.MullerSolverTest (15ms / 0):
+    [junit] MAJOR: 4172 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 123/385 - org.apache.commons.math3.analysis.solvers.SecantSolverTest (15ms / 0):
+    [junit] MAJOR: 4172 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 124/385 - org.apache.commons.math3.genetics.ListPopulationTest (15ms / 0):
+    [junit] MAJOR: 4172 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 158 (61-95-2) / 692
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 125/385 - org.apache.commons.math3.linear.FieldLUSolverTest (15ms / 191):
+    [junit] MAJOR: 5440 (20 / 119 / 850) -> AVG-RTPM: 10ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 126/385 - org.apache.commons.math3.linear.TriDiagonalTransformerTest (15ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 127/385 - org.apache.commons.math3.ode.events.EventStateTest (15ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 128/385 - org.apache.commons.math3.ode.events.OverlappingEventsTest (15ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 129/385 - org.apache.commons.math3.ode.sampling.StepNormalizerTest (15ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 130/385 - org.apache.commons.math3.optim.linear.SimplexTableauTest (15ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 131/385 - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest (15ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 132/385 - org.apache.commons.math3.stat.clustering.DBSCANClustererTest (15ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 133/385 - org.apache.commons.math3.stat.correlation.StorelessCovarianceTest (15ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 134/385 - org.apache.commons.math3.analysis.polynomials.PolynomialFunctionTest (16ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 135/385 - org.apache.commons.math3.analysis.solvers.PegasusSolverTest (16ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 136/385 - org.apache.commons.math3.filter.KalmanFilterTest (16ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 137/385 - org.apache.commons.math3.linear.CholeskyDecompositionTest (16ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 138/385 - org.apache.commons.math3.stat.descriptive.moment.SecondMomentTest (16ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 139/385 - org.apache.commons.math3.stat.descriptive.moment.SemiVarianceTest (16ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 140/385 - org.apache.commons.math3.stat.descriptive.moment.ThirdMomentTest (16ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 141/385 - org.apache.commons.math3.analysis.interpolation.BicubicSplineInterpolatingFunctionTest (17ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 142/385 - org.apache.commons.math3.analysis.solvers.IllinoisSolverTest (17ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 143/385 - org.apache.commons.math3.analysis.solvers.RiddersSolverTest (17ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 144/385 - org.apache.commons.math3.exception.util.ExceptionContextTest (17ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 145/385 - org.apache.commons.math3.geometry.euclidean.oned.IntervalsSetTest (17ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 146/385 - org.apache.commons.math3.geometry.euclidean.twod.SubLineTest (17ms / 0):
+    [junit] MAJOR: 5440 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 147/385 - org.apache.commons.math3.linear.ArrayFieldVectorTest (17ms / 199):
+    [junit] MAJOR: 6833 (0 / 115 / 850) -> AVG-RTPM: 12ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 148/385 - org.apache.commons.math3.linear.LUDecompositionTest (17ms / 0):
+    [junit] MAJOR: 6833 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 149/385 - org.apache.commons.math3.ml.clustering.FuzzyKMeansClustererTest (17ms / 0):
+    [junit] MAJOR: 6833 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 150/385 - org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizerTest (17ms / 0):
+    [junit] MAJOR: 6833 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 151/385 - org.apache.commons.math3.optimization.direct.MultivariateFunctionMappingAdapterTest (17ms / 0):
+    [junit] MAJOR: 6833 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 152/385 - org.apache.commons.math3.optimization.direct.SimplexOptimizerMultiDirectionalTest (17ms / 0):
+    [junit] MAJOR: 6833 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 153/385 - org.apache.commons.math3.optimization.linear.SimplexTableauTest (17ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 154/385 - org.apache.commons.math3.primes.PrimesTest (17ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 155/385 - org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest (17ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 156/385 - org.apache.commons.math3.stat.descriptive.moment.FirstMomentTest (17ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 157/385 - org.apache.commons.math3.stat.descriptive.moment.FourthMomentTest (17ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 158/385 - org.apache.commons.math3.stat.descriptive.rank.MaxTest (17ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 159/385 - org.apache.commons.math3.stat.descriptive.rank.MinTest (17ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 160/385 - org.apache.commons.math3.stat.descriptive.summary.SumTest (17ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 161/385 - org.apache.commons.math3.stat.inference.OneWayAnovaTest (17ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 162/385 - org.apache.commons.math3.analysis.interpolation.BicubicSplineInterpolatorTest (18ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 163/385 - org.apache.commons.math3.fitting.CurveFitterTest (18ms / 0):
+    [junit] MAJOR: 6834 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 178 (73-103-2) / 672
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 164/385 - org.apache.commons.math3.linear.FieldLUDecompositionTest (18ms / 191):
+    [junit] MAJOR: 8525 (2 / 98 / 850) -> AVG-RTPM: 17ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 165/385 - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionMappingAdapterTest (18ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 166/385 - org.apache.commons.math3.stat.descriptive.rank.PercentileTest (18ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 167/385 - org.apache.commons.math3.stat.descriptive.summary.SumSqTest (18ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 168/385 - org.apache.commons.math3.geometry.euclidean.threed.SubLineTest (19ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 169/385 - org.apache.commons.math3.optimization.MultivariateDifferentiableVectorMultiStartOptimizerTest (19ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 170/385 - org.apache.commons.math3.stat.correlation.CovarianceTest (19ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 171/385 - org.apache.commons.math3.stat.descriptive.moment.StandardDeviationTest (19ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 172/385 - org.apache.commons.math3.analysis.solvers.BrentSolverTest (20ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 173/385 - org.apache.commons.math3.analysis.solvers.RegulaFalsiSolverTest (20ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 174/385 - org.apache.commons.math3.distribution.MultivariateNormalMixtureModelDistributionTest (20ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 175/385 - org.apache.commons.math3.distribution.UniformIntegerDistributionTest (20ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 176/385 - org.apache.commons.math3.ml.clustering.KMeansPlusPlusClustererTest (20ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 177/385 - org.apache.commons.math3.optim.nonlinear.scalar.MultiStartMultivariateOptimizerTest (20ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 178/385 - org.apache.commons.math3.optimization.fitting.CurveFitterTest (20ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 179/385 - org.apache.commons.math3.stat.inference.ChiSquareTestTest (20ms / 0):
+    [junit] MAJOR: 8525 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 180/385 - org.apache.commons.math3.stat.inference.TTestTest (20ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 181/385 - org.apache.commons.math3.util.PrecisionTest (20ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 182/385 - org.apache.commons.math3.analysis.solvers.UnivariateSolverUtilsTest (21ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 183/385 - org.apache.commons.math3.distribution.GeometricDistributionTest (21ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 184/385 - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest (21ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 185/385 - org.apache.commons.math3.stat.descriptive.ListUnivariateImplTest (21ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 186/385 - org.apache.commons.math3.stat.descriptive.moment.GeometricMeanTest (21ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 187/385 - org.apache.commons.math3.stat.descriptive.moment.SkewnessTest (21ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 188/385 - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest (22ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 189/385 - org.apache.commons.math3.optimization.direct.SimplexOptimizerNelderMeadTest (22ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 190/385 - org.apache.commons.math3.stat.CertifiedDataTest (22ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 191/385 - org.apache.commons.math3.analysis.function.GaussianTest (23ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 192/385 - org.apache.commons.math3.analysis.function.SigmoidTest (23ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 193/385 - org.apache.commons.math3.linear.UnmodifiableArrayRealVectorTest (23ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 194/385 - org.apache.commons.math3.ode.FirstOrderConverterTest (23ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 195/385 - org.apache.commons.math3.stat.descriptive.summary.SumLogTest (23ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 196/385 - org.apache.commons.math3.util.BigRealTest (23ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 197/385 - org.apache.commons.math3.stat.FrequencyTest (24ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 198/385 - org.apache.commons.math3.stat.descriptive.moment.MeanTest (24ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 199/385 - org.apache.commons.math3.stat.descriptive.summary.ProductTest (24ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 200/385 - org.apache.commons.math3.util.ArithmeticUtilsTest (24ms / 0):
+    [junit] MAJOR: 8526 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 180 (75-103-2) / 670
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 201/385 - org.apache.commons.math3.fraction.BigFractionFormatTest (25ms / 156):
+    [junit] MAJOR: 9859 (63 / 145 / 850) -> AVG-RTPM: 9ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 202/385 - org.apache.commons.math3.optim.univariate.BrentOptimizerTest (25ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 203/385 - org.apache.commons.math3.distribution.BetaDistributionTest (26ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 204/385 - org.apache.commons.math3.stat.inference.GTestTest (26ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 205/385 - org.apache.commons.math3.analysis.function.LogisticTest (27ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 206/385 - org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolatorTest (27ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 207/385 - org.apache.commons.math3.ode.nonstiff.EulerStepInterpolatorTest (27ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 208/385 - org.apache.commons.math3.ode.sampling.StepNormalizerOutputTest (27ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 209/385 - org.apache.commons.math3.stat.descriptive.DescriptiveStatisticsTest (27ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 210/385 - org.apache.commons.math3.stat.descriptive.moment.KurtosisTest (27ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 211/385 - org.apache.commons.math3.analysis.integration.gauss.BaseRuleFactoryTest (28ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 212/385 - org.apache.commons.math3.distribution.PascalDistributionTest (28ms / 0):
+    [junit] MAJOR: 9860 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 243 (130-108-5) / 607
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 213/385 - org.apache.commons.math3.fraction.FractionFormatTest (28ms / 197):
+    [junit] MAJOR: 10502 (8 / 92 / 850) -> AVG-RTPM: 6ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 214/385 - org.apache.commons.math3.ode.sampling.StepNormalizerOutputOverlapTest (28ms / 0):
+    [junit] MAJOR: 10502 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 215/385 - org.apache.commons.math3.optimization.MultivariateDifferentiableMultiStartOptimizerTest (28ms / 0):
+    [junit] MAJOR: 10502 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 216/385 - org.apache.commons.math3.analysis.solvers.BracketingNthOrderBrentSolverTest (29ms / 0):
+    [junit] MAJOR: 10502 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 217/385 - org.apache.commons.math3.distribution.ZipfDistributionTest (29ms / 0):
+    [junit] MAJOR: 10502 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 218/385 - org.apache.commons.math3.geometry.euclidean.threed.FrenchVector3DFormatTest (29ms / 0):
+    [junit] MAJOR: 10502 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 219/385 - org.apache.commons.math3.linear.MatrixUtilsTest (29ms / 183):
+    [junit] MAJOR: 12482 (0 / 114 / 850) -> AVG-RTPM: 17ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 220/385 - org.apache.commons.math3.optimization.univariate.BrentOptimizerTest (29ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 221/385 - org.apache.commons.math3.stat.StatUtilsTest (29ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 222/385 - org.apache.commons.math3.stat.descriptive.SummaryStatisticsTest (29ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 223/385 - org.apache.commons.math3.analysis.function.LogitTest (30ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 224/385 - org.apache.commons.math3.analysis.interpolation.LoessInterpolatorTest (30ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 225/385 - org.apache.commons.math3.geometry.euclidean.threed.Vector3DFormatTest (30ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 226/385 - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest (30ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 227/385 - org.apache.commons.math3.special.ErfTest (30ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 228/385 - org.apache.commons.math3.stat.descriptive.SynchronizedSummaryStatisticsTest (30ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 229/385 - org.apache.commons.math3.stat.descriptive.moment.VarianceTest (30ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 230/385 - org.apache.commons.math3.util.ResizableDoubleArrayTest (30ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 231/385 - org.apache.commons.math3.ode.nonstiff.GraggBulirschStoerStepInterpolatorTest (31ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 232/385 - org.apache.commons.math3.stat.correlation.SpearmansRankCorrelationTest (31ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 233/385 - org.apache.commons.math3.analysis.integration.gauss.LegendreTest (32ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 234/385 - org.apache.commons.math3.complex.QuaternionTest (32ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 235/385 - org.apache.commons.math3.fitting.HarmonicFitterTest (32ms / 0):
+    [junit] MAJOR: 12482 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 251 (135-111-5) / 599
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 236/385 - org.apache.commons.math3.fraction.FractionTest (32ms / 461):
+    [junit] MAJOR: 14547 (151 / 288 / 850) -> AVG-RTPM: 7ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 402 (244-153-5) / 448
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 237/385 - org.apache.commons.math3.linear.QRSolverTest (32ms / 0):
+    [junit] MAJOR: 14548 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 402 (244-153-5) / 448
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 238/385 - org.apache.commons.math3.linear.SparseFieldMatrixTest (32ms / 335):
+    [junit] MAJOR: 16275 (5 / 109 / 850) -> AVG-RTPM: 15ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 239/385 - org.apache.commons.math3.stat.inference.TestUtilsTest (32ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 240/385 - org.apache.commons.math3.transform.FastFourierTransformerTest (32ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 241/385 - org.apache.commons.math3.util.MathUtilsTest (32ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 242/385 - org.apache.commons.math3.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest (33ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 243/385 - org.apache.commons.math3.complex.FrenchComplexFormatTest (34ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 244/385 - org.apache.commons.math3.linear.DiagonalMatrixTest (34ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 245/385 - org.apache.commons.math3.linear.RealVectorFormatTest (34ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 246/385 - org.apache.commons.math3.ode.ContinuousOutputModelTest (34ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 247/385 - org.apache.commons.math3.ode.nonstiff.MidpointStepInterpolatorTest (34ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 248/385 - org.apache.commons.math3.transform.FastCosineTransformerTest (34ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 249/385 - org.apache.commons.math3.transform.FastSineTransformerTest (34ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 250/385 - org.apache.commons.math3.analysis.integration.gauss.LegendreHighPrecisionParametricTest (35ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 251/385 - org.apache.commons.math3.complex.ComplexFormatTest (35ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 252/385 - org.apache.commons.math3.distribution.HypergeometricDistributionTest (35ms / 0):
+    [junit] MAJOR: 16276 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 407 (248-154-5) / 443
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 253/385 - org.apache.commons.math3.fraction.BigFractionTest (35ms / 386):
+    [junit] MAJOR: 19147 (182 / 310 / 850) -> AVG-RTPM: 9ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 254/385 - org.apache.commons.math3.linear.FrenchRealVectorFormatTest (35ms / 0):
+    [junit] MAJOR: 19147 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 255/385 - org.apache.commons.math3.analysis.differentiation.DSCompilerTest (36ms / 0):
+    [junit] MAJOR: 19147 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 256/385 - org.apache.commons.math3.linear.SparseRealMatrixTest (36ms / 0):
+    [junit] MAJOR: 19147 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 257/385 - org.apache.commons.math3.ode.nonstiff.HighamHall54StepInterpolatorTest (36ms / 0):
+    [junit] MAJOR: 19148 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 258/385 - org.apache.commons.math3.distribution.PoissonDistributionTest (37ms / 0):
+    [junit] MAJOR: 19148 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 259/385 - org.apache.commons.math3.exception.util.LocalizedFormatsTest (37ms / 0):
+    [junit] MAJOR: 19148 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 260/385 - org.apache.commons.math3.linear.RRQRSolverTest (37ms / 0):
+    [junit] MAJOR: 19148 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 261/385 - org.apache.commons.math3.linear.RealMatrixFormatTest (37ms / 0):
+    [junit] MAJOR: 19148 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 262/385 - org.apache.commons.math3.util.OpenIntToFieldTest (37ms / 182):
+    [junit] MAJOR: 20442 (0 / 63 / 850) -> AVG-RTPM: 20ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 263/385 - org.apache.commons.math3.distribution.LevyDistributionTest (38ms / 0):
+    [junit] MAJOR: 20442 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 264/385 - org.apache.commons.math3.special.GammaTest (38ms / 0):
+    [junit] MAJOR: 20442 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 265/385 - org.apache.commons.math3.distribution.UniformRealDistributionTest (39ms / 0):
+    [junit] MAJOR: 20442 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 266/385 - org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest (39ms / 0):
+    [junit] MAJOR: 20442 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 267/385 - org.apache.commons.math3.ode.sampling.NordsieckStepInterpolatorTest (39ms / 102):
+    [junit] MAJOR: 22389 (0 / 47 / 850) -> AVG-RTPM: 41ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 268/385 - org.apache.commons.math3.stat.correlation.PearsonsCorrelationTest (39ms / 0):
+    [junit] MAJOR: 22389 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 269/385 - org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest (40ms / 0):
+    [junit] MAJOR: 22389 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 270/385 - org.apache.commons.math3.ode.nonstiff.GillStepInterpolatorTest (40ms / 0):
+    [junit] MAJOR: 22389 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 271/385 - org.apache.commons.math3.stat.descriptive.SynchronizedDescriptiveStatisticsTest (40ms / 0):
+    [junit] MAJOR: 22389 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 272/385 - org.apache.commons.math3.stat.regression.OLSMultipleLinearRegressionTest (40ms / 0):
+    [junit] MAJOR: 22389 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 273/385 - org.apache.commons.math3.stat.regression.SimpleRegressionTest (40ms / 0):
+    [junit] MAJOR: 22389 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 274/385 - org.apache.commons.math3.analysis.integration.gauss.HermiteParametricTest (41ms / 0):
+    [junit] MAJOR: 22389 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 275/385 - org.apache.commons.math3.analysis.integration.gauss.LegendreParametricTest (41ms / 0):
+    [junit] MAJOR: 22389 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 589 (330-251-8) / 261
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 276/385 - org.apache.commons.math3.distribution.KolmogorovSmirnovDistributionTest (41ms / 222):
+    [junit] MAJOR: 25726 (2 / 79 / 850) -> AVG-RTPM: 42ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 277/385 - org.apache.commons.math3.linear.QRDecompositionTest (41ms / 0):
+    [junit] MAJOR: 25726 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 278/385 - org.apache.commons.math3.ode.nonstiff.EulerIntegratorTest (41ms / 0):
+    [junit] MAJOR: 25726 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 279/385 - org.apache.commons.math3.ode.nonstiff.HighamHall54IntegratorTest (41ms / 0):
+    [junit] MAJOR: 25726 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 280/385 - org.apache.commons.math3.fitting.GaussianFitterTest (42ms / 0):
+    [junit] MAJOR: 25726 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 281/385 - org.apache.commons.math3.distribution.ExponentialDistributionTest (43ms / 0):
+    [junit] MAJOR: 25726 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 282/385 - org.apache.commons.math3.ode.nonstiff.ClassicalRungeKuttaStepInterpolatorTest (43ms / 0):
+    [junit] MAJOR: 25726 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 283/385 - org.apache.commons.math3.distribution.NormalDistributionTest (44ms / 0):
+    [junit] MAJOR: 25726 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 284/385 - org.apache.commons.math3.ode.nonstiff.AdamsBashforthIntegratorTest (45ms / 102):
+    [junit] MAJOR: 27463 (0 / 45 / 850) -> AVG-RTPM: 38ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 285/385 - org.apache.commons.math3.ode.nonstiff.ThreeEighthesStepInterpolatorTest (45ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 286/385 - org.apache.commons.math3.special.BetaTest (45ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 287/385 - org.apache.commons.math3.util.OpenIntToDoubleHashMapTest (46ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 288/385 - org.apache.commons.math3.distribution.fitting.MultivariateNormalMixtureExpectationMaximizationTest (47ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 289/385 - org.apache.commons.math3.geometry.euclidean.threed.Vector3DTest (47ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 290/385 - org.apache.commons.math3.optimization.fitting.HarmonicFitterTest (47ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 291/385 - org.apache.commons.math3.stat.clustering.KMeansPlusPlusClustererTest (47ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 292/385 - org.apache.commons.math3.ode.nonstiff.DormandPrince54StepInterpolatorTest (48ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 293/385 - org.apache.commons.math3.analysis.interpolation.HermiteInterpolatorTest (49ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 294/385 - org.apache.commons.math3.distribution.EnumeratedIntegerDistributionTest (49ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 295/385 - org.apache.commons.math3.linear.UnmodifiableOpenMapRealVectorTest (49ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 296/385 - org.apache.commons.math3.ode.nonstiff.DormandPrince853StepInterpolatorTest (49ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 297/385 - org.apache.commons.math3.fitting.GaussianCurveFitterTest (50ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 298/385 - org.apache.commons.math3.optimization.general.NonLinearConjugateGradientOptimizerTest (50ms / 0):
+    [junit] MAJOR: 27463 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 299/385 - org.apache.commons.math3.ode.nonstiff.AdamsMoultonIntegratorTest (51ms / 102):
+    [junit] MAJOR: 29347 (0 / 45 / 850) -> AVG-RTPM: 41ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 300/385 - org.apache.commons.math3.ode.nonstiff.DormandPrince853IntegratorTest (51ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 301/385 - org.apache.commons.math3.analysis.differentiation.GradientFunctionTest (53ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 302/385 - org.apache.commons.math3.distribution.ChiSquaredDistributionTest (53ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 303/385 - org.apache.commons.math3.linear.RRQRDecompositionTest (53ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 304/385 - org.apache.commons.math3.distribution.EnumeratedRealDistributionTest (54ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 305/385 - org.apache.commons.math3.distribution.WeibullDistributionTest (54ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 306/385 - org.apache.commons.math3.ode.events.EventFilterTest (54ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 307/385 - org.apache.commons.math3.distribution.ParetoDistributionTest (55ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 308/385 - org.apache.commons.math3.linear.Array2DRowRealMatrixTest (55ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 309/385 - org.apache.commons.math3.util.MathArraysTest (55ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 310/385 - org.apache.commons.math3.analysis.differentiation.FiniteDifferencesDifferentiatorTest (58ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 311/385 - org.apache.commons.math3.distribution.TDistributionTest (58ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 312/385 - org.apache.commons.math3.fitting.leastsquares.GaussNewtonOptimizerTest (60ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 313/385 - org.apache.commons.math3.optimization.fitting.GaussianFitterTest (60ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 314/385 - org.apache.commons.math3.analysis.FunctionUtilsTest (61ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 315/385 - org.apache.commons.math3.distribution.CauchyDistributionTest (61ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 316/385 - org.apache.commons.math3.ode.nonstiff.MidpointIntegratorTest (61ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 317/385 - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest (61ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 318/385 - org.apache.commons.math3.geometry.euclidean.threed.RotationTest (63ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 319/385 - org.apache.commons.math3.linear.HessenbergTransformerTest (63ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 320/385 - org.apache.commons.math3.util.FastMathStrictComparisonTest (63ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 321/385 - org.apache.commons.math3.linear.SchurTransformerTest (64ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 322/385 - org.apache.commons.math3.genetics.UniformCrossoverTest (65ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 323/385 - org.apache.commons.math3.ode.nonstiff.ClassicalRungeKuttaIntegratorTest (66ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 324/385 - org.apache.commons.math3.analysis.integration.MidPointIntegratorTest (68ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 325/385 - org.apache.commons.math3.distribution.FDistributionTest (68ms / 0):
+    [junit] MAJOR: 29347 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 326/385 - org.apache.commons.math3.linear.FieldMatrixImplTest (68ms / 247):
+    [junit] MAJOR: 32332 (0 / 90 / 850) -> AVG-RTPM: 33ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 327/385 - org.apache.commons.math3.ode.nonstiff.DormandPrince54IntegratorTest (68ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 328/385 - org.apache.commons.math3.ode.nonstiff.GillIntegratorTest (69ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 329/385 - org.apache.commons.math3.ode.nonstiff.ThreeEighthesIntegratorTest (69ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 330/385 - org.apache.commons.math3.stat.regression.MillerUpdatingRegressionTest (69ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 331/385 - org.apache.commons.math3.analysis.interpolation.MicrosphereInterpolatorTest (73ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 332/385 - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest (74ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 333/385 - org.apache.commons.math3.distribution.BinomialDistributionTest (75ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 334/385 - org.apache.commons.math3.fitting.leastsquares.LevenbergMarquardtOptimizerTest (76ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 335/385 - org.apache.commons.math3.util.Decimal64Test (76ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 336/385 - org.apache.commons.math3.dfp.DfpMathTest (77ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 337/385 - org.apache.commons.math3.distribution.LogNormalDistributionTest (83ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 338/385 - org.apache.commons.math3.genetics.GeneticAlgorithmTestPermutations (85ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 339/385 - org.apache.commons.math3.optim.linear.SimplexSolverTest (86ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 340/385 - org.apache.commons.math3.stat.descriptive.MultivariateSummaryStatisticsTest (86ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 341/385 - org.apache.commons.math3.distribution.TriangularDistributionTest (87ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 342/385 - org.apache.commons.math3.fitting.leastsquares.MinpackTest (87ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 343/385 - org.apache.commons.math3.linear.SingularValueDecompositionTest (99ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 344/385 - org.apache.commons.math3.ode.nonstiff.GraggBulirschStoerIntegratorTest (103ms / 0):
+    [junit] MAJOR: 32332 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 345/385 - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest (104ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 346/385 - org.apache.commons.math3.geometry.euclidean.threed.FieldVector3DTest (109ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 347/385 - org.apache.commons.math3.linear.ConjugateGradientTest (110ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 348/385 - org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest (111ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 349/385 - org.apache.commons.math3.linear.BlockRealMatrixTest (117ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 350/385 - org.apache.commons.math3.linear.SymmLQTest (117ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 351/385 - org.apache.commons.math3.dfp.DfpDecTest (118ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 352/385 - org.apache.commons.math3.linear.RealVectorTest (122ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 353/385 - org.apache.commons.math3.distribution.GammaDistributionTest (129ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 354/385 - org.apache.commons.math3.complex.ComplexTest (132ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 355/385 - org.apache.commons.math3.distribution.MultivariateNormalDistributionTest (133ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 356/385 - org.apache.commons.math3.optimization.general.GaussNewtonOptimizerTest (142ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 357/385 - org.apache.commons.math3.linear.SparseRealVectorTest (143ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 358/385 - org.apache.commons.math3.linear.EigenDecompositionTest (148ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 359/385 - org.apache.commons.math3.linear.ArrayRealVectorTest (150ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 360/385 - org.apache.commons.math3.optimization.linear.SimplexSolverTest (153ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 361/385 - org.apache.commons.math3.analysis.integration.LegendreGaussIntegratorTest (163ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 362/385 - org.apache.commons.math3.analysis.function.SincTest (168ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 363/385 - org.apache.commons.math3.geometry.euclidean.threed.SphericalCoordinatesTest (221ms / 0):
+    [junit] MAJOR: 32333 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 591 (332-251-8) / 259
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 364/385 - org.apache.commons.math3.analysis.polynomials.PolynomialsUtilsTest (236ms / 106):
+    [junit] MAJOR: 42478 (4 / 47 / 850) -> AVG-RTPM: 215ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 365/385 - org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest (254ms / 0):
+    [junit] MAJOR: 42478 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 366/385 - org.apache.commons.math3.util.CombinatoricsUtilsTest (284ms / 0):
+    [junit] MAJOR: 42478 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 367/385 - org.apache.commons.math3.linear.BlockFieldMatrixTest (310ms / 247):
+    [junit] MAJOR: 57597 (0 / 90 / 850) -> AVG-RTPM: 167ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 368/385 - org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest (359ms / 0):
+    [junit] MAJOR: 57598 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 369/385 - org.apache.commons.math3.ode.JacobianMatricesTest (391ms / 0):
+    [junit] MAJOR: 57598 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 370/385 - org.apache.commons.math3.optimization.general.MinpackTest (415ms / 0):
+    [junit] MAJOR: 57598 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 371/385 - org.apache.commons.math3.analysis.integration.IterativeLegendreGaussIntegratorTest (478ms / 0):
+    [junit] MAJOR: 57598 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 372/385 - org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest (534ms / 0):
+    [junit] MAJOR: 57598 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 373/385 - org.apache.commons.math3.fitting.PolynomialFitterTest (540ms / 0):
+    [junit] MAJOR: 57598 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 374/385 - org.apache.commons.math3.dfp.DfpTest (543ms / 0):
+    [junit] MAJOR: 57598 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 375/385 - org.apache.commons.math3.geometry.euclidean.threed.FieldRotationDSTest (680ms / 0):
+    [junit] MAJOR: 57598 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 595 (336-251-8) / 255
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 376/385 - org.apache.commons.math3.analysis.interpolation.FieldHermiteInterpolatorTest (820ms / 183):
+    [junit] MAJOR: 134459 (6 / 57 / 850) -> AVG-RTPM: 1348ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 601 (336-251-14) / 249
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 377/385 - org.apache.commons.math3.geometry.euclidean.threed.FieldRotationDfpTest (1347ms / 0):
+    [junit] MAJOR: 134459 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 601 (336-251-14) / 249
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 378/385 - org.apache.commons.math3.optimization.direct.BOBYQAOptimizerTest (2105ms / 0):
+    [junit] MAJOR: 134459 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 601 (336-251-14) / 249
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 379/385 - org.apache.commons.math3.optimization.direct.CMAESOptimizerTest (2312ms / 0):
+    [junit] MAJOR: 134459 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 601 (336-251-14) / 249
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 380/385 - org.apache.commons.math3.optimization.fitting.PolynomialFitterTest (2765ms / 0):
+    [junit] MAJOR: 134459 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 601 (336-251-14) / 249
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 381/385 - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest (2795ms / 0):
+    [junit] MAJOR: 134459 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 601 (336-251-14) / 249
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 382/385 - org.apache.commons.math3.analysis.integration.gauss.LegendreHighPrecisionTest (2962ms / 0):
+    [junit] MAJOR: 134459 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 601 (336-251-14) / 249
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 383/385 - org.apache.commons.math3.genetics.FixedElapsedTimeTest (3040ms / 0):
+    [junit] MAJOR: 134459 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 601 (336-251-14) / 249
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 384/385 - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizerTest (3119ms / 0):
+    [junit] MAJOR: 134459 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 601 (336-251-14) / 249
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: 385/385 - org.apache.commons.math3.util.FastMathTest (4351ms / 0):
+    [junit] MAJOR: 134460 (0 / 0 / 850) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME) / live: 601 (336-251-14) / 249
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time                 : 134.46 seconds
+    [junit] MAJOR: Mutation score                : 69.24% (70.71%)
+    [junit] MAJOR: Mutants killed (FAIL-EXC-TIME): 601 (336-251-14)
+    [junit] MAJOR: Mutants live                  : 249
+    [junit] MAJOR: Mutant executions             : 2389
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant details to /Users/m.rudenko/mpr/project/data/raw/Math/1f/kill.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Done!
+    [junit] MAJOR: ------------------------------------------------------------
+
+BUILD SUCCESSFUL
+Total time: 3 minutes 33 seconds

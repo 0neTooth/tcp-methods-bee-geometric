@@ -1,0 +1,109 @@
+rank,test
+1,com.fasterxml.jackson.core.json.async.AsyncRootNumbersTest#testRootDoublesScientific
+2,com.fasterxml.jackson.core.json.async.AsyncTokenFilterTest#testFilteredNonBlockingParserAllContent
+3,com.fasterxml.jackson.core.json.async.AsyncStringArrayTest#testShortAsciiStrings
+4,com.fasterxml.jackson.core.json.async.AsyncSimpleObjectTest#testBooleans
+5,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testAposQuotingEnabled
+6,com.fasterxml.jackson.core.json.async.AsyncCharEscapingTest#test8DigitSequence
+7,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayLeadingComma[Features []]
+8,com.fasterxml.jackson.core.json.async.AsyncInvalidCharsTest#testUtf8BOMHandling
+9,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingComma[Features [ALLOW_TRAILING_COMMA]]
+10,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingComma[Features [ALLOW_MISSING_VALUES]]
+11,com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest#testDisallowInf
+12,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testBigIntegers
+13,com.fasterxml.jackson.core.json.async.ConfigTest#testAsyncParerDefaults
+14,com.fasterxml.jackson.core.json.async.AsyncTokenFilterTest#testSkipChildrenFailOnSplit
+15,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testCCommentsWithUTF8
+16,com.fasterxml.jackson.core.json.async.AsyncInvalidCharsTest#testHandlingOfInvalidSpace
+17,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testSingleQuotesEscaped
+18,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testCommentsDisabled
+19,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testYAMLCommentsEnabled
+20,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectLeadingComma[Features []]
+21,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToLongFailing
+22,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToBigIntegerCoercion
+23,com.fasterxml.jackson.core.json.async.AsyncRootValuesTest#testTokenRootSequence
+24,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testInts
+25,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingCommas[Features []]
+26,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testMangledRootInts
+27,com.fasterxml.jackson.core.json.async.AsyncBinaryParseTest#testRawAsArray
+28,com.fasterxml.jackson.core.json.async.AsyncCharEscapingTest#testSimpleEscaping
+29,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommas[Features [ALLOW_TRAILING_COMMA]]
+30,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingComma[Features [ALLOW_MISSING_VALUES]]
+31,com.fasterxml.jackson.core.json.async.AsyncConcurrencyTest#testConcurrentAsync
+32,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectBasic[Features []]
+33,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectInnerComma[Features [ALLOW_TRAILING_COMMA]]
+34,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testLargeUnquotedNames
+35,com.fasterxml.jackson.core.json.async.AsyncRootNumbersTest#testRootDoublesSimple
+36,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToIntCoercion
+37,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testInvalidKeywordsStartFail
+38,com.fasterxml.jackson.core.json.async.AsyncUnicodeHandlingTest#testShortUnicodeWithSurrogates
+39,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingComma[Features []]
+40,com.fasterxml.jackson.core.json.async.AsyncScopeMatchingTest#testMismatchObjectToArray
+41,com.fasterxml.jackson.core.json.async.AsyncParserNamesTest#testLongNames
+42,com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest#testStuffInArray
+43,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingCommas[Features [ALLOW_TRAILING_COMMA]]
+44,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectLeadingComma[Features [ALLOW_MISSING_VALUES]]
+45,com.fasterxml.jackson.core.json.async.AsyncParserNamesTest#testSymbolTable
+46,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testCppCommentsEnabled
+47,com.fasterxml.jackson.core.json.async.AsyncStringArrayTest#testLongUnicodeStrings
+48,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testSimpleUnquotedNames
+49,com.fasterxml.jackson.core.json.async.AsyncStringObjectTest#testBasicFieldsNames
+50,com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest#testDisallowNaN
+51,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommasTriple[Features []]
+52,com.fasterxml.jackson.core.json.async.AsyncLocationTest#testLocationOffsets
+53,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testLong
+54,com.fasterxml.jackson.core.json.async.AsyncBinaryParseTest#testRawAsRootValue
+55,com.fasterxml.jackson.core.json.async.AsyncStringArrayTest#testShortUnicodeStrings
+56,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingComma[Features []]
+57,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testBigDecimals
+58,com.fasterxml.jackson.core.json.async.AsyncCharEscapingTest#testMissingLinefeedEscaping
+59,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testMangledNonRootFloats
+60,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectInnerComma[Features [ALLOW_MISSING_VALUES]]
+61,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testTokens
+62,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayInnerComma[Features [ALLOW_TRAILING_COMMA]]
+63,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToIntFailing
+64,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectBasic[Features [ALLOW_MISSING_VALUES]]
+65,com.fasterxml.jackson.core.json.async.AsyncFieldNamesTest#testSimpleFieldNames
+66,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectBasic[Features [ALLOW_TRAILING_COMMA]]
+67,com.fasterxml.jackson.core.json.async.AsyncRootValuesTest#testTokenRootTokens
+68,com.fasterxml.jackson.core.json.async.AsyncNumberLeadingZeroesTest#testLeadingZeroesInt
+69,com.fasterxml.jackson.core.json.async.AsyncRootValuesTest#testMixedRootSequence
+70,com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest#testStuffInArray2
+71,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayInnerComma[Features []]
+72,com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest#testAllowNaN
+73,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToBigDecimalCoercion
+74,com.fasterxml.jackson.core.json.async.AsyncStringArrayTest#testLongAsciiStrings
+75,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToDoubleCoercion
+76,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testMangledNonRootInts
+77,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingComma[Features [ALLOW_TRAILING_COMMA]]
+78,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayLeadingComma[Features [ALLOW_TRAILING_COMMA]]
+79,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommasTriple[Features [ALLOW_MISSING_VALUES]]
+80,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testCCommentsEnabled
+81,com.fasterxml.jackson.core.json.async.AsyncParserNamesTest#testEvenLongerName
+82,com.fasterxml.jackson.core.json.async.AsyncBinaryParseTest#testRawAsObject
+83,com.fasterxml.jackson.core.json.async.AsyncNumberLeadingZeroesTest#testLeadingZeroesFloat
+84,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayInnerComma[Features [ALLOW_MISSING_VALUES]]
+85,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectLeadingComma[Features [ALLOW_TRAILING_COMMA]]
+86,com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest#testMismatchedArray
+87,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testCommentsEnabled
+88,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommas[Features []]
+89,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayLeadingComma[Features [ALLOW_MISSING_VALUES]]
+90,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testInvalidKeywordsStartOk
+91,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommas[Features [ALLOW_MISSING_VALUES]]
+92,com.fasterxml.jackson.core.json.async.AsyncSimpleObjectTest#testNumbers
+93,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testFloats
+94,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testAposQuotingDisabled
+95,com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest#testAllowInf
+96,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommasTriple[Features [ALLOW_TRAILING_COMMA]]
+97,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToLongCoercion
+98,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testMangledRootFloats
+99,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectInnerComma[Features []]
+100,com.fasterxml.jackson.core.json.async.AsyncScopeMatchingTest#testMismatchArrayToObject
+101,com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest#testStuffInObject
+102,com.fasterxml.jackson.core.json.async.AsyncRootNumbersTest#testRootInts
+103,com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest#testMismatchedObject
+104,com.fasterxml.jackson.core.json.async.AsyncFieldNamesTest#testEscapedFieldNames
+105,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingCommas[Features [ALLOW_MISSING_VALUES]]
+106,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testNonStandardNameChars
+107,com.fasterxml.jackson.core.json.async.AsyncUnicodeHandlingTest#testLongUnicodeWithSurrogates
+108,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testDoubles

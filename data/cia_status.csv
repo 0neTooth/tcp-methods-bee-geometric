@@ -1,0 +1,11 @@
+project,bug_id,roc,forward_slicing,impact_probabilities
+Jsoup,93,yes,yes,yes
+Gson,18,yes,yes,yes
+Csv,16,yes,yes,yes
+JacksonDatabind,112,yes,yes,yes
+JacksonXml,6,yes,yes,yes
+Compress,47,yes,yes,yes
+Time,27,yes,yes,yes
+Codec,18,yes,yes,yes
+JacksonCore,26,yes,yes,yes
+Lang,65,yes,yes,yes

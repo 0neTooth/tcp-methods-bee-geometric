@@ -1,0 +1,6 @@
+project=Csv
+bug_id=16
+workdir=/Users/m.rudenko/mpr/project/data/raw/Csv/16f
+exclude_file=
+filter_file=
+mml_override=/Users/m.rudenko/mpr/project/config/mml/Csv-16.mml

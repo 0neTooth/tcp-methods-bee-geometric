@@ -1,0 +1,115 @@
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.analysis.function.StepFunction@value(double)|85|3271|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.math3.util.MathArrays@isMonotonic(T[],org.apache.commons.math3.util.MathArrays.OrderDirection,boolean)|343|11361|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.math3.util.MathArrays@checkOrder(double[],org.apache.commons.math3.util.MathArrays.OrderDirection,boolean,boolean)|408|13450|ANY
+1|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.math3.util.MathArrays@shuffle(int[],int,org.apache.commons.math3.util.MathArrays.Position,org.apache.commons.math3.random.RandomGenerator)|1508|58544|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.analysis.integration.gauss.HermiteRuleFactory@computeRule(int)|120|4809|ANY
+1|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.analysis.interpolation.SplineInterpolator@interpolate(double[],double[])|94|4342|ANY
+75|SUPPRESSION|LITERAL_SAME_VALUE|Literal same value|org.apache.commons.math3.fraction.BigFraction@<init>(double)|182|7041|-9223372036854775808
+165|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.fraction.BigFraction@<init>(double,double,int,int)|292|11096|ANY
+165|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.fraction.BigFraction@<init>(double,double,int,int)|293|11117|ANY
+399|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.math3.analysis.solvers.BaseSecantSolver@doSolve()|200|7703|ANY
+399|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.math3.analysis.solvers.BaseSecantSolver@doSolve()|236|8896|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.complex.ComplexFormat@parse(java.lang.String,java.text.ParsePosition)|387|14821|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.dfp.Dfp@round(int)|1426|43907|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.dfp.Dfp@divide(org.apache.commons.math3.dfp.Dfp)|1694|52223|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.dfp.Dfp@sqrt()|2030|63131|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.dfp.Dfp@sqrt()|2036|63313|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.distribution.AbstractIntegerDistribution@checkedCumulativeProbability(int)|227|8169|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.distribution.PoissonDistribution@nextPoisson(double)|296|10055|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.distribution.PoissonDistribution@nextPoisson(double)|324|11339|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.distribution.PoissonDistribution@nextPoisson(double)|325|11365|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.distribution.PoissonDistribution@nextPoisson(double)|326|11391|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.distribution.PoissonDistribution@nextPoisson(double)|327|11417|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.distribution.PoissonDistribution@nextPoisson(double)|328|11440|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.distribution.PoissonDistribution@nextPoisson(double)|329|11466|ANY
+399|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.distribution.PoissonDistribution@nextPoisson(double)|330|11493|ANY
+481|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.fraction.Fraction@<init>(double,double,int,int)|200|7362|ANY
+481|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.fraction.Fraction@<init>(double,double,int,int)|201|7383|ANY
+586|SUPPRESSION|BOUNDS_MAX_MIN|Bounds check MAX or MIN value|org.apache.commons.math3.fraction.Fraction@<init>(int,int)|270|9572|<=(int,int)
+588|SUPPRESSION|BOUNDS_MAX_MIN|Bounds check MAX or MIN value|org.apache.commons.math3.fraction.Fraction@<init>(int,int)|271|9616|<=(int,int)
+649|SUPPRESSION|EQUALS_COND|Equals ref. equality check condition|org.apache.commons.math3.fraction.Fraction@equals(java.lang.Object)|341|11855|FALSE(java.lang.Object,java.lang.Object)
+683|SUPPRESSION|BOUNDS_MAX_MIN|Bounds check MAX or MIN value|org.apache.commons.math3.fraction.Fraction@negate()|414|13711|<=(int,int)
+814|SUPPRESSION|BOUNDS_MAX_MIN|Bounds check MAX or MIN value|org.apache.commons.math3.fraction.Fraction@getReducedFraction(int,int)|628|22426|<=(int,int)
+840|SUPPRESSION|BOUNDS_MAX_MIN|Bounds check MAX or MIN value|org.apache.commons.math3.fraction.Fraction@getReducedFraction(int,int)|632|22579|<=(int,int)
+842|SUPPRESSION|BOUNDS_MAX_MIN|Bounds check MAX or MIN value|org.apache.commons.math3.fraction.Fraction@getReducedFraction(int,int)|633|22631|<=(int,int)
+869|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.math3.geometry.partitioning.BSPTree@visit(org.apache.commons.math3.geometry.partitioning.BSPTreeVisitor<S>)|276|10161|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.linear.FieldLUDecomposition@<init>(org.apache.commons.math3.linear.FieldMatrix<T>)|109|4126|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.linear.FieldLUDecomposition@<init>(org.apache.commons.math3.linear.FieldMatrix<T>)|145|5270|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.linear.LUDecomposition@<init>(org.apache.commons.math3.linear.RealMatrix,double)|145|5612|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.ml.clustering.FuzzyKMeansClusterer@cluster(java.util.Collection<T>)|303|11076|ANY
+869|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer@doOptimize()|267|10404|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer@findUpperBound(org.apache.commons.math3.analysis.UnivariateFunction,double,double)|328|12577|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@bobyqb(double[],double[])|388|18301|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@bobyqb(double[],double[])|432|19975|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@bobyqb(double[],double[])|433|20005|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@altmov(int,double)|1358|64391|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@altmov(int,double)|1430|67248|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1810|86333|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1811|86366|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1818|86553|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1821|86624|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1821|86624|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1823|86721|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1823|86721|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1823|86721|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1823|86721|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1824|86721|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1824|86721|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1824|86721|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1826|86883|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer@doOptimize()|195|7840|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer@doOptimize()|198|7926|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.univariate.BrentOptimizer@doOptimize()|162|5918|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.univariate.BrentOptimizer@doOptimize()|163|5948|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.univariate.BrentOptimizer@doOptimize()|164|5978|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optim.univariate.BrentOptimizer@doOptimize()|165|6008|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@bobyqb(double[],double[])|393|18489|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@bobyqb(double[],double[])|437|20163|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@bobyqb(double[],double[])|438|20193|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@altmov(int,double)|1363|64581|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@altmov(int,double)|1435|67438|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1815|86523|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1816|86556|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1823|86743|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1826|86814|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1826|86814|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1828|86911|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1828|86911|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1828|86911|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1828|86911|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1829|86911|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1829|86911|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1829|86911|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.BOBYQAOptimizer@trsbox(double,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)|1831|87073|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.PowellOptimizer@doOptimize()|185|7146|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.direct.PowellOptimizer@doOptimize()|188|7232|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.univariate.BrentOptimizer@doOptimize()|164|5995|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.univariate.BrentOptimizer@doOptimize()|165|6025|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.univariate.BrentOptimizer@doOptimize()|166|6055|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.univariate.BrentOptimizer@doOptimize()|167|6085|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.optimization.general.NonLinearConjugateGradientOptimizer@findUpperBound(org.apache.commons.math3.analysis.UnivariateFunction,double,double)|252|10131|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.random.EmpiricalDistribution$StreamDataAdapter@computeBinStats()|354|13566|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.random.EmpiricalDistribution$StreamDataAdapter@computeStats()|369|14037|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.descriptive.moment.Variance@evaluate(double[],double,int,int)|413|16635|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.descriptive.moment.Variance@evaluate(double[],double[],double,int,int)|516|21348|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.StatUtils@varianceDifference(double[],double[],double)|754|32511|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.util.ResizableDoubleArray@expand()|692|27540|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.descriptive.moment.SemiVariance@evaluate(double[],double,org.apache.commons.math3.stat.descriptive.moment.SemiVariance.Direction,boolean,int,int)|276|11125|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.inference.ChiSquareTest@chiSquare(long[][])|266|11708|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.inference.ChiSquareTest@chiSquareDataSetsComparison(long[],long[])|428|19087|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.inference.ChiSquareTest@chiSquareDataSetsComparison(long[],long[])|445|19729|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.inference.ChiSquareTest@chiSquareDataSetsComparison(long[],long[])|446|19756|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.inference.ChiSquareTest@chiSquareDataSetsComparison(long[],long[])|447|19784|ANY
+869|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.math3.stat.ranking.NaturalRanking@rank(double[])|221|7443|ANY
+869|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.math3.stat.ranking.NaturalRanking@resolveTie(double[],java.util.List<java.lang.Integer>)|370|13235|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.regression.MillerUpdatingRegression@cov(int)|510|18433|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.regression.MillerUpdatingRegression@inverse(double[],int)|549|19930|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.regression.MillerUpdatingRegression@inverse(double[],int)|550|19953|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.regression.MillerUpdatingRegression@inverse(double[],int)|551|19976|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.stat.regression.MillerUpdatingRegression@vmove(int,int)|709|25681|ANY
+869|SUPPRESSION|DEADCODE_USELESS_DEFAULT|Dead code: unreachable default (exhaustive enum)|org.apache.commons.math3.transform.FastFourierTransformer@normalizeTransformedData(double[][],org.apache.commons.math3.transform.DftNormalization,org.apache.commons.math3.transform.TransformType)|188|8690|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.util.FastMath@log(double,double[])|1188|39417|ANY
+869|SUPPRESSION|DUMMY_INIT|Dummy init|org.apache.commons.math3.util.FastMath@log(double,double[])|1243|41327|ANY
+869|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|org.apache.commons.math3.util.FastMath$ExpIntTable|3733|117161|ANY
+869|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|org.apache.commons.math3.util.FastMath$ExpFracTable|3773|118945|ANY
+869|SUPPRESSION|DEADCODE_IF_TRUE_FALSE|Dead code: if true/false|org.apache.commons.math3.util.FastMath$lnMant|3799|120043|ANY

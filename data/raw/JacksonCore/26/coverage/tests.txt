@@ -1,0 +1,845 @@
+JUNIT,com.fasterxml.jackson.core.sym.TestByteBasedSymbols#testAuxMethodsWithNewSymboTable
+JUNIT,com.fasterxml.jackson.core.sym.TestByteBasedSymbols#testSharedSymbols
+JUNIT,com.fasterxml.jackson.core.sym.TestByteBasedSymbols#testIssue207
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolsWithMediaItem#testSmallSymbolSetWithBytes
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolsWithMediaItem#testSmallSymbolSetWithChars
+JUNIT,com.fasterxml.jackson.core.sym.SymbolTableMergingTest#testByteSymbolsWithEOF
+JUNIT,com.fasterxml.jackson.core.sym.SymbolTableMergingTest#testCharSymbolsWithClose
+JUNIT,com.fasterxml.jackson.core.sym.SymbolTableMergingTest#testCharSymbolsWithEOF
+JUNIT,com.fasterxml.jackson.core.sym.SymbolTableMergingTest#testByteSymbolsWithClose
+JUNIT,com.fasterxml.jackson.core.sym.SymbolTableMergingTest#testHashCalc
+JUNIT,com.fasterxml.jackson.core.sym.SymbolsViaParserTest#test17ByteSymbols
+JUNIT,com.fasterxml.jackson.core.sym.SymbolsViaParserTest#test17CharSymbols
+JUNIT,com.fasterxml.jackson.core.sym.SymbolsViaParserTest#testSymbolTableExpansionBytes
+JUNIT,com.fasterxml.jackson.core.sym.SymbolsViaParserTest#testSymbolTableExpansionChars
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testByteBasedSymbolTable
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testShortNameCollisionsDirect
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testShortQuotedDirectBytes
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testShortQuotedDirectChars
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testCollisionsWithBytesNew187a
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testCollisionsWithBytesNew187b
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testShortNameCollisionsViaParser
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testThousandsOfSymbolsWithNew
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testSyntheticWithBytesNew
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testShortNameCollisionsDirectNew
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testSyntheticWithChars
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testLongSymbols17Bytes
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testCollisionsWithChars187
+JUNIT,com.fasterxml.jackson.core.sym.TestSymbolTables#testThousandsOfSymbolsWithChars
+JUNIT,com.fasterxml.jackson.core.sym.TestHashCollisionChars#testReaderCollisions
+JUNIT,com.fasterxml.jackson.core.PointerFromContextTest#testViaParser
+JUNIT,com.fasterxml.jackson.core.PointerFromContextTest#testViaGenerator
+JUNIT,com.fasterxml.jackson.core.PointerFromContextTest#testGeneratorWithRoot
+JUNIT,com.fasterxml.jackson.core.PointerFromContextTest#testParserWithRoot
+JUNIT,com.fasterxml.jackson.core.util.TestSerializedString#testFailedAccess
+JUNIT,com.fasterxml.jackson.core.util.TestSerializedString#testAppending
+JUNIT,com.fasterxml.jackson.core.util.SeparatorsTest#testWithObjectFieldValueSeparatorWithDigit
+JUNIT,com.fasterxml.jackson.core.util.SeparatorsTest#testWithArrayValueSeparatorWithDigit
+JUNIT,com.fasterxml.jackson.core.util.SeparatorsTest#testWithObjectEntrySeparator
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testGetTextBufferAndAppendTakingCharAndContentsAsArray
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testLongAppend
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testResetWithAndSetCurrentAndReturn
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testContentsAsDecimalThrowsNumberFormatException
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testGetCurrentSegmentSizeResetWith
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testResetWithString
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testEmpty
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testAppendTakingTwoAndThreeInts
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testEnsureNotSharedAndResetWithString
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testGetTextBufferAndResetWithString
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testGetSizeFinishCurrentSegmentAndResetWith
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testGetTextBufferAndEmptyAndGetCurrentSegmentAndFinishCurrentSegment
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testExpand
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testLonger
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testSimple
+JUNIT,com.fasterxml.jackson.core.util.TestTextBuffer#testGetCurrentSegment
+JUNIT,com.fasterxml.jackson.core.util.TestCharTypes#testQuoting
+JUNIT,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter#testSystemLinefeed
+JUNIT,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter#testUnixLinefeed
+JUNIT,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter#testWindowsLinefeed
+JUNIT,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter#testWithLineFeed
+JUNIT,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter#testRootSeparator
+JUNIT,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter#testInvalidSubClass
+JUNIT,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter#testWithIndent
+JUNIT,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter#testTabIndent
+JUNIT,com.fasterxml.jackson.core.util.TestDelegates#testNotDelegateCopyMethods
+JUNIT,com.fasterxml.jackson.core.util.TestDelegates#testParserDelegate
+JUNIT,com.fasterxml.jackson.core.util.TestDelegates#testGeneratorWithCodec
+JUNIT,com.fasterxml.jackson.core.util.TestDelegates#testGeneratorDelegate
+JUNIT,com.fasterxml.jackson.core.util.DefaultIndenterTest#testWithLinefeed
+JUNIT,com.fasterxml.jackson.core.util.DefaultIndenterTest#testWithIndent
+JUNIT,com.fasterxml.jackson.core.util.TestVersionUtil#testVersionParsing
+JUNIT,com.fasterxml.jackson.core.util.TestVersionUtil#testVersionPartParsing
+JUNIT,com.fasterxml.jackson.core.util.TestVersionUtil#testPackageVersionMatches
+JUNIT,com.fasterxml.jackson.core.util.TestVersionUtil#testMavenVersionParsing
+JUNIT,com.fasterxml.jackson.core.util.TestVersionUtil#testVersionForUnknownVersion
+JUNIT,com.fasterxml.jackson.core.util.ByteArrayBuilderTest#testSimple
+JUNIT,com.fasterxml.jackson.core.util.VersionUtilTest#testParseVersionPartReturningPositive
+JUNIT,com.fasterxml.jackson.core.util.VersionUtilTest#testParseVersionWithNullAndEmptyString
+JUNIT,com.fasterxml.jackson.core.util.VersionUtilTest#testParseVersionWithEmptyStringAndEmptyString
+JUNIT,com.fasterxml.jackson.core.util.VersionUtilTest#testParseVersionReturningVersionWhereGetMajorVersionIsZero
+JUNIT,com.fasterxml.jackson.core.util.RequestPayloadTest#testFailsToCreateTakingCharSequenceThrowsIllegalArgumentExceptionOne
+JUNIT,com.fasterxml.jackson.core.util.RequestPayloadTest#testFailsToCreateTakingCharSequenceThrowsIllegalArgumentExceptionTwo
+JUNIT,com.fasterxml.jackson.core.util.RequestPayloadTest#testCreateTakingCharSequenceAndCallsGetRawPayload
+JUNIT,com.fasterxml.jackson.core.util.RequestPayloadTest#testCreateTaking2ArgumentsAndCallsGetRawPayload
+JUNIT,com.fasterxml.jackson.core.util.TestNumberPrinting#testIntPrinting
+JUNIT,com.fasterxml.jackson.core.util.TestNumberPrinting#testLongPrinting
+JUNIT,com.fasterxml.jackson.core.read.ParserErrorHandlingTest#testMangledFloatsBytes
+JUNIT,com.fasterxml.jackson.core.read.ParserErrorHandlingTest#testMangledNumbersChars
+JUNIT,com.fasterxml.jackson.core.read.ParserErrorHandlingTest#testMangledIntsBytes
+JUNIT,com.fasterxml.jackson.core.read.ParserErrorHandlingTest#testInvalidKeywordsBytes
+JUNIT,com.fasterxml.jackson.core.read.ParserErrorHandlingTest#testInvalidKeywordsChars
+JUNIT,com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest#testAllowNaN
+JUNIT,com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest#testNonStandardAnyCharQuoting
+JUNIT,com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest#testAllowInfinity
+JUNIT,com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest#testNonStandardNameChars
+JUNIT,com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest#testLeadingZeroesUTF8
+JUNIT,com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest#testSingleQuotesDefault
+JUNIT,com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest#testLeadingZeroesReader
+JUNIT,com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest#testDefaults
+JUNIT,com.fasterxml.jackson.core.read.NonStandardParserFeaturesTest#testSingleQuotesEnabled
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testBytesAsSource
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testGetValueAsTextDataInput
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testSpacesInURL
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testSkipping
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testLongText
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testSpecExampleFully
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testHandlingOfInvalidSpaceChars
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testLongerReadText
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testNameEscaping
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testSpecExampleSkipping
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testHandlingOfInvalidSpaceByteStream
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testInterningWithReaders
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testGetTextViaWriter
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testKeywords
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testConfig
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testInterningWithStreams
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testGetValueAsTextBytes
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testGetValueAsTextChars
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testHandlingOfInvalidSpaceDataInput
+JUNIT,com.fasterxml.jackson.core.read.JsonParserTest#testUtf8BOMHandling
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testNextNameWithIndentation
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testNextTextValue
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testNextBooleanValue
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testNextNameWithLongContent
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testNextLongValue
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testIsNextTokenName
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testIsNextTokenName2
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testIsNextTokenName3
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testIsNextTokenName4
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testNextIntValue
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testIssue34
+JUNIT,com.fasterxml.jackson.core.read.NextXxxAccessTest#testIssue38
+JUNIT,com.fasterxml.jackson.core.read.NumberOverflowTest#testMaliciousBigIntToFloat
+JUNIT,com.fasterxml.jackson.core.read.NumberOverflowTest#testMaliciousBigIntToDouble
+JUNIT,com.fasterxml.jackson.core.read.NumberOverflowTest#testMaliciousLongOverflow
+JUNIT,com.fasterxml.jackson.core.read.NumberOverflowTest#testSimpleLongOverflow
+JUNIT,com.fasterxml.jackson.core.read.NumberOverflowTest#testMaliciousIntOverflow
+JUNIT,com.fasterxml.jackson.core.read.UTF8NamesParseTest#testUtf8Name2Bytes
+JUNIT,com.fasterxml.jackson.core.read.UTF8NamesParseTest#testUtf8Name3Bytes
+JUNIT,com.fasterxml.jackson.core.read.UTF8NamesParseTest#testUtf8StringTrivial
+JUNIT,com.fasterxml.jackson.core.read.UTF8NamesParseTest#testEmptyName
+JUNIT,com.fasterxml.jackson.core.read.UTF8NamesParseTest#testUtf8StringValue
+JUNIT,com.fasterxml.jackson.core.read.UTF8NamesParseTest#testNextFieldName
+JUNIT,com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest#testLargeUnquoted
+JUNIT,com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest#testUnquotedIssue510
+JUNIT,com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest#testSimpleUnquotedBytes
+JUNIT,com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest#testSimpleUnquotedChars
+JUNIT,com.fasterxml.jackson.core.read.ParserSymbolHandlingTest#testSymbolsWithNullBytes
+JUNIT,com.fasterxml.jackson.core.read.ParserSymbolHandlingTest#testSymbolsWithNullChars
+JUNIT,com.fasterxml.jackson.core.read.ParserScopeMatchingTest#testEOFInName
+JUNIT,com.fasterxml.jackson.core.read.ParserScopeMatchingTest#testWeirdToken
+JUNIT,com.fasterxml.jackson.core.read.ParserScopeMatchingTest#testMismatchObjectToArray
+JUNIT,com.fasterxml.jackson.core.read.ParserScopeMatchingTest#testUnclosedArray
+JUNIT,com.fasterxml.jackson.core.read.ParserScopeMatchingTest#testUnclosedObject
+JUNIT,com.fasterxml.jackson.core.read.ParserScopeMatchingTest#testMismatchArrayToObject
+JUNIT,com.fasterxml.jackson.core.read.ParserScopeMatchingTest#testMisssingColon
+JUNIT,com.fasterxml.jackson.core.read.ValueConversionsTest#testAsInt
+JUNIT,com.fasterxml.jackson.core.read.ValueConversionsTest#testAsDouble
+JUNIT,com.fasterxml.jackson.core.read.ValueConversionsTest#testAsLong
+JUNIT,com.fasterxml.jackson.core.read.ValueConversionsTest#testAsBoolean
+JUNIT,com.fasterxml.jackson.core.read.NumberCoercionTest#testToLongFailing
+JUNIT,com.fasterxml.jackson.core.read.NumberCoercionTest#testToLongCoercion
+JUNIT,com.fasterxml.jackson.core.read.NumberCoercionTest#testToIntFailing
+JUNIT,com.fasterxml.jackson.core.read.NumberCoercionTest#testToBigDecimalCoercion
+JUNIT,com.fasterxml.jackson.core.read.NumberCoercionTest#testToBigIntegerCoercion
+JUNIT,com.fasterxml.jackson.core.read.NumberCoercionTest#testToDoubleCoercion
+JUNIT,com.fasterxml.jackson.core.read.NumberCoercionTest#testToIntCoercion
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testSimpleLong
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testParsingOfLongerSequencesWithNonNumeric
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testInvalidLongAccess
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testSimpleInt
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testSimpleDouble
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testLongerFloatingPoint
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testBigNumbers
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testInvalidBooleanAccess
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testSimpleBoolean
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testLongNumbers
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testBigDecimalRange
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testParsingOfLongerSequences
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testInvalidNumber
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testLongRange
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testLongNumbers2
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testIntRange
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testNumbers
+JUNIT,com.fasterxml.jackson.core.read.NumberParsingTest#testInvalidIntAccess
+JUNIT,com.fasterxml.jackson.core.read.UTF32ParseTest#testSimpleEOFs
+JUNIT,com.fasterxml.jackson.core.read.UTF32ParseTest#testSimpleInvalidUTF32
+JUNIT,com.fasterxml.jackson.core.read.UTF32ParseTest#testSimpleSevenNullBytes
+JUNIT,com.fasterxml.jackson.core.read.ParserDupHandlingTest#testSimpleDupCheckDisabled
+JUNIT,com.fasterxml.jackson.core.read.ParserDupHandlingTest#testSimpleDupsDataInput
+JUNIT,com.fasterxml.jackson.core.read.ParserDupHandlingTest#testSimpleDupsBytes
+JUNIT,com.fasterxml.jackson.core.read.ParserDupHandlingTest#testSimpleDupsChars
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 0, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 0, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 0, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 0, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 1, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 1, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 1, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 1, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 2, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 2, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 2, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 2, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 3, Features []]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 3, Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 3, Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayBasic[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayInnerComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayLeadingComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommas[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testArrayTrailingCommasTriple[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectBasic[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectInnerComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectLeadingComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingComma[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldName[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommaWithNextFieldNameStr[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.TrailingCommasTest#testObjectTrailingCommas[Mode 3, Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.read.CommentParsingTest#testDefaultSettings
+JUNIT,com.fasterxml.jackson.core.read.CommentParsingTest#testCommentsWithUTF8
+JUNIT,com.fasterxml.jackson.core.read.CommentParsingTest#testYAMLCommentsBytes
+JUNIT,com.fasterxml.jackson.core.read.CommentParsingTest#testYAMLCommentsChars
+JUNIT,com.fasterxml.jackson.core.read.CommentParsingTest#testCommentsEnabled
+JUNIT,com.fasterxml.jackson.core.read.CommentParsingTest#testCommentsDisabled
+JUNIT,com.fasterxml.jackson.core.read.CommentParsingTest#testCCommentsBytes
+JUNIT,com.fasterxml.jackson.core.read.CommentParsingTest#testCCommentsChars
+JUNIT,com.fasterxml.jackson.core.read.CommentParsingTest#testCppCommentsBytes
+JUNIT,com.fasterxml.jackson.core.read.CommentParsingTest#testCppCommentsChars
+JUNIT,com.fasterxml.jackson.core.read.DataInputTest#testEOFAfterObject
+JUNIT,com.fasterxml.jackson.core.read.DataInputTest#testEOFAfterScalar
+JUNIT,com.fasterxml.jackson.core.read.DataInputTest#testEOFAfterArray
+JUNIT,com.fasterxml.jackson.core.base64.Base64CodecTest#testCharEncoding
+JUNIT,com.fasterxml.jackson.core.base64.Base64CodecTest#testProps
+JUNIT,com.fasterxml.jackson.core.base64.Base64CodecTest#testVariantAccess
+JUNIT,com.fasterxml.jackson.core.base64.Base64CodecTest#testConvenienceMethodWithLFs
+JUNIT,com.fasterxml.jackson.core.base64.Base64CodecTest#testErrors
+JUNIT,com.fasterxml.jackson.core.base64.Base64CodecTest#testConvenienceMethods
+JUNIT,com.fasterxml.jackson.core.base64.Base64GenerationTest#testSimpleBinaryWrite
+JUNIT,com.fasterxml.jackson.core.base64.Base64GenerationTest#testBinaryAsEmbeddedObject
+JUNIT,com.fasterxml.jackson.core.base64.Base64GenerationTest#testStreamingBinaryWrites
+JUNIT,com.fasterxml.jackson.core.base64.Base64GenerationTest#testIssue55
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testInvalidChar
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testBase64UsingReader
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testWithEscaped
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testFailDueToMissingPadding
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testInvalidTokenForBase64
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testStreaming
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testBase64UsingInputStream
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testOkMissingPadding
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testWithEscapedPadding
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testInArray
+JUNIT,com.fasterxml.jackson.core.base64.Base64BinaryParsingTest#testSimple
+JUNIT,com.fasterxml.jackson.core.io.TestIOContext#testAllocations
+JUNIT,com.fasterxml.jackson.core.io.TestMergedStream#testSimple
+JUNIT,com.fasterxml.jackson.core.io.SegmentedStringWriterTest#testSimple
+JUNIT,com.fasterxml.jackson.core.io.TestCharTypes#testAppendQuoted0_31
+JUNIT,com.fasterxml.jackson.core.io.TestJsonStringEncoder#testQuoteAsString
+JUNIT,com.fasterxml.jackson.core.io.TestJsonStringEncoder#testQuoteLongAsString
+JUNIT,com.fasterxml.jackson.core.io.TestJsonStringEncoder#testQuoteLongCharSequenceAsString
+JUNIT,com.fasterxml.jackson.core.io.TestJsonStringEncoder#testCtrlChars
+JUNIT,com.fasterxml.jackson.core.io.TestJsonStringEncoder#testQuoteAsUTF8
+JUNIT,com.fasterxml.jackson.core.io.TestJsonStringEncoder#testEncodeAsUTF8
+JUNIT,com.fasterxml.jackson.core.io.TestJsonStringEncoder#testQuoteCharSequenceAsString
+JUNIT,com.fasterxml.jackson.core.io.TestJsonStringEncoder#testCharSequenceWithCtrlChars
+JUNIT,com.fasterxml.jackson.core.io.UTF8WriterTest#testSimpleAscii
+JUNIT,com.fasterxml.jackson.core.io.UTF8WriterTest#testSurrogatesFail
+JUNIT,com.fasterxml.jackson.core.io.UTF8WriterTest#testSurrogatesOk
+JUNIT,com.fasterxml.jackson.core.io.UTF8WriterTest#testFlushAfterClose
+JUNIT,com.fasterxml.jackson.core.io.UTF8WriterTest#testSimple
+JUNIT,com.fasterxml.jackson.core.TestJsonPointer#testSimplePath
+JUNIT,com.fasterxml.jackson.core.TestJsonPointer#testEmpty
+JUNIT,com.fasterxml.jackson.core.TestJsonPointer#testLast
+JUNIT,com.fasterxml.jackson.core.TestJsonPointer#testAppendWithFinalSlash
+JUNIT,com.fasterxml.jackson.core.TestJsonPointer#testWonkyNumber173
+JUNIT,com.fasterxml.jackson.core.TestJsonPointer#testLongNumbers
+JUNIT,com.fasterxml.jackson.core.TestJsonPointer#testSimplePathLonger
+JUNIT,com.fasterxml.jackson.core.TestJsonPointer#testQuotedPath
+JUNIT,com.fasterxml.jackson.core.TestJsonPointer#testAppend
+JUNIT,com.fasterxml.jackson.core.TestJsonPointer#testIZeroIndex
+JUNIT,com.fasterxml.jackson.core.JsonpCharacterEscapesTest#testGetEscapeSequenceOne
+JUNIT,com.fasterxml.jackson.core.JsonpCharacterEscapesTest#testGetEscapeSequenceTwo
+JUNIT,com.fasterxml.jackson.core.json.JsonReadContextTest#testReset
+JUNIT,com.fasterxml.jackson.core.json.JsonReadContextTest#testSetCurrentName
+JUNIT,com.fasterxml.jackson.core.json.JsonReadContextTest#testSetCurrentNameTwiceWithSameNameRaisesJsonParseException
+JUNIT,com.fasterxml.jackson.core.json.TestMaxErrorSize#testLongErrorMessageReader
+JUNIT,com.fasterxml.jackson.core.json.TestMaxErrorSize#testLongErrorMessage
+JUNIT,com.fasterxml.jackson.core.json.TestMaxErrorSize#testShortErrorMessage
+JUNIT,com.fasterxml.jackson.core.json.JsonFactoryTest#testCopy
+JUNIT,com.fasterxml.jackson.core.json.JsonFactoryTest#testJsonWithFiles
+JUNIT,com.fasterxml.jackson.core.json.JsonFactoryTest#testGeneratorFeatures
+JUNIT,com.fasterxml.jackson.core.json.JsonFactoryTest#testDisablingBufferRecycling
+JUNIT,com.fasterxml.jackson.core.json.JsonFactoryTest#testFactoryFeatures
+JUNIT,com.fasterxml.jackson.core.json.TestWithTonsaSymbols#testReaderParser
+JUNIT,com.fasterxml.jackson.core.json.TestWithTonsaSymbols#testStreamReaderParser
+JUNIT,com.fasterxml.jackson.core.json.TestRootValues#testBrokenNumber
+JUNIT,com.fasterxml.jackson.core.json.TestRootValues#testSimpleWrites
+JUNIT,com.fasterxml.jackson.core.json.TestRootValues#testRootOffsetIssue516Bytes
+JUNIT,com.fasterxml.jackson.core.json.TestRootValues#testRootOffsetIssue516Chars
+JUNIT,com.fasterxml.jackson.core.json.TestRootValues#testSimpleBooleans
+JUNIT,com.fasterxml.jackson.core.json.TestRootValues#testSimpleNumbers
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToLongFailing
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToLongCoercion
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToIntFailing
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToBigDecimalCoercion
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToBigIntegerCoercion
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToDoubleCoercion
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest#testToIntCoercion
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectBasic[Features []]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectInnerComma[Features []]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectLeadingComma[Features []]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingComma[Features []]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingCommas[Features []]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectBasic[Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectInnerComma[Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectLeadingComma[Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingComma[Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingCommas[Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectBasic[Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectInnerComma[Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectLeadingComma[Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingComma[Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingCommas[Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectBasic[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectInnerComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectLeadingComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInObjectTest#testObjectTrailingCommas[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncStringObjectTest#testBasicFieldsNames
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncSimpleObjectTest#testBooleans
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncSimpleObjectTest#testNumbers
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testInts
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testLong
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testBigDecimals
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testBigIntegers
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testFloats
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testDoubles
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncScalarArrayTest#testTokens
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncLocationTest#testLocationOffsets
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest#testAllowInf
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest#testAllowNaN
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest#testDisallowInf
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest#testDisallowNaN
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdNumbersTest#testDefaultsForAsync
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncStringArrayTest#testLongUnicodeStrings
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncStringArrayTest#testLongAsciiStrings
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncStringArrayTest#testShortAsciiStrings
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncStringArrayTest#testShortUnicodeStrings
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncInvalidCharsTest#testHandlingOfInvalidSpace
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncInvalidCharsTest#testUtf8BOMHandling
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncCharEscapingTest#testMissingLinefeedEscaping
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncCharEscapingTest#testSimpleEscaping
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncCharEscapingTest#test8DigitSequence
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncFieldNamesTest#testSimpleFieldNames
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncFieldNamesTest#testEscapedFieldNames
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testYAMLCommentsEnabled
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testCCommentsEnabled
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testCommentsEnabled
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testCommentsDisabled
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testCppCommentsEnabled
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncCommentParsingTest#testCCommentsWithUTF8
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncRootValuesTest#testMixedRootSequence
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncRootValuesTest#testTokenRootSequence
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncRootValuesTest#testTokenRootTokens
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncTokenFilterTest#testSkipChildrenFailOnSplit
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncTokenFilterTest#testFilteredNonBlockingParserAllContent
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncRootNumbersTest#testRootDoublesSimple
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncRootNumbersTest#testRootInts
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncRootNumbersTest#testRootDoublesScientific
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncConcurrencyTest#testConcurrentAsync
+JUNIT,com.fasterxml.jackson.core.json.async.ConfigTest#testFactoryDefaults
+JUNIT,com.fasterxml.jackson.core.json.async.ConfigTest#testAsyncParerDefaults
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncParserNamesTest#testSymbolTable
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncParserNamesTest#testLongNames
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncParserNamesTest#testEvenLongerName
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testAposQuotingEnabled
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testLargeUnquotedNames
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testNonStandardNameChars
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testAposQuotingDisabled
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testSimpleUnquotedNames
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNonStdParsingTest#testSingleQuotesEscaped
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncScopeMatchingTest#testMismatchObjectToArray
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncScopeMatchingTest#testMismatchArrayToObject
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncUnicodeHandlingTest#testLongUnicodeWithSurrogates
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncUnicodeHandlingTest#testShortUnicodeWithSurrogates
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest#testMismatchedObject
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest#testStuffInArray
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest#testStuffInArray2
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest#testStuffInObject
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncSimpleNestedTest#testMismatchedArray
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncBinaryParseTest#testRawAsRootValue
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncBinaryParseTest#testRawAsArray
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncBinaryParseTest#testRawAsObject
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNumberLeadingZeroesTest#testLeadingZeroesFloat
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNumberLeadingZeroesTest#testLeadingZeroesInt
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncNumberLeadingZeroesTest#testDefaultsForAsync
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayInnerComma[Features []]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayLeadingComma[Features []]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingComma[Features []]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommas[Features []]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommasTriple[Features []]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayInnerComma[Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayLeadingComma[Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingComma[Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommas[Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommasTriple[Features [ALLOW_MISSING_VALUES]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayInnerComma[Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayLeadingComma[Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingComma[Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommas[Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommasTriple[Features [ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayInnerComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayLeadingComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingComma[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommas[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.async.AsyncMissingValuesInArrayTest#testArrayTrailingCommasTriple[Features [ALLOW_MISSING_VALUES, ALLOW_TRAILING_COMMA]]
+JUNIT,com.fasterxml.jackson.core.json.TestCharEscaping#testMissingEscaping
+JUNIT,com.fasterxml.jackson.core.json.TestCharEscaping#testEscapesForCharArrays
+JUNIT,com.fasterxml.jackson.core.json.TestCharEscaping#testWriteLongCustomEscapes
+JUNIT,com.fasterxml.jackson.core.json.TestCharEscaping#testEscapeNonLatin1Bytes
+JUNIT,com.fasterxml.jackson.core.json.TestCharEscaping#testEscapeNonLatin1Chars
+JUNIT,com.fasterxml.jackson.core.json.TestCharEscaping#testInvalid
+JUNIT,com.fasterxml.jackson.core.json.TestCharEscaping#testSimpleEscaping
+JUNIT,com.fasterxml.jackson.core.json.TestCharEscaping#test8DigitSequence
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFailFromReaderTest#testFailOnWritingStringFromReaderWithTooFewCharacters
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFailFromReaderTest#testFailOnWritingStringFromNullReader
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFailFromReaderTest#testFailOnWritingStringNotFieldNameBytes
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFailFromReaderTest#testFailOnWritingStringNotFieldNameChars
+JUNIT,com.fasterxml.jackson.core.json.LocationInObjectTest#testOffsetWithObjectFieldsUsingUTF8
+JUNIT,com.fasterxml.jackson.core.json.LocationInObjectTest#testOffsetWithObjectFieldsUsingReader
+JUNIT,com.fasterxml.jackson.core.json.StringGenerationFromReaderTest#testBasicEscaping
+JUNIT,com.fasterxml.jackson.core.json.StringGenerationFromReaderTest#testLongerRandomSingleChunk
+JUNIT,com.fasterxml.jackson.core.json.StringGenerationFromReaderTest#testLongerRandomMultiChunk
+JUNIT,com.fasterxml.jackson.core.json.StringGenerationFromReaderTest#testMediumStringsBytes
+JUNIT,com.fasterxml.jackson.core.json.StringGenerationFromReaderTest#testMediumStringsChars
+JUNIT,com.fasterxml.jackson.core.json.LocationOffsetsTest#testOffsetWithInputOffset
+JUNIT,com.fasterxml.jackson.core.json.LocationOffsetsTest#testSimpleInitialOffsets
+JUNIT,com.fasterxml.jackson.core.json.TestGeneratorWithSerializedString#testSimpleValues
+JUNIT,com.fasterxml.jackson.core.json.TestGeneratorWithSerializedString#testSimpleFieldNames
+JUNIT,com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest#testRawWithSurrogatesCharArray
+JUNIT,com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest#testRawWithSurrogatesString
+JUNIT,com.fasterxml.jackson.core.json.GeneratorBasicTest#testLongValueWrite
+JUNIT,com.fasterxml.jackson.core.json.GeneratorBasicTest#testRootIntsWrite
+JUNIT,com.fasterxml.jackson.core.json.GeneratorBasicTest#testIntValueWrite
+JUNIT,com.fasterxml.jackson.core.json.GeneratorBasicTest#testBooleanWrite
+JUNIT,com.fasterxml.jackson.core.json.GeneratorBasicTest#testGetOutputBufferd
+JUNIT,com.fasterxml.jackson.core.json.GeneratorBasicTest#testOutputContext
+JUNIT,com.fasterxml.jackson.core.json.GeneratorBasicTest#testFieldValueWrites
+JUNIT,com.fasterxml.jackson.core.json.GeneratorBasicTest#testGetOutputTarget
+JUNIT,com.fasterxml.jackson.core.json.GeneratorBasicTest#testNullWrite
+JUNIT,com.fasterxml.jackson.core.json.GeneratorBasicTest#testStringWrite
+JUNIT,com.fasterxml.jackson.core.json.TestDecorators#testOutputDecoration
+JUNIT,com.fasterxml.jackson.core.json.TestDecorators#testInputDecoration
+JUNIT,com.fasterxml.jackson.core.json.TestCustomEscaping#testAboveAsciiEscapeWithUTF8Stream
+JUNIT,com.fasterxml.jackson.core.json.TestCustomEscaping#testAboveAsciiEscapeWithReader
+JUNIT,com.fasterxml.jackson.core.json.TestCustomEscaping#testEscapeCustomWithReader
+JUNIT,com.fasterxml.jackson.core.json.TestCustomEscaping#testJsonpEscapes
+JUNIT,com.fasterxml.jackson.core.json.TestCustomEscaping#testEscapeCustomWithUTF8Stream
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFailTest#testDupFieldNameWrites
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFailTest#testFailOnWritingFieldNameInRoot
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFailTest#testFailOnWritingStringNotFieldNameBytes
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFailTest#testFailOnWritingStringNotFieldNameChars
+JUNIT,com.fasterxml.jackson.core.json.TestParserOverrides#testCurrentName
+JUNIT,com.fasterxml.jackson.core.json.TestParserOverrides#testTokenAccess
+JUNIT,com.fasterxml.jackson.core.json.StringGenerationTest#testBasicEscaping
+JUNIT,com.fasterxml.jackson.core.json.StringGenerationTest#testLongerRandomSingleChunk
+JUNIT,com.fasterxml.jackson.core.json.StringGenerationTest#testLongerRandomMultiChunk
+JUNIT,com.fasterxml.jackson.core.json.StringGenerationTest#testMediumStringsBytes
+JUNIT,com.fasterxml.jackson.core.json.StringGenerationTest#testMediumStringsChars
+JUNIT,com.fasterxml.jackson.core.json.TestGeneratorDupHandling#testSimpleDupsEagerlyBytes
+JUNIT,com.fasterxml.jackson.core.json.TestGeneratorDupHandling#testSimpleDupsEagerlyChars
+JUNIT,com.fasterxml.jackson.core.json.TestGeneratorDupHandling#testSimpleDupsLazilyBytes
+JUNIT,com.fasterxml.jackson.core.json.TestGeneratorDupHandling#testSimpleDupsLazilyChars
+JUNIT,com.fasterxml.jackson.core.json.ArrayGenerationTest#testLongArray
+JUNIT,com.fasterxml.jackson.core.json.ArrayGenerationTest#testIntArray
+JUNIT,com.fasterxml.jackson.core.json.ArrayGenerationTest#testDoubleArray
+JUNIT,com.fasterxml.jackson.core.json.TestUnicode#testSurrogates
+JUNIT,com.fasterxml.jackson.core.json.ParserSequenceTest#testMultiLevel
+JUNIT,com.fasterxml.jackson.core.json.ParserSequenceTest#testInitializationDisabled
+JUNIT,com.fasterxml.jackson.core.json.ParserSequenceTest#testSimple
+JUNIT,com.fasterxml.jackson.core.json.ParserSequenceTest#testInitializationEnabled
+JUNIT,com.fasterxml.jackson.core.json.RequestPayloadOnExceptionTest#testNullCharsetOnParseException
+JUNIT,com.fasterxml.jackson.core.json.RequestPayloadOnExceptionTest#testNullRequestPayloadOnParseException
+JUNIT,com.fasterxml.jackson.core.json.RequestPayloadOnExceptionTest#testRequestPayloadAsBytesOnParseException
+JUNIT,com.fasterxml.jackson.core.json.RequestPayloadOnExceptionTest#testNoRequestPayloadOnParseException
+JUNIT,com.fasterxml.jackson.core.json.RequestPayloadOnExceptionTest#testRawRequestPayloadOnParseException
+JUNIT,com.fasterxml.jackson.core.json.RequestPayloadOnExceptionTest#testRequestPayloadAsStringOnParseException
+JUNIT,com.fasterxml.jackson.core.json.LocationInArrayTest#testOffsetInArraysBytes
+JUNIT,com.fasterxml.jackson.core.json.LocationInArrayTest#testOffsetInArraysChars
+JUNIT,com.fasterxml.jackson.core.json.TestUtf8Generator#testFilteringWithEscapedChars
+JUNIT,com.fasterxml.jackson.core.json.TestUtf8Generator#testSurrogatesWithRaw
+JUNIT,com.fasterxml.jackson.core.json.TestUtf8Generator#testUtf8Issue462
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testNullReturnedOnClosedParserOnNextFieldName[ReaderBasedJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testFalseReturnedOnClosedParserOnNextFieldNameSerializedString[ReaderBasedJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testNullReturnedOnClosedParserOnNextToken[ReaderBasedJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testNullReturnedOnClosedParserOnNextValue[ReaderBasedJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testNullReturnedOnClosedParserOnNextFieldName[UTF8StreamJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testFalseReturnedOnClosedParserOnNextFieldNameSerializedString[UTF8StreamJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testNullReturnedOnClosedParserOnNextToken[UTF8StreamJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testNullReturnedOnClosedParserOnNextValue[UTF8StreamJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testNullReturnedOnClosedParserOnNextFieldName[UTF8DataInputJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testFalseReturnedOnClosedParserOnNextFieldNameSerializedString[UTF8DataInputJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testNullReturnedOnClosedParserOnNextToken[UTF8DataInputJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.JsonParserClosedCaseTest#testNullReturnedOnClosedParserOnNextValue[UTF8DataInputJsonParser]
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFeaturesTest#testFieldNameQuotingEnabled
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFeaturesTest#testNonNumericQuoting
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFeaturesTest#testTooBigBigDecimal
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFeaturesTest#testFieldNameQuoting
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFeaturesTest#testNumbersAsJSONStrings
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFeaturesTest#testConfigOverrides
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFeaturesTest#testChangeOnGenerator
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFeaturesTest#testConfigDefaults
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFeaturesTest#testBigDecimalAsPlain
+JUNIT,com.fasterxml.jackson.core.json.GeneratorFeaturesTest#testBigDecimalAsPlainString
+JUNIT,com.fasterxml.jackson.core.type.TypeReferenceTest#testResolvedType
+JUNIT,com.fasterxml.jackson.core.type.TypeReferenceTest#testInvalid
+JUNIT,com.fasterxml.jackson.core.type.TypeReferenceTest#testSimple
+JUNIT,com.fasterxml.jackson.core.TestVersions#testCoreVersions
+JUNIT,com.fasterxml.jackson.core.TestVersions#testMisc
+JUNIT,com.fasterxml.jackson.core.TestLocation#testDisableSourceInclusion
+JUNIT,com.fasterxml.jackson.core.TestLocation#testBasicToString
+JUNIT,com.fasterxml.jackson.core.TestLocation#testTruncatedSource
+JUNIT,com.fasterxml.jackson.core.TestLocation#testBasics
+JUNIT,com.fasterxml.jackson.core.format.TestJsonFormatDetection#testSimpleValidArray
+JUNIT,com.fasterxml.jackson.core.format.TestJsonFormatDetection#testSimpleValidObject
+JUNIT,com.fasterxml.jackson.core.format.TestJsonFormatDetection#testSimpleValidString
+JUNIT,com.fasterxml.jackson.core.format.TestJsonFormatDetection#testSimpleInvalid
+JUNIT,com.fasterxml.jackson.core.format.DataFormatMatcherTest#testGetDataStream
+JUNIT,com.fasterxml.jackson.core.format.DataFormatMatcherTest#testCreatesDataFormatMatcherTwo
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testSingleMatchFilteringWithPath
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testMultipleMatchFilteringWithPath1
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testMultipleMatchFilteringWithPath2
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testMultipleMatchFilteringWithPath3
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testSingleMatchFilteringWithoutPath
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testSingleMatchFilteringWithPathRawBinary
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testSingleMatchFilteringWithPathSkippedArray
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testSingleMatchFilteringWithPathAlternate1
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testNonFiltering
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testIndexMatchWithPath1
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testIndexMatchWithPath2
+JUNIT,com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest#testWriteStartObjectWithObject
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testAllowMultipleMatchesWithPath1
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testAllowMultipleMatchesWithPath2
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testNotAllowMultipleMatchesWithPath1
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testNotAllowMultipleMatchesWithPath2
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testNotAllowMultipleMatchesWithPath3
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testNotAllowMultipleMatchesWithPath4
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testMultipleMatchFilteringWithPath1
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testMultipleMatchFilteringWithPath2
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testMultipleMatchFilteringWithPath3
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testTokensSingleMatchWithPath
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testSingleMatchFilteringWithoutPath
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testNotAllowMultipleMatchesWithoutPath1
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testNotAllowMultipleMatchesWithoutPath2
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testBasicSingleMatchFilteringWithPath
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testSkippingForSingleWithPath
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testNonFiltering
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testIndexMatchWithPath1
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testIndexMatchWithPath2
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testAllowMultipleMatchesWithoutPath
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testSingleMatchFilteringWithPath1
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testSingleMatchFilteringWithPath2
+JUNIT,com.fasterxml.jackson.core.filter.BasicParserFilteringTest#testSingleMatchFilteringWithPath3
+JUNIT,com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest#testSimplePropertyWithPath
+JUNIT,com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest#testSimplePropertyWithoutPath
+JUNIT,com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest#testArrayNestedWithPath
+JUNIT,com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest#testArrayElementWithoutPath
+JUNIT,com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest#testArrayNestedWithoutPath
+JUNIT,com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest#testArrayElementWithPath
+JUNIT,com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest#testSimpleWithPath
+JUNIT,com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest#testSimpleNoPath
+JUNIT,com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest#testSimplestNoPath
+JUNIT,com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest#testSimplestWithPath
+JUNIT,com.fasterxml.jackson.core.main.TestParserClosing#testReleaseContentBytes
+JUNIT,com.fasterxml.jackson.core.main.TestParserClosing#testReleaseContentChars
+JUNIT,com.fasterxml.jackson.core.main.TestParserClosing#testNoAutoCloseReader
+JUNIT,com.fasterxml.jackson.core.main.TestParserClosing#testAutoCloseReader
+JUNIT,com.fasterxml.jackson.core.main.TestParserClosing#testNoAutoCloseInputStream
+JUNIT,com.fasterxml.jackson.core.main.TestParserFeatures#testDefaultSettings
+JUNIT,com.fasterxml.jackson.core.main.TestParserFeatures#testTabsDefault
+JUNIT,com.fasterxml.jackson.core.main.TestParserFeatures#testQuotesRequired
+JUNIT,com.fasterxml.jackson.core.main.TestParserFeatures#testDeprecatedDefaultSettings
+JUNIT,com.fasterxml.jackson.core.main.TestParserFeatures#testTabsEnabled
+JUNIT,com.fasterxml.jackson.core.main.TestParserLinefeeds#testCRLF
+JUNIT,com.fasterxml.jackson.core.main.TestParserLinefeeds#testCR
+JUNIT,com.fasterxml.jackson.core.main.TestParserLinefeeds#testLF
+JUNIT,com.fasterxml.jackson.core.main.TestParserWithObjects#testNextValueNested
+JUNIT,com.fasterxml.jackson.core.main.TestParserWithObjects#testIsClosed
+JUNIT,com.fasterxml.jackson.core.main.TestParserWithObjects#testNextValue
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorCopy#testCopyArrayTokens
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorCopy#testCopyObjectTokens
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorCopy#testCopyRootTokens
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorClosing#testAutoFlushOrNot
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorClosing#testNoAutoCloseArraysAndObjects
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorClosing#testCloseGenerator
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorClosing#testNoAutoCloseGenerator
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorClosing#testAutoCloseArraysAndObjects
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorClosing#testNoAutoCloseOutputStream
+JUNIT,com.fasterxml.jackson.core.main.TestArrayParsing#testNotMissingValueByEnablingFeature
+JUNIT,com.fasterxml.jackson.core.main.TestArrayParsing#testMissingValueAsNullByEnablingFeature
+JUNIT,com.fasterxml.jackson.core.main.TestArrayParsing#testInvalidEmptyMissingClose
+JUNIT,com.fasterxml.jackson.core.main.TestArrayParsing#testValidEmpty
+JUNIT,com.fasterxml.jackson.core.main.TestArrayParsing#testMissingValueAsNullByNotEnablingFeature
+JUNIT,com.fasterxml.jackson.core.main.TestArrayParsing#testInvalidExtraComma
+JUNIT,com.fasterxml.jackson.core.main.TestArrayParsing#testInvalidMissingFieldName
+JUNIT,com.fasterxml.jackson.core.main.TestNumberParsing#testLongBoundsChecks
+JUNIT,com.fasterxml.jackson.core.main.TestNumberParsing#testIntParsing
+JUNIT,com.fasterxml.jackson.core.main.TestNumberParsing#testIntParsingWithStrings
+JUNIT,com.fasterxml.jackson.core.main.TestNumberParsing#testFloatBoundary146Bytes
+JUNIT,com.fasterxml.jackson.core.main.TestNumberParsing#testFloatBoundary146Chars
+JUNIT,com.fasterxml.jackson.core.main.TestNumberParsing#testLongParsing
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorMisc#testSimpleWriteObject
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorMisc#testRaw
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorMisc#testIsClosed
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorMisc#testAsEmbedded
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorMisc#testRawValue
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorMisc#testLongerObjects
+JUNIT,com.fasterxml.jackson.core.main.TestRawStringWriting#testWriteRawWithSerializable
+JUNIT,com.fasterxml.jackson.core.main.TestRawStringWriting#testUtf8RawStrings
+JUNIT,com.fasterxml.jackson.core.main.TestRawStringWriting#testUtf8StringsWithEscaping
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorArray#testInvalidArrayWrite
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorArray#testSimpleArrayWrite
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorArray#testEmptyArrayWrite
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorObject#testEmptyObjectWrite
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorObject#testSimpleObjectWrite
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorObject#testInvalidObjectWrite
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorObject#testConvenienceMethods
+JUNIT,com.fasterxml.jackson.core.main.TestGeneratorObject#testConvenienceMethodsWithNulls
+JUNIT,com.fasterxml.jackson.core.main.TestPrettyPrinter#testCustomRootSeparatorWithPP
+JUNIT,com.fasterxml.jackson.core.main.TestPrettyPrinter#testObjectCount
+JUNIT,com.fasterxml.jackson.core.main.TestPrettyPrinter#testArrayCount
+JUNIT,com.fasterxml.jackson.core.main.TestPrettyPrinter#testCustomSeparatorsWithMinimal
+JUNIT,com.fasterxml.jackson.core.main.TestPrettyPrinter#testCustomSeparatorsWithPP
+JUNIT,com.fasterxml.jackson.core.main.TestPrettyPrinter#testSimpleDocWithMinimal
+JUNIT,com.fasterxml.jackson.core.main.TestPrettyPrinter#testSimpleDocWithDefault
+JUNIT,com.fasterxml.jackson.core.main.TestPrettyPrinter#testCustomRootSeparatorWithFactory
+JUNIT,com.fasterxml.jackson.core.main.TestPrettyPrinter#testCustomSeparatorsWithPPWithoutSpaces
+JUNIT,com.fasterxml.jackson.core.TestJDKSerializability#testLocation
+JUNIT,com.fasterxml.jackson.core.TestJDKSerializability#testGenerationException
+JUNIT,com.fasterxml.jackson.core.TestJDKSerializability#testBase64Variant
+JUNIT,com.fasterxml.jackson.core.TestJDKSerializability#testJsonFactorySerializable
+JUNIT,com.fasterxml.jackson.core.TestJDKSerializability#testPrettyPrinter
+JUNIT,com.fasterxml.jackson.core.TestJDKSerializability#testParseException
+JUNIT,com.fasterxml.jackson.core.TestExceptions#testEofExceptionsBytes
+JUNIT,com.fasterxml.jackson.core.TestExceptions#testEofExceptionsChars
+JUNIT,com.fasterxml.jackson.core.TestExceptions#testAccessToGenerator
+JUNIT,com.fasterxml.jackson.core.TestExceptions#testAccessToParser
+JUNIT,com.fasterxml.jackson.core.TestExceptions#testOriginalMesssage
+JUNIT,com.fasterxml.jackson.core.VersionTest#testCompareToAndCreatesVersionTaking6ArgumentsAndUnknownVersion
+JUNIT,com.fasterxml.jackson.core.VersionTest#testCompareToReturningZero
+JUNIT,com.fasterxml.jackson.core.VersionTest#testCreatesVersionTaking6ArgumentsAndCallsCompareTo
+JUNIT,com.fasterxml.jackson.core.VersionTest#testCompareToOne
+JUNIT,com.fasterxml.jackson.core.VersionTest#testCompareToTwo
+JUNIT,com.fasterxml.jackson.failing.ParserErrorHandlingTest#testMangledFloatsBytes
+JUNIT,com.fasterxml.jackson.failing.ParserErrorHandlingTest#testMangledFloatsChars
+JUNIT,com.fasterxml.jackson.failing.ParserErrorHandlingTest#testMangledIntsBytes
+JUNIT,com.fasterxml.jackson.failing.ParserErrorHandlingTest#testMangledIntsChars
+JUNIT,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testMangledRootFloats
+JUNIT,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testInvalidKeywordsStartFail
+JUNIT,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testMangledNonRootFloats
+JUNIT,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testInvalidKeywordsStartOk
+JUNIT,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testMangledNonRootInts
+JUNIT,com.fasterxml.jackson.failing.async.AsyncTokenErrorTest#testMangledRootInts
+JUNIT,com.fasterxml.jackson.failing.Surrogate223Test#testSurrogatesByteBacked
+JUNIT,com.fasterxml.jackson.failing.Surrogate223Test#testSurrogatesCharBacked

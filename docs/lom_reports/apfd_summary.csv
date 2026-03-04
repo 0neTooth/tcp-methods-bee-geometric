@@ -1,0 +1,9 @@
+project,bug,lom_apfd,dis_lom_apfd,best_lom_family,best_lom_apfd,best_tcp_mode,best_tcp_apfd,random_mean
+Codec,18,0.7549,0.9540,Dis-LoM,0.9540,additional,0.6735,0.5437
+Csv,16,0.9643,0.9643,Dis-LoM,0.9643,total,0.9152,0.9239
+JacksonCore,26,0.9715,0.9729,Dis-LoM,0.9729,additional,0.9702,0.9439
+JacksonDatabind,112,0.9921,0.9924,Dis-LoM,0.9924,additional,0.9936,0.9908
+JacksonXml,6,0.7958,0.9399,Dis-LoM,0.9399,additional,0.8841,0.8545
+Jsoup,93,0.9848,0.9848,Dis-LoM,0.9848,additional,0.7212,0.7085
+Lang,65,0.9938,0.9938,Dis-LoM,0.9938,additional,0.7222,0.7148
+Time,27,0.9911,0.9915,Dis-LoM,0.9915,additional,0.9137,0.7939

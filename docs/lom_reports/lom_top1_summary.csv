@@ -1,0 +1,8 @@
+project,bug,top_test,score
+Compress,47,org.apache.commons.compress.ArchiveReadTest#testArchive[file=SunOS.zip],0.043171
+JacksonXml,6,com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCustomSerializer,0.044349
+Codec,18,org.apache.commons.codec.net.BCodecTest#testUTF8RoundTrip,0.333333
+Time,27,org.joda.time.format.TestPeriodFormatterBuilder#testFormatLiteral,0.020761
+Lang,65,org.apache.commons.lang.time.DateUtilsTest#testMonthIterator,0.300248
+Jsoup,93,org.jsoup.nodes.FormElementTest#createsFormData,0.333333
+Csv,16,org.apache.commons.csv.CSVParserTest#testGetHeaderMap,0.088000
