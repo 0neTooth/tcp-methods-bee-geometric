@@ -5,6 +5,7 @@
 
 from __future__ import annotations
 
+import subprocess
 import argparse
 import csv
 import random
@@ -76,6 +77,38 @@ class TCPBenchmarks:
         random.Random(seed).shuffle(tests)
         return tests
 
+    def bee_colony_order_java(self) -> Path:
+        output = self.results_dir / "bee_colony_order.csv"
+
+        cmd = [
+            "java",
+            "-cp",
+            str(ROOT / "lom-study" / "build" / "install" / "lom-study" / "lib" / "*"),
+            "dev.mpr.tcp.BeeColonyMain",
+            str(self.coverage_matrix_path),
+            str(output),
+        ]
+
+        subprocess.run(cmd, check=True)
+        return output
+
+    def geometric_combined_order_java(self) -> Path:
+        output = self.results_dir / "geometric_combined_order.csv"
+
+        cmd = [
+            "java",
+            "-cp",
+            str(ROOT / "lom-study" / "build" / "install" / "lom-study" / "lib" / "*"),
+            "dev.mpr.tcp.GeometricCombinedMain",
+            str(self.coverage_matrix_path),
+            str(self.base_dir / "cia" / "impact_probabilities.csv"),
+            str(self.mutants_dir / "testMap.csv"),
+            str(output),
+        ]
+
+        subprocess.run(cmd, check=True)
+        return output
+
     def write_order(self, name: str, tests: Iterable[str]) -> Path:
         path = self.results_dir / f"{name}_order.csv"
         with path.open("w", newline="", encoding="utf-8") as fh:
@@ -102,10 +135,21 @@ class TCPBenchmarks:
         additional_csv = self.write_order("additional", self.additional_order())
         t_additional = perf_counter()
         apfd_results["additional"] = self.compute_apfd(additional_csv)
+        t_bee_0 = perf_counter()
+        bee_csv = self.bee_colony_order_java()
+        t_bee = perf_counter()
+        apfd_results["bee_colony"] = self.compute_apfd(bee_csv)
+        t_geo_0 = perf_counter()
+        geo_csv = self.geometric_combined_order_java()
+        t_geo = perf_counter()
+        apfd_results["geometric_combined"] = self.compute_apfd(geo_csv)
+
 
         self.timings = {
             "total": t_total - t0,
             "additional": t_additional - t_additional_0,
+            "bee_colony": t_bee - t_bee_0,
+            "geometric_combined": t_geo - t_geo_0,
         }
 
         for seed in range(1, 6):

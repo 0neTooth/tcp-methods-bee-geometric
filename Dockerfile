@@ -23,6 +23,10 @@ ENV TZ=America/Los_Angeles
 WORKDIR /opt/project
 COPY . /opt/project
 
+RUN mkdir -p /opt/project/tools/gzoltar && \
+    wget -O /opt/project/tools/gzoltar/gzoltarcli.jar https://repo1.maven.org/maven2/com/gzoltar/com.gzoltar.cli/1.7.3/com.gzoltar.cli-1.7.3-jar-with-dependencies.jar && \
+    wget -O /opt/project/tools/gzoltar/gzoltaragent.jar https://repo1.maven.org/maven2/com/gzoltar/com.gzoltar.agent.rt/1.7.3/com.gzoltar.agent.rt-1.7.3-all.jar
+
 RUN cd "${D4J_HOME}" && \
     cpanm --notest --quiet --installdeps . && \
     ./init.sh
