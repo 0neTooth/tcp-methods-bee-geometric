@@ -2,6 +2,40 @@
 
 Репозиторий с воспроизводимым экспериментальным pipeline для **Test Case Prioritization (TCP)** на данных **Defects4J**.
 
+> Данный репозиторий является расширением исходной работы Руденко М.А.  
+> Оригинальный pipeline сохранён, а добавленные в рамках данной работы изменения описаны ниже.
+
+## Добавлено в данной работе
+
+
+В рамках данной работы репозиторий был расширен двумя алгоритмами приоритизации тестов:
+
+- Bee Colony Prioritization
+- Geometric Combined Prioritization
+
+Новые методы реализованы на Java в пакете:
+
+`lom-study/src/main/java/dev/mpr/tcp/`
+
+Добавленные файлы:
+
+- `BeeColonyMain.java`
+- `BeeColonyPrioritizer.java`
+- `BeeSolution.java`
+- `CoverageFitness.java`
+- `GeometricCombinedMain.java`
+- `GeometricCombinedPrioritizer.java`
+- `GeometricDataLoader.java`
+- `OrderWriter.java`
+
+Также был изменён скрипт:
+
+- `scripts/run_tcp_benchmarks.py`
+
+Новые методы интегрированы в общий benchmark и сравниваются с существующими методами по метрике APFD.
+
+Ниже приведено описание исходного pipeline, на основе которого выполнено расширение.
+
 Проект объединяет:
 - сбор покрытия тестов (GZoltar),
 - мутационный анализ (Major через Defects4J),
